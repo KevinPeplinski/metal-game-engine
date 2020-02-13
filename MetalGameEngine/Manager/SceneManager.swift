@@ -15,7 +15,7 @@ enum SceneType {
 
 class SceneManager: Manager {
 
-    private static var currentScene: Scene?
+    private static var currentScene: Scene!
     
     public static func initialize() -> Void {
         self.currentScene = .none
@@ -26,11 +26,9 @@ class SceneManager: Manager {
     }
     
     public static func tickScene(renderCommandEncoder: MTLRenderCommandEncoder, deltaTime: Float) -> Void {
-        if let scene = currentScene {
-            
-        } else {
-            fatalError("no current scene")
-        }
+        GameTime.updateTime(deltaTime: deltaTime)
+        
+        renderCommandEncoder.
     }
     
 }
