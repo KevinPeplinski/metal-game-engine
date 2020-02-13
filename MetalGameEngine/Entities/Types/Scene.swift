@@ -35,7 +35,7 @@ class Scene: Renderable {
     }
     
     func doRender(_ renderCommandEncoder: MTLRenderCommandEncoder) {
-        <#code#>
+        
     }
     
 }

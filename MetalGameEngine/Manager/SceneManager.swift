@@ -28,7 +28,6 @@ class SceneManager: Manager {
     public static func tickScene(renderCommandEncoder: MTLRenderCommandEncoder, deltaTime: Float) -> Void {
         GameTime.updateTime(deltaTime: deltaTime)
         
-        renderCommandEncoder.
     }
     
 }
