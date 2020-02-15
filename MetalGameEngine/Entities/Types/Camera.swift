@@ -6,8 +6,6 @@
 //  Copyright © 2020 Kevin Peplinski. All rights reserved.
 //
 
-import Foundation
-
-class Camera {
+class Camera: RotateableObject {
     
 }

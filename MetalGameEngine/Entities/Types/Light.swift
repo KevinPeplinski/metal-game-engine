@@ -6,8 +6,8 @@
 //  Copyright © 2020 Kevin Peplinski. All rights reserved.
 //
 
-import Foundation
-
-class Light {
+class Light: LocateableObject {
+    
+    private var lightData = LightData()
     
 }

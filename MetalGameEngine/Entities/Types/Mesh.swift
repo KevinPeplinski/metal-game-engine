@@ -6,7 +6,6 @@
 //  Copyright © 2020 Kevin Peplinski. All rights reserved.
 //
 
-import Foundation
 import Metal
 
 protocol Mesh {
