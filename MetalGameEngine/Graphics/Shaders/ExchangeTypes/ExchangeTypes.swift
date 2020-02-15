@@ -8,7 +8,11 @@
 
 import simd
 
-struct SceneConstants {
+struct SceneConstants: Sizeable {
     var viewMatrix = matrix_identity_float4x4
     var projectionMatrix = matrix_identity_float4x4
+}
+
+struct ModelConstants: Sizeable {
+    var modelMatrix = matrix_identity_float4x4
 }
