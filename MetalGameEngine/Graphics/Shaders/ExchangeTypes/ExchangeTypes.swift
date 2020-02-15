@@ -24,3 +24,12 @@ struct LightData: Sizeable {
     
     var ambientIntensity: Float = 1.0
 }
+
+struct Material: Sizeable {
+    var color = SIMD3<Float>(0.8, 0.8, 0.8)
+//    var useMaterialColor = false
+//    var useTexture = false
+//    var isLit = true
+//    
+//    var ambient: SIMD3<Float> = SIMD3<Float>(0.3, 0.3, 0.3)
+}

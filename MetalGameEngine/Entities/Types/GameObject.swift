@@ -12,6 +12,7 @@ import simd
 class GameObject: RotateableObject, Renderable {
 
     private var modelConstants = ModelConstants()
+    private var material = Material()
     private var scale = SIMD3<Float>(1, 1, 1)
     private var children: [GameObject] = []
     
