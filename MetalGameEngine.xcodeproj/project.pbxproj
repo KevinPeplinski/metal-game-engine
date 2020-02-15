@@ -124,6 +124,7 @@
 		EA568B3F23F82A5200AB2AA8 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				EA568B4323F82E1700AB2AA8 /* GameObjects */,
 				EA568B4023F82A7500AB2AA8 /* Scenes */,
 			);
 			path = Game;
@@ -135,6 +136,13 @@
 				EA568B4123F82A9100AB2AA8 /* SingleObjectScene.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EA568B4323F82E1700AB2AA8 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GameObjects;
 			sourceTree = "<group>";
 		};
 		EA6D437823F55C16000A2989 = {

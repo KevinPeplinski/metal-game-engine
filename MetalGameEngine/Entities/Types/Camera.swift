@@ -8,8 +8,5 @@
 
 class Camera: RotateableObject {
     
-    override func doUpdate() {
-        print("updateCamera")
-    }
     
 }

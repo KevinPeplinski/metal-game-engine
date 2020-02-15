@@ -13,6 +13,15 @@ class SingleObjectScene: Scene {
     override init() {
         super.init()
         self.setCamera(Camera())
+        
+        let gameObject = GameObject()
+        gameObject.scale(+, 0.1)
+        
+        gameObject.rotateX(+, 0.2)
+        
+        gameObject.move(+, 0.5, 0.7, 0.3)
+        
+        self.addChild(gameObject)
     }
     
 }

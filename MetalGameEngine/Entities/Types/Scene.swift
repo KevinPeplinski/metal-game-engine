@@ -12,26 +12,49 @@ class Scene: Renderable {
     
     private var sceneConstants = SceneConstants()
     
-    private var lights: [Light] = []
-    private var gameObjects: [GameObject] = []
+    private var lights: [Light]?
+    private var gameObjects: [GameObject]?
     private var camera: Camera?
     
     public func addLight(_ light: Light) -> Void {
-        self.lights.append(light)
+        if self.lights?.append(light) == nil {
+            self.lights = [light]
+        }
     }
     
-    public func addChild(_ node: GameObject) -> Void {
-        self.gameObjects.append(node)
+    public func addChild(_ gameObject: GameObject) -> Void {
+        if self.gameObjects?.append(gameObject) == nil {
+            self.gameObjects = [gameObject]
+        }
     }
     
     public func setCamera(_ camera: Camera) -> Void {
         self.camera = camera
     }
     
+//    func updateSceneConstants() -> Void {
+//        self.sceneConstants.viewMatrix = cameraManager.currentCamera.viewMatrix
+//        self.sceneConstants.projectionMatrix = cameraManager.currentCamera.projectionMatrix
+//        self.sceneConstants.totalGameTime = GameTime.totalGameTime
+//    }
+    
     func doUpdate() {
         if let camera = self.camera {
             camera.doUpdate()
         }
+        
+        if let lights = self.lights {
+            lights.forEach {
+                $0.doUpdate()
+            }
+        }
+        
+        if let gameObjects = self.gameObjects {
+            gameObjects.forEach {
+                $0.doUpdate()
+            }
+        }
+        
         print("doUpdate Scene")
     }
     
