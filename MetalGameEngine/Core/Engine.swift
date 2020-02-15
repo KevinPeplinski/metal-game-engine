@@ -21,7 +21,7 @@ class Engine {
         
 //        Graphics.initialize()
         
-//        Entities.initialize()
+        Entities.initialize()
         
         SceneManager.initialize(current: .singleObjectScene)
     }

@@ -14,7 +14,7 @@ class SingleObjectScene: Scene {
         super.init()
         self.setCamera(Camera())
         
-        let gameObject = GameObject()
+        let gameObject = GameObject(.cube)
         gameObject.scale(+, 0.1)
         
         gameObject.rotateX(+, 0.2)

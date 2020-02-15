@@ -15,6 +15,8 @@
 		EA56482C23F80C70003D0379 /* RotateableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56482B23F80C70003D0379 /* RotateableObject.swift */; };
 		EA56482F23F80EE3003D0379 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56482E23F80EE3003D0379 /* Math.swift */; };
 		EA568B4223F82A9100AB2AA8 /* SingleObjectScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA568B4123F82A9100AB2AA8 /* SingleObjectScene.swift */; };
+		EA568B4923F845CA00AB2AA8 /* MeshLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA568B4823F845CA00AB2AA8 /* MeshLibrary.swift */; };
+		EA568B4C23F8510100AB2AA8 /* CubeMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA568B4B23F8510100AB2AA8 /* CubeMesh.swift */; };
 		EA6D438523F55C16000A2989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D438423F55C16000A2989 /* AppDelegate.swift */; };
 		EA6D438723F55C16000A2989 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D438623F55C16000A2989 /* SceneDelegate.swift */; };
 		EA6D438923F55C16000A2989 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D438823F55C16000A2989 /* GameViewController.swift */; };
@@ -58,6 +60,10 @@
 		EA56482B23F80C70003D0379 /* RotateableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateableObject.swift; sourceTree = "<group>"; };
 		EA56482E23F80EE3003D0379 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		EA568B4123F82A9100AB2AA8 /* SingleObjectScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleObjectScene.swift; sourceTree = "<group>"; };
+		EA568B4423F8431100AB2AA8 /* SharedIndizes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedIndizes.h; sourceTree = "<group>"; };
+		EA568B4523F8433000AB2AA8 /* MetalGameEngine-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MetalGameEngine-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA568B4823F845CA00AB2AA8 /* MeshLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshLibrary.swift; sourceTree = "<group>"; };
+		EA568B4B23F8510100AB2AA8 /* CubeMesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeMesh.swift; sourceTree = "<group>"; };
 		EA6D438123F55C16000A2989 /* MetalGameEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalGameEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6D438423F55C16000A2989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA6D438623F55C16000A2989 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				EA56482523F806B4003D0379 /* ExchangeTypes.swift */,
+				EA568B4423F8431100AB2AA8 /* SharedIndizes.h */,
+				EA568B4523F8433000AB2AA8 /* MetalGameEngine-Bridging-Header.h */,
 			);
 			path = ExchangeTypes;
 			sourceTree = "<group>";
@@ -141,8 +149,17 @@
 		EA568B4323F82E1700AB2AA8 /* GameObjects */ = {
 			isa = PBXGroup;
 			children = (
+				EA568B4A23F850ED00AB2AA8 /* CustomMeshes */,
 			);
 			path = GameObjects;
+			sourceTree = "<group>";
+		};
+		EA568B4A23F850ED00AB2AA8 /* CustomMeshes */ = {
+			isa = PBXGroup;
+			children = (
+				EA568B4B23F8510100AB2AA8 /* CubeMesh.swift */,
+			);
+			path = CustomMeshes;
 			sourceTree = "<group>";
 		};
 		EA6D437823F55C16000A2989 = {
@@ -293,6 +310,7 @@
 		EA6D43C023F5A31C000A2989 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				EA568B4823F845CA00AB2AA8 /* MeshLibrary.swift */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -377,6 +395,7 @@
 				TargetAttributes = {
 					EA6D438023F55C16000A2989 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -442,12 +461,14 @@
 				EA56482F23F80EE3003D0379 /* Math.swift in Sources */,
 				EA6D43B423F594AD000A2989 /* Camera.swift in Sources */,
 				EA6D43EA23F5A83B000A2989 /* GameTime.swift in Sources */,
+				EA568B4923F845CA00AB2AA8 /* MeshLibrary.swift in Sources */,
 				EA6D43A323F57B03000A2989 /* Renderer.swift in Sources */,
 				EA6D43EE23F5A9FD000A2989 /* ColorUtils.swift in Sources */,
 				EA6D43C323F5A35C000A2989 /* VertexShaderLibrary.swift in Sources */,
 				EA6D43B923F59717000A2989 /* SceneManager.swift in Sources */,
 				EA6D439D23F55F8E000A2989 /* GameView.swift in Sources */,
 				EA6D43BF23F59BF9000A2989 /* Mesh.swift in Sources */,
+				EA568B4C23F8510100AB2AA8 /* CubeMesh.swift in Sources */,
 				EA6D43C523F5A36A000A2989 /* FragmentShaderLibrary.swift in Sources */,
 				EA56482423F80691003D0379 /* BasicShaders.metal in Sources */,
 				EA6D43D623F5A4AD000A2989 /* Entities.swift in Sources */,
@@ -596,6 +617,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E2GC378C6N;
 				INFOPLIST_FILE = MetalGameEngine/SupportFiles/Info.plist;
@@ -605,6 +627,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ninja.peplinski.MetalGameEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MetalGameEngine/Graphics/Shaders/ExchangeTypes/MetalGameEngine-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -614,6 +638,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E2GC378C6N;
 				INFOPLIST_FILE = MetalGameEngine/SupportFiles/Info.plist;
@@ -623,6 +648,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ninja.peplinski.MetalGameEngine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MetalGameEngine/Graphics/Shaders/ExchangeTypes/MetalGameEngine-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

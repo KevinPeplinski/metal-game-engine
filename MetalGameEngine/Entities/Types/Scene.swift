@@ -40,7 +40,8 @@ class Scene: Renderable {
     
     func doUpdate() {
         if let camera = self.camera {
-            camera.doUpdate()
+            self.sceneConstants.viewMatrix = cameraManager.currentCamera.viewMatrix
+            self.sceneConstants.projectionMatrix = cameraManager.currentCamera.projectionMatrix
         }
         
         if let lights = self.lights {

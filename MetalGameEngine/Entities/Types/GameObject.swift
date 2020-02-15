@@ -11,10 +11,13 @@ import simd
 
 class GameObject: RotateableObject, Renderable {
 
+    private var mesh: Mesh
     private var modelConstants = ModelConstants()
-    private var material = Material()
     private var scale = SIMD3<Float>(1, 1, 1)
-    private var children: [GameObject] = []
+    
+    init(_ mesh: MeshType) {
+        self.mesh = Entities.meshes[mesh]
+    }
     
     override func doUpdate() {
         super.doUpdate()

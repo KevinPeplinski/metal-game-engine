@@ -8,10 +8,10 @@
 
 class Entities {
     
-//    private static var privateMeshLibrary: MeshLibrary!
-//    public static var meshes: MeshLibrary {
-//        return privateMeshLibrary
-//    }
+    private static var privateMeshLibrary: MeshLibrary!
+    public static var meshes: MeshLibrary {
+        return privateMeshLibrary
+    }
 //    
 //    private static var privateTextureLibrary: TextureLibrary!
 //    public static var textures: TextureLibrary {
@@ -19,7 +19,7 @@ class Entities {
 //    }
     
     public static func initialize() -> Void {
-//        self.privateMeshLibrary = MeshLibrary()
+        self.privateMeshLibrary = MeshLibrary()
 //        self.privateTextureLibrary = TextureLibrary()
     }
 }

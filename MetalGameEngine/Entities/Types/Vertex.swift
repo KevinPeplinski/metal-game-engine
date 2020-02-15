@@ -8,8 +8,7 @@
 
 import simd
 
-struct Vertex {
+struct Vertex: Sizeable {
     var position: SIMD3<Float>
-    var color: SIMD4<Float>
-    var nomral: SIMD3<Float>
+    var normal: SIMD3<Float>
 }
