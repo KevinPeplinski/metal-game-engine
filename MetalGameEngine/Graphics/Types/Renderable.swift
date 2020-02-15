@@ -8,7 +8,7 @@
 
 import Metal
 
-protocol Renderable {
+protocol Renderable: Updateable {
     
     func doRender(_ renderCommandEncoder: MTLRenderCommandEncoder) -> Void
     

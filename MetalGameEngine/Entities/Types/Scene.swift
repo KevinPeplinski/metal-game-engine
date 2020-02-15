@@ -7,35 +7,33 @@
 //
 
 import Metal
-import simd
-
-struct SceneConstants {
-    var viewMatrix = matrix_identity_float4x4
-    var projectionMatrix = matrix_identity_float4x4
-}
 
 class Scene: Renderable {
     
     private var sceneConstants = SceneConstants()
     
     private var lights: [Light] = []
-    private var nodes: [Node] = []
+    private var gameObjects: [GameObject] = []
     private var camera: Camera!
     
     public func addLight(_ light: Light) -> Void {
         self.lights.append(light)
     }
     
-    public func addChild(_ node: Node) -> Void {
-        self.nodes.append(node)
+    public func addChild(_ node: GameObject) -> Void {
+        self.gameObjects.append(node)
     }
     
     public func setCamera(_ camera: Camera) -> Void {
         self.camera = camera
     }
     
+    func doUpdate() {
+        print("doUpdate Scene")
+    }
+    
     func doRender(_ renderCommandEncoder: MTLRenderCommandEncoder) {
-        
+        print("doRender Scene")
     }
     
 }
