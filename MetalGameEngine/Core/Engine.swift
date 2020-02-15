@@ -19,9 +19,11 @@ class Engine {
         self.commandQueue = device.makeCommandQueue()
         self.defaultLibrary = device.makeDefaultLibrary()
         
-        Graphics.initialize()
+//        Graphics.initialize()
         
-        Entities.initialize()
+//        Entities.initialize()
+        
+        SceneManager.initialize(current: .singleObjectScene)
     }
     
 }

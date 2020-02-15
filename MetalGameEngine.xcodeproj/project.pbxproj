@@ -30,7 +30,6 @@
 		EA6D43B423F594AD000A2989 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D43B323F594AD000A2989 /* Camera.swift */; };
 		EA6D43B623F595AF000A2989 /* Renderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D43B523F595AF000A2989 /* Renderable.swift */; };
 		EA6D43B923F59717000A2989 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D43B823F59717000A2989 /* SceneManager.swift */; };
-		EA6D43BB23F59769000A2989 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D43BA23F59769000A2989 /* Manager.swift */; };
 		EA6D43BD23F59BDF000A2989 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D43BC23F59BDF000A2989 /* Vertex.swift */; };
 		EA6D43BF23F59BF9000A2989 /* Mesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D43BE23F59BF9000A2989 /* Mesh.swift */; };
 		EA6D43C323F5A35C000A2989 /* VertexShaderLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D43C223F5A35C000A2989 /* VertexShaderLibrary.swift */; };
@@ -75,7 +74,6 @@
 		EA6D43B323F594AD000A2989 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 		EA6D43B523F595AF000A2989 /* Renderable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderable.swift; sourceTree = "<group>"; };
 		EA6D43B823F59717000A2989 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
-		EA6D43BA23F59769000A2989 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		EA6D43BC23F59BDF000A2989 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 		EA6D43BE23F59BF9000A2989 /* Mesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mesh.swift; sourceTree = "<group>"; };
 		EA6D43C223F5A35C000A2989 /* VertexShaderLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertexShaderLibrary.swift; sourceTree = "<group>"; };
@@ -261,7 +259,6 @@
 			isa = PBXGroup;
 			children = (
 				EA6D43B823F59717000A2989 /* SceneManager.swift */,
-				EA6D43BA23F59769000A2989 /* Manager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -404,7 +401,6 @@
 				EA56482823F8072B003D0379 /* GameObject.swift in Sources */,
 				EA6D43CB23F5A396000A2989 /* VertexDescriptorLibrary.swift in Sources */,
 				EA6D43CF23F5A3B0000A2989 /* SamplerStateLibrary.swift in Sources */,
-				EA6D43BB23F59769000A2989 /* Manager.swift in Sources */,
 				EA6D43BD23F59BDF000A2989 /* Vertex.swift in Sources */,
 				EA6D438523F55C16000A2989 /* AppDelegate.swift in Sources */,
 				EA6D43D123F5A420000A2989 /* Graphics.swift in Sources */,

@@ -9,25 +9,30 @@
 import MetalKit
 
 enum SceneType {
-    case none
     case singleObjectScene
 }
 
-class SceneManager: Manager {
-
-    private static var currentScene: Scene!
+class SceneManager {
     
-    public static func initialize() -> Void {
-        self.currentScene = .none
+    private static var currentScene: Scene?
+    
+    public static func initialize(current: SceneType) -> Void {
+        self.setScene(current)
     }
     
-    public static func initialize(current: Scene) -> Void {
-        self.currentScene = current
+    public static func setScene(_ sceneType: SceneType) -> Void {
+        switch sceneType {
+        case .singleObjectScene:
+            currentScene = Scene()
+        }
     }
     
     public static func tickScene(renderCommandEncoder: MTLRenderCommandEncoder, deltaTime: Float) -> Void {
         GameTime.updateTime(deltaTime: deltaTime)
         
+        if let scene = self.currentScene {
+            scene.doUpdate()
+        }
     }
     
 }
