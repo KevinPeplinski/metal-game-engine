@@ -119,6 +119,13 @@
 			path = Math;
 			sourceTree = "<group>";
 		};
+		EA568B3F23F82A5200AB2AA8 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
 		EA6D437823F55C16000A2989 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +145,7 @@
 		EA6D438323F55C16000A2989 /* MetalGameEngine */ = {
 			isa = PBXGroup;
 			children = (
+				EA568B3F23F82A5200AB2AA8 /* Game */,
 				EA6D43EC23F5A9E6000A2989 /* Utils */,
 				EA6D43B723F59707000A2989 /* Manager */,
 				EA6D43AB23F591FF000A2989 /* Entities */,

@@ -14,7 +14,7 @@ class Scene: Renderable {
     
     private var lights: [Light] = []
     private var gameObjects: [GameObject] = []
-    private var camera: Camera!
+    private var camera: Camera?
     
     public func addLight(_ light: Light) -> Void {
         self.lights.append(light)
@@ -29,6 +29,9 @@ class Scene: Renderable {
     }
     
     func doUpdate() {
+        if let camera = self.camera {
+            camera.doUpdate()
+        }
         print("doUpdate Scene")
     }
     
