@@ -11,7 +11,11 @@ import MetalKit
 
 class Renderer: NSObject {
     
-    private var screenSize: SIMD2<Float> = SIMD2<Float>(0, 0)
+    static var screenSize: SIMD2<Float> = SIMD2<Float>(0, 0)
+    
+    public static var aspectRatio: Float {
+        return self.screenSize.x / self.screenSize.y
+    }
     
     init(_ view: MTKView) {
         super.init()
@@ -19,7 +23,7 @@ class Renderer: NSObject {
     }
     
     private func setScreenSize(_ view: UIView) -> Void {
-        self.screenSize = SIMD2<Float>(Float(view.bounds.width), Float(view.bounds.height))
+        Renderer.screenSize = SIMD2<Float>(Float(view.bounds.width), Float(view.bounds.height))
     }
     
 }
