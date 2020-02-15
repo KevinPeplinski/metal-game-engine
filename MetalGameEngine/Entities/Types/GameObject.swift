@@ -20,6 +20,7 @@ class GameObject: RotateableObject, Renderable {
         super.doUpdate()
         
         self.modelMatrix.scale(axis: self.scale)
+        self.modelConstants.modelMatrix = self.modelMatrix
     }
     
     func doRender(_ renderCommandEncoder: MTLRenderCommandEncoder) {
