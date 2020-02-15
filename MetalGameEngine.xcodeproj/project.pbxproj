@@ -14,6 +14,7 @@
 		EA56482A23F80846003D0379 /* LocateableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56482923F80846003D0379 /* LocateableObject.swift */; };
 		EA56482C23F80C70003D0379 /* RotateableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56482B23F80C70003D0379 /* RotateableObject.swift */; };
 		EA56482F23F80EE3003D0379 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56482E23F80EE3003D0379 /* Math.swift */; };
+		EA568B4223F82A9100AB2AA8 /* SingleObjectScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA568B4123F82A9100AB2AA8 /* SingleObjectScene.swift */; };
 		EA6D438523F55C16000A2989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D438423F55C16000A2989 /* AppDelegate.swift */; };
 		EA6D438723F55C16000A2989 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D438623F55C16000A2989 /* SceneDelegate.swift */; };
 		EA6D438923F55C16000A2989 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D438823F55C16000A2989 /* GameViewController.swift */; };
@@ -56,6 +57,7 @@
 		EA56482923F80846003D0379 /* LocateableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocateableObject.swift; sourceTree = "<group>"; };
 		EA56482B23F80C70003D0379 /* RotateableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateableObject.swift; sourceTree = "<group>"; };
 		EA56482E23F80EE3003D0379 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		EA568B4123F82A9100AB2AA8 /* SingleObjectScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleObjectScene.swift; sourceTree = "<group>"; };
 		EA6D438123F55C16000A2989 /* MetalGameEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalGameEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6D438423F55C16000A2989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA6D438623F55C16000A2989 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -122,8 +124,17 @@
 		EA568B3F23F82A5200AB2AA8 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				EA568B4023F82A7500AB2AA8 /* Scenes */,
 			);
 			path = Game;
+			sourceTree = "<group>";
+		};
+		EA568B4023F82A7500AB2AA8 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EA568B4123F82A9100AB2AA8 /* SingleObjectScene.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 		EA6D437823F55C16000A2989 = {
@@ -406,6 +417,7 @@
 				EA56482623F806B4003D0379 /* ExchangeTypes.swift in Sources */,
 				EA56482C23F80C70003D0379 /* RotateableObject.swift in Sources */,
 				EA6D43CD23F5A3A3000A2989 /* DepthStencilStateLibrary.swift in Sources */,
+				EA568B4223F82A9100AB2AA8 /* SingleObjectScene.swift in Sources */,
 				EA56482823F8072B003D0379 /* GameObject.swift in Sources */,
 				EA6D43CB23F5A396000A2989 /* VertexDescriptorLibrary.swift in Sources */,
 				EA6D43CF23F5A3B0000A2989 /* SamplerStateLibrary.swift in Sources */,

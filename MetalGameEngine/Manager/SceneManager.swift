@@ -23,7 +23,7 @@ class SceneManager {
     public static func setScene(_ sceneType: SceneType) -> Void {
         switch sceneType {
         case .singleObjectScene:
-            currentScene = Scene()
+            currentScene = SingleObjectScene()
         }
     }
     
