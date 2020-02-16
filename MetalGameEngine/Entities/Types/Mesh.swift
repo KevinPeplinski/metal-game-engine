@@ -48,7 +48,7 @@ class ModelMesh: Mesh {
         
         for mesh in meshArray {
             for vertexBuffer in mesh.vertexBuffers {
-                renderCommandEncoder.setVertexBuffer(vertexBuffer.buffer, offset: vertexBuffer.offset, index: 0) // TODO INDEX
+                renderCommandEncoder.setVertexBuffer(vertexBuffer.buffer, offset: vertexBuffer.offset, index: VertexBufferIndizes.buffer.rawValue)
                 for submesh in mesh.submeshes {
                     renderCommandEncoder.drawIndexedPrimitives(type: submesh.primitiveType,
                                                                indexCount: submesh.indexCount,
@@ -81,7 +81,7 @@ class CustomMesh: Mesh {
     func createVertices() -> Void {}
     
     func drawPrimitives(_ renderCommandEncoder: MTLRenderCommandEncoder) -> Void {
-        renderCommandEncoder.setVertexBuffer(self.vertexBuffer, offset: 0, index: 0) // TODO INDEX
+        renderCommandEncoder.setVertexBuffer(self.vertexBuffer, offset: 0, index: VertexBufferIndizes.buffer.rawValue)
         renderCommandEncoder.drawPrimitives(type: .triangle, vertexStart: 0, vertexCount: self.vertices.count)
     }
 }

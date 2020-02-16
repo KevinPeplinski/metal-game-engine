@@ -33,10 +33,10 @@ class GameObject: RotateableObject, Renderable {
         renderCommandEncoder.setDepthStencilState(Graphics.depthStencilStates[.less])
     
         // Vertex Shader
-        renderCommandEncoder.setVertexBytes(&modelUniforms, length: ModelUniforms.stride, index: 1)
+        renderCommandEncoder.setVertexBytes(&modelUniforms, length: ModelUniforms.stride, index: VertexBufferIndizes.modelUniform.rawValue)
         
         // Fragment Shader
-        renderCommandEncoder.setFragmentBytes(&material, length: Material.stride, index: 1)
+        renderCommandEncoder.setFragmentBytes(&material, length: Material.stride, index: FragmentBufferIndizes.material.rawValue)
         
         self.mesh.drawPrimitives(renderCommandEncoder)
     }

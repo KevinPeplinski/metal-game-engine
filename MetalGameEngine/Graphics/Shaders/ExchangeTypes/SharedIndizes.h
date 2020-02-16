@@ -22,5 +22,16 @@
 typedef NS_ENUM(NSInteger, VertexAttributeIndizes)
 {
     VertexAttributeIndizesPosition = 0,
-    VertexAttributeIndizesNormal  = 1,
+    VertexAttributeIndizesNormal   = 1,
+};
+
+typedef NS_ENUM(NSInteger, VertexBufferIndizes)
+{
+    VertexBufferIndizesBuffer       = 0,
+    VertexBufferIndizesModelUniform = 1,
+};
+
+typedef NS_ENUM(NSInteger, FragmentBufferIndizes)
+{
+    FragmentBufferIndizesMaterial = 1,
 };

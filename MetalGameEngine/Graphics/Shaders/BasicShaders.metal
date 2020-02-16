@@ -36,7 +36,7 @@ struct CameraUniforms {
 
 vertex RastorizerData basic_vertex_shader(const VertexIn vIn [[ stage_in ]],
 //                                          constant CameraUniforms &cameraUniforms [[ buffer(1) ]],
-                                          constant ModelUniforms &modelUniforms [[ buffer(1) ]]) {
+                                          constant ModelUniforms &modelUniforms [[ buffer(VertexBufferIndizesModelUniform) ]]) {
     RastorizerData rd;
     
 //    rd.position = cameraUniforms.projectionMatrix * cameraUniforms.viewMatrix * modelUniforms.modelMatrix * float4(vIn.position, 1);
@@ -47,7 +47,7 @@ vertex RastorizerData basic_vertex_shader(const VertexIn vIn [[ stage_in ]],
 }
 
 fragment half4 basic_fragment_shader(RastorizerData rd [[ stage_in ]],
-                                     constant Material &material [[ buffer(1) ]]) {
+                                     constant Material &material [[ buffer(FragmentBufferIndizesMaterial) ]]) {
     
     return half4(material.color.r, material.color.g, material.color.b, material.color.a);
 }
