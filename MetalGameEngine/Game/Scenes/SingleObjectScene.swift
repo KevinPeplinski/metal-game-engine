@@ -10,16 +10,21 @@ import Foundation
 
 class SingleObjectScene: Scene {
     
+    private var camera = Camera()
+    
     override init() {
         super.init()
-        self.setCamera(Camera())
+        self.setCamera(self.camera)
+        
+        self.camera.setPositionZ(10)
+        self.camera.setPositionX(1.1)
         
         let gameObject = GameObject(.cube)
-        gameObject.scale(+, 0.1)
+//        gameObject.scale(+, 0.1)
         
-        gameObject.rotateX(+, 0.2)
+//        gameObject.rotateX(+, 0.2)
         
-        gameObject.move(+, 0.5, 0.7, 0.3)
+        gameObject.move(+, 2, 0.0, 0.0)
         
         self.addChild(gameObject)
     }

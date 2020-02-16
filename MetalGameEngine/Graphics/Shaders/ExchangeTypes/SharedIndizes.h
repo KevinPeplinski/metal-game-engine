@@ -27,8 +27,9 @@ typedef NS_ENUM(NSInteger, VertexAttributeIndizes)
 
 typedef NS_ENUM(NSInteger, VertexBufferIndizes)
 {
-    VertexBufferIndizesBuffer       = 0,
-    VertexBufferIndizesModelUniform = 1,
+    VertexBufferIndizesBuffer        = 0,
+    VertexBufferIndizesCameraUniform = 1,
+    VertexBufferIndizesModelUniform  = 2,
 };
 
 typedef NS_ENUM(NSInteger, FragmentBufferIndizes)

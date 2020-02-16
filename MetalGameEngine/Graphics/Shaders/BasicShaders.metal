@@ -35,12 +35,11 @@ struct CameraUniforms {
 
 
 vertex RastorizerData basic_vertex_shader(const VertexIn vIn [[ stage_in ]],
-//                                          constant CameraUniforms &cameraUniforms [[ buffer(1) ]],
+                                          constant CameraUniforms &cameraUniforms [[ buffer(VertexBufferIndizesCameraUniform) ]],
                                           constant ModelUniforms &modelUniforms [[ buffer(VertexBufferIndizesModelUniform) ]]) {
     RastorizerData rd;
     
-//    rd.position = cameraUniforms.projectionMatrix * cameraUniforms.viewMatrix * modelUniforms.modelMatrix * float4(vIn.position, 1);
-    rd.position = modelUniforms.modelMatrix * float4(vIn.position, 1);
+    rd.position = cameraUniforms.projectionMatrix * cameraUniforms.viewMatrix * modelUniforms.modelMatrix * float4(vIn.position, 1);
     rd.normal = vIn.normal;
     
     return rd;

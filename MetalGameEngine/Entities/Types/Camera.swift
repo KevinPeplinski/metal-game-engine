@@ -6,9 +6,10 @@
 //  Copyright © 2020 Kevin Peplinski. All rights reserved.
 //
 
+import Metal
 import simd
 
-class Camera: RotateableObject {
+class Camera: RotateableObject, Renderable {
     
     private var cameraUniforms = CameraUniforms()
     
@@ -17,10 +18,16 @@ class Camera: RotateableObject {
     }
     
     override func doUpdate() {
+        self.setPosition(-getPosition())
+        
         super.doUpdate()
         
         self.cameraUniforms.viewMatrix = self.modelMatrix
         self.cameraUniforms.projectionMatrix = self.projectionMatrix
+    }
+    
+    func doRender(_ renderCommandEncoder: MTLRenderCommandEncoder) {
+        renderCommandEncoder.setVertexBytes(&cameraUniforms, length: CameraUniforms.stride, index: VertexBufferIndizes.cameraUniform.rawValue)
     }
     
 }
