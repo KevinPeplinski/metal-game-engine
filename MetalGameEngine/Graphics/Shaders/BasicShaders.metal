@@ -20,18 +20,9 @@ struct RastorizerData {
     float3 normal;
 };
 
-struct Material {
-    float4 color;
-};
-
-struct ModelUniforms {
-    float4x4 modelMatrix;
-};
-
-struct CameraUniforms {
-    float4x4 viewMatrix;
-    float4x4 projectionMatrix;
-};
+//struct Material {
+//    float4 color;
+//};
 
 
 vertex RastorizerData basic_vertex_shader(const VertexIn vIn [[ stage_in ]],

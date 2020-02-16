@@ -14,9 +14,10 @@ class GameObject: RotateableObject, Renderable {
     private var mesh: Mesh
     private var modelUniforms = ModelUniforms()
     private var scale = SIMD3<Float>(1, 1, 1)
-    private var material = Material()
+    var material = Material()
     
     init(_ mesh: MeshType) {
+//        self.modelUniforms.modelMatrix = matrix_identity_float4x4
         self.mesh = Entities.meshes[mesh]
     }
     

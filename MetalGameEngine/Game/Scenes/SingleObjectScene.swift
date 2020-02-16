@@ -20,9 +20,7 @@ class SingleObjectScene: Scene {
         self.camera.setPositionX(1.1)
         
         let gameObject = GameObject(.cube)
-//        gameObject.scale(+, 0.1)
-        
-//        gameObject.rotateX(+, 0.2)
+        gameObject.material.color = ColorUtil.getRandomColorNotWhiteBlack()
         
         gameObject.move(+, 2, 0.0, 0.0)
         

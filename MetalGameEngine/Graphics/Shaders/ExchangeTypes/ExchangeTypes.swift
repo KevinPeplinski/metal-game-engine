@@ -8,28 +8,39 @@
 
 import simd
 
-struct CameraUniforms: Sizeable {
-    var viewMatrix = matrix_identity_float4x4
-    var projectionMatrix = matrix_identity_float4x4
-}
-
-struct ModelUniforms: Sizeable {
-    var modelMatrix = matrix_identity_float4x4
-}
-
-struct LightData: Sizeable {
-    var position: SIMD3<Float> = SIMD3<Float>(0, 0, 0)
-    var color: SIMD3<Float> = SIMD3<Float>(1, 1, 1)
-    var brightness: Float = 1.0
+extension SIMD2: Sizeable {
     
-    var ambientIntensity: Float = 1.0
 }
 
-struct Material: Sizeable {
-    var color = SIMD4<Float>(0.5, 0.7, 0.3, 1.0)
-//    var useMaterialColor = false
-//    var useTexture = false
-//    var isLit = true
-//    
-//    var ambient: SIMD3<Float> = SIMD3<Float>(0.3, 0.3, 0.3)
+extension SIMD3: Sizeable {
+    
 }
+
+extension SIMD4: Sizeable {
+    
+}
+
+extension Int32: Sizeable {
+    
+}
+
+extension Float: Sizeable {
+    
+}
+
+extension ModelUniforms: Sizeable {
+    
+}
+
+extension CameraUniforms: Sizeable {
+    
+}
+
+extension Material: Sizeable {
+    
+}
+
+extension LightData: Sizeable {
+    
+}
+

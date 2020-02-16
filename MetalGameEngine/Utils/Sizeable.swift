@@ -27,23 +27,3 @@ extension Sizeable {
         return Self.stride * count
     }
 }
-
-extension SIMD2: Sizeable {
-    
-}
-
-extension SIMD3: Sizeable {
-    
-}
-
-extension SIMD4: Sizeable {
-    
-}
-
-extension Int32: Sizeable {
-    
-}
-
-extension Float: Sizeable {
-    
-}

@@ -17,10 +17,11 @@ class LocateableObject: Updateable {
         self.modelMatrix = matrix_identity_float4x4
         
         // TODO I dont thing its a good Idea to check for Camera every Element Every Call (60 times a sec)
-        if self is Camera {
-            self.modelMatrix.translate(direction: -self.getPosition())
-            return
-        }
+//        if self is Camera {
+//            print("TEST1: \(self.getPosition())")
+//            self.modelMatrix.translate(direction: -self.getPosition())
+//            return
+//        }
         self.modelMatrix.translate(direction: self.getPosition())
     }
 
