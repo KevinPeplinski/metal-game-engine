@@ -12,7 +12,7 @@ import simd
 class GameObject: RotateableObject, Renderable {
 
     private var mesh: Mesh
-    private var modelConstants = ModelConstants()
+    private var modelUniforms = ModelUniforms()
     private var scale = SIMD3<Float>(1, 1, 1)
     
     init(_ mesh: MeshType) {
@@ -23,7 +23,7 @@ class GameObject: RotateableObject, Renderable {
         super.doUpdate()
         
         self.modelMatrix.scale(axis: self.scale)
-        self.modelConstants.modelMatrix = self.modelMatrix
+        self.modelUniforms.modelMatrix = self.modelMatrix
     }
     
     func doRender(_ renderCommandEncoder: MTLRenderCommandEncoder) {

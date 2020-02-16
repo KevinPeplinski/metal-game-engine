@@ -10,8 +10,6 @@ import Metal
 
 class Scene: Renderable {
     
-    private var sceneConstants = SceneConstants()
-    
     private var lights: [Light]?
     private var gameObjects: [GameObject]?
     private var camera: Camera?
@@ -32,16 +30,9 @@ class Scene: Renderable {
         self.camera = camera
     }
     
-//    func updateSceneConstants() -> Void {
-//        self.sceneConstants.viewMatrix = cameraManager.currentCamera.viewMatrix
-//        self.sceneConstants.projectionMatrix = cameraManager.currentCamera.projectionMatrix
-//        self.sceneConstants.totalGameTime = GameTime.totalGameTime
-//    }
-    
     func doUpdate() {
         if let camera = self.camera {
-            self.sceneConstants.viewMatrix = cameraManager.currentCamera.viewMatrix
-            self.sceneConstants.projectionMatrix = cameraManager.currentCamera.projectionMatrix
+            camera.doUpdate()
         }
         
         if let lights = self.lights {
