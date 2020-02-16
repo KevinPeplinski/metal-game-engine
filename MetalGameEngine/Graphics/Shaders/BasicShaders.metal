@@ -7,12 +7,12 @@
 //
 
 #include <metal_stdlib>
-//#import "ExchangeTypes/SharedIndizes.h"
+#import "ExchangeTypes/SharedIndizes.h"
 using namespace metal;
 
 struct VertexIn {
-    float3 position [[ attribute(0) ]];
-    float3 normal [[ attribute(1) ]];
+    float3 position [[ attribute(VertexAttributePosition) ]];
+    float3 normal [[ attribute(VertexAttributeNormal) ]];
 };
 
 struct RastorizerData {
