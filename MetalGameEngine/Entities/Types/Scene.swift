@@ -33,7 +33,13 @@ class Scene: Renderable {
     }
     
     func doRender(_ renderCommandEncoder: MTLRenderCommandEncoder) {
-        print("doRender Scene")
+        if let children = self.children {
+            children.forEach {
+                if $0.self is Renderable {
+                    ($0.self as! Renderable).doRender(renderCommandEncoder) // TODO Wenn Camera auch Renderable
+                }
+            }
+        }
     }
     
 }

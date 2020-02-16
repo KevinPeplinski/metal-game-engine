@@ -38,25 +38,15 @@ public struct BasicVertexDescriptor: VertexDescriptor {
         vertexDescriptor = MTLVertexDescriptor()
         
         // Position
-        vertexDescriptor.attributes[0].bufferIndex = 0
-        vertexDescriptor.attributes[0].format = .float3
-        vertexDescriptor.attributes[0].offset = 0
-
-        // Color
-        vertexDescriptor.attributes[1].bufferIndex = 0
-        vertexDescriptor.attributes[1].format = .float4
-        vertexDescriptor.attributes[1].offset = SIMD3<Float>.stride
+        vertexDescriptor.attributes[VertexAttribute.position.rawValue].bufferIndex = 0
+        vertexDescriptor.attributes[VertexAttribute.position.rawValue].format = .float3
+        vertexDescriptor.attributes[VertexAttribute.position.rawValue].offset = 0
         
         // Normal
-        vertexDescriptor.attributes[2].bufferIndex = 0
-        vertexDescriptor.attributes[2].format = .float3
-        vertexDescriptor.attributes[2].offset = SIMD3<Float>.stride + SIMD4<Float>.stride
-        
-        // TextureCoordinate
-        vertexDescriptor.attributes[3].bufferIndex = 0
-        vertexDescriptor.attributes[3].format = .float2
-        vertexDescriptor.attributes[3].offset = SIMD3<Float>.stride + SIMD4<Float>.stride + SIMD3<Float>.stride
+        vertexDescriptor.attributes[VertexAttribute.normal.rawValue].bufferIndex = 0
+        vertexDescriptor.attributes[VertexAttribute.normal.rawValue].format = .float3
+        vertexDescriptor.attributes[VertexAttribute.normal.rawValue].offset = SIMD3<Float>.stride
 
-//        vertexDescriptor.layouts[0].stride = Vertex.stride
+        vertexDescriptor.layouts[0].stride = Vertex.stride
     }
 }

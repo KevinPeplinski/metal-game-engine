@@ -14,6 +14,7 @@ class GameObject: RotateableObject, Renderable {
     private var mesh: Mesh
     private var modelUniforms = ModelUniforms()
     private var scale = SIMD3<Float>(1, 1, 1)
+    private var material = Material()
     
     init(_ mesh: MeshType) {
         self.mesh = Entities.meshes[mesh]
@@ -27,7 +28,17 @@ class GameObject: RotateableObject, Renderable {
     }
     
     func doRender(_ renderCommandEncoder: MTLRenderCommandEncoder) {
-        print("doRender Gameobject")
+        
+        renderCommandEncoder.setRenderPipelineState(Graphics.renderPipelineStates[.basic])
+        renderCommandEncoder.setDepthStencilState(Graphics.depthStencilStates[.less])
+    
+        // Vertex Shader
+        renderCommandEncoder.setVertexBytes(&modelUniforms, length: ModelUniforms.stride, index: 1)
+        
+        // Fragment Shader
+        renderCommandEncoder.setFragmentBytes(&material, length: Material.stride, index: 1)
+        
+        self.mesh.drawPrimitives(renderCommandEncoder)
     }
     
 }

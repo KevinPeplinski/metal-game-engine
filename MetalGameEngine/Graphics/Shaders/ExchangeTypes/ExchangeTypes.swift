@@ -26,7 +26,7 @@ struct LightData: Sizeable {
 }
 
 struct Material: Sizeable {
-    var color = SIMD4<Float>(1.0, 1.0, 1.0, 1.0)
+    var color = SIMD4<Float>(0.5, 0.7, 0.3, 1.0)
 //    var useMaterialColor = false
 //    var useTexture = false
 //    var isLit = true

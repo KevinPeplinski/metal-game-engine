@@ -10,7 +10,6 @@ import MetalKit
 
 enum VertexShaderType {
     case basic
-    case instanced
 }
 
 class VertexShaderLibrary: Library<VertexShaderType, MTLFunction> {
@@ -21,11 +20,6 @@ class VertexShaderLibrary: Library<VertexShaderType, MTLFunction> {
         vertexShaders.updateValue(
             Shader(name: "Basic Vertex Shader", functionName: "basic_vertex_shader"),
             forKey: .basic
-        )
-        
-        vertexShaders.updateValue(
-            Shader(name: "Instanced Vertex Shader", functionName: "instanced_vertex_shader"),
-            forKey: .instanced
         )
     }
     

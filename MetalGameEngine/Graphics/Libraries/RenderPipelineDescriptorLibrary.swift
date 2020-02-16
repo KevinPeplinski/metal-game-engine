@@ -10,7 +10,6 @@ import MetalKit
 
 enum RenderPipelineDescriptorType {
     case basic
-    case instanced
 }
 
 class RenderPipelineDescriptorLibrary: Library<RenderPipelineDescriptorType, MTLRenderPipelineDescriptor> {
@@ -18,9 +17,10 @@ class RenderPipelineDescriptorLibrary: Library<RenderPipelineDescriptorType, MTL
     private var renderPipelineDescriptors: [RenderPipelineDescriptorType: RenderPipelineDescriptor] = [:]
     
     override func fillLibrary() {
-        renderPipelineDescriptors.updateValue(BasicRenderPipelineDescriptor(), forKey: .basic)
-        renderPipelineDescriptors.updateValue(InstancedRenderPipelineDescriptor(), forKey: .instanced)
-        
+        renderPipelineDescriptors.updateValue(
+            BasicRenderPipelineDescriptor(),
+            forKey: .basic
+        )
     }
     
     override subscript(_ type: RenderPipelineDescriptorType) -> MTLRenderPipelineDescriptor {
@@ -43,21 +43,6 @@ struct BasicRenderPipelineDescriptor: RenderPipelineDescriptor {
         renderPipelineDescriptor.colorAttachments[0].pixelFormat = Preferences.colorPixelFormat
         renderPipelineDescriptor.depthAttachmentPixelFormat = Preferences.mainDepthPixelFormat
         renderPipelineDescriptor.vertexFunction = Graphics.vertexShaders[.basic]
-        renderPipelineDescriptor.fragmentFunction = Graphics.fragmentShaders[.basic]
-        renderPipelineDescriptor.vertexDescriptor = Graphics.vertexDescriptors[.basic]
-    }
-}
-
-struct InstancedRenderPipelineDescriptor: RenderPipelineDescriptor {
-    var name: String = "Instanced Render Pipeline Descriptor"
-    var renderPipelineDescriptor: MTLRenderPipelineDescriptor!
-    
-    init() {
-        renderPipelineDescriptor = MTLRenderPipelineDescriptor()
-        
-        renderPipelineDescriptor.colorAttachments[0].pixelFormat = Preferences.colorPixelFormat
-        renderPipelineDescriptor.depthAttachmentPixelFormat = Preferences.mainDepthPixelFormat
-        renderPipelineDescriptor.vertexFunction = Graphics.vertexShaders[.instanced]
         renderPipelineDescriptor.fragmentFunction = Graphics.fragmentShaders[.basic]
         renderPipelineDescriptor.vertexDescriptor = Graphics.vertexDescriptors[.basic]
     }

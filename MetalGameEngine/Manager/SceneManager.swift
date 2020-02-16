@@ -32,6 +32,7 @@ class SceneManager {
         
         if let scene = self.currentScene {
             scene.doUpdate()
+            scene.doRender(renderCommandEncoder)
         }
     }
     

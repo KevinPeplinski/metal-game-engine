@@ -22,10 +22,6 @@ class RenderPipelineStateLibrary: Library<RenderPipelineStateType, MTLRenderPipe
             RenderPipelineState(renderPipelineDescriptorType: .basic),
             forKey: .basic
         )
-        renderPipelineStates.updateValue(
-            RenderPipelineState(renderPipelineDescriptorType: .instanced),
-            forKey: .instanced
-        )
     }
     
     override subscript(_ type: RenderPipelineStateType) -> MTLRenderPipelineState {
