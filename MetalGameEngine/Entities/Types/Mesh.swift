@@ -27,8 +27,8 @@ class ModelMesh: Mesh {
         }
         
         let descriptor = MTKModelIOVertexDescriptorFromMetal(Graphics.vertexDescriptors[.basic])
-        (descriptor.attributes[VertexAttribute.position.rawValue] as! MDLVertexAttribute).name = MDLVertexAttributePosition
-        (descriptor.attributes[VertexAttribute.normal.rawValue] as! MDLVertexAttribute).name = MDLVertexAttributeNormal
+        (descriptor.attributes[VertexAttributeIndizes.position.rawValue] as! MDLVertexAttribute).name = MDLVertexAttributePosition
+        (descriptor.attributes[VertexAttributeIndizes.normal.rawValue] as! MDLVertexAttribute).name = MDLVertexAttributeNormal
 //        (descriptor.attributes[3] as! MDLVertexAttribute).name = MDLVertexAttributeTextureCoordinate
         
         let bufferAllocator = MTKMeshBufferAllocator(device: Engine.device)

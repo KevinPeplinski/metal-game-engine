@@ -19,8 +19,8 @@
 #endif /* __METAL_VERSION__ */
 #endif /* SharedIndizes_h */
 
-typedef NS_ENUM(NSInteger, VertexAttribute)
+typedef NS_ENUM(NSInteger, VertexAttributeIndizes)
 {
-    VertexAttributePosition = 0,
-    VertexAttributeNormal  = 1,
+    VertexAttributeIndizesPosition = 0,
+    VertexAttributeIndizesNormal  = 1,
 };

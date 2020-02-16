@@ -38,14 +38,14 @@ public struct BasicVertexDescriptor: VertexDescriptor {
         vertexDescriptor = MTLVertexDescriptor()
         
         // Position
-        vertexDescriptor.attributes[VertexAttribute.position.rawValue].bufferIndex = 0
-        vertexDescriptor.attributes[VertexAttribute.position.rawValue].format = .float3
-        vertexDescriptor.attributes[VertexAttribute.position.rawValue].offset = 0
+        vertexDescriptor.attributes[VertexAttributeIndizes.position.rawValue].bufferIndex = 0
+        vertexDescriptor.attributes[VertexAttributeIndizes.position.rawValue].format = .float3
+        vertexDescriptor.attributes[VertexAttributeIndizes.position.rawValue].offset = 0
         
         // Normal
-        vertexDescriptor.attributes[VertexAttribute.normal.rawValue].bufferIndex = 0
-        vertexDescriptor.attributes[VertexAttribute.normal.rawValue].format = .float3
-        vertexDescriptor.attributes[VertexAttribute.normal.rawValue].offset = SIMD3<Float>.stride
+        vertexDescriptor.attributes[VertexAttributeIndizes.normal.rawValue].bufferIndex = 0
+        vertexDescriptor.attributes[VertexAttributeIndizes.normal.rawValue].format = .float3
+        vertexDescriptor.attributes[VertexAttributeIndizes.normal.rawValue].offset = SIMD3<Float>.stride
 
         vertexDescriptor.layouts[0].stride = Vertex.stride
     }

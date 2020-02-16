@@ -11,8 +11,8 @@
 using namespace metal;
 
 struct VertexIn {
-    float3 position [[ attribute(VertexAttributePosition) ]];
-    float3 normal [[ attribute(VertexAttributeNormal) ]];
+    float3 position [[ attribute(VertexAttributeIndizesPosition) ]];
+    float3 normal [[ attribute(VertexAttributeIndizesNormal) ]];
 };
 
 struct RastorizerData {
