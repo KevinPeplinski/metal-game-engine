@@ -22,9 +22,19 @@ class SingleObjectScene: Scene {
         let gameObject = GameObject(.cube)
         gameObject.material.color = ColorUtil.getRandomColorNotWhiteBlack()
         
-        gameObject.move(+, 2, 0.0, 0.0)
+        gameObject.move(+, 2.5, 0.0, 0.0)
+        
+        let gameObject2 = GameObject(.cube)
+        gameObject2.material.color = ColorUtil.getRandomColorNotWhiteBlack()
+        
+        gameObject2.move(-, 1.1, 0.0, 0.0)
+        
+        
+        print(gameObject.getPosition())
+        print(gameObject2.getPosition())
         
         self.addChild(gameObject)
+        self.addChild(gameObject2)
     }
     
 }

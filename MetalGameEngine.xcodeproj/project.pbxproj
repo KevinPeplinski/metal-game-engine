@@ -188,10 +188,10 @@
 				EA6D43A723F580DC000A2989 /* Graphics */,
 				EA6D43A423F58031000A2989 /* Settings */,
 				EA6D43A123F57AF5000A2989 /* Renderer */,
-				EA6D439F23F56001000A2989 /* SupportFiles */,
 				EA6D439E23F55FD2000A2989 /* Controllers */,
 				EA6D439B23F55F80000A2989 /* Views */,
 				EA6D439823F55DF3000A2989 /* Core */,
+				EA6D439F23F56001000A2989 /* SupportFiles */,
 			);
 			path = MetalGameEngine;
 			sourceTree = "<group>";

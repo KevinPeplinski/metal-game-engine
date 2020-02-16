@@ -10,7 +10,6 @@ import MetalKit
 
 enum RenderPipelineStateType {
     case basic
-    case instanced
 }
 
 class RenderPipelineStateLibrary: Library<RenderPipelineStateType, MTLRenderPipelineState> {

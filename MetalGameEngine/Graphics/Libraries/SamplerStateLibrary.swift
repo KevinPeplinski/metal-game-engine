@@ -9,7 +9,6 @@
 import MetalKit
 
 enum SamplerStateType {
-    case none
     case linear
 }
 
