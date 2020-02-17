@@ -10,6 +10,7 @@ import MetalKit
 
 enum RenderPipelineDescriptorType {
     case basic
+    case skybox
 }
 
 class RenderPipelineDescriptorLibrary: Library<RenderPipelineDescriptorType, MTLRenderPipelineDescriptor> {
@@ -20,6 +21,11 @@ class RenderPipelineDescriptorLibrary: Library<RenderPipelineDescriptorType, MTL
         renderPipelineDescriptors.updateValue(
             BasicRenderPipelineDescriptor(),
             forKey: .basic
+        )
+        
+        renderPipelineDescriptors.updateValue(
+            SkyboxRenderPipelineDescriptor(),
+            forKey: .skybox
         )
     }
     
@@ -45,5 +51,20 @@ struct BasicRenderPipelineDescriptor: RenderPipelineDescriptor {
         renderPipelineDescriptor.vertexFunction = Graphics.vertexShaders[.basic]
         renderPipelineDescriptor.fragmentFunction = Graphics.fragmentShaders[.basic]
         renderPipelineDescriptor.vertexDescriptor = Graphics.vertexDescriptors[.basic]
+    }
+}
+
+struct SkyboxRenderPipelineDescriptor: RenderPipelineDescriptor {
+    var name: String = "Skybox Render Pipeline Descriptor"
+    var renderPipelineDescriptor: MTLRenderPipelineDescriptor!
+    
+    init() {
+        renderPipelineDescriptor = MTLRenderPipelineDescriptor()
+        
+        renderPipelineDescriptor.colorAttachments[0].pixelFormat = Preferences.colorPixelFormat
+        renderPipelineDescriptor.depthAttachmentPixelFormat = Preferences.mainDepthPixelFormat
+        renderPipelineDescriptor.vertexFunction = Graphics.vertexShaders[.skybox]
+        renderPipelineDescriptor.fragmentFunction = Graphics.fragmentShaders[.skybox]
+        renderPipelineDescriptor.vertexDescriptor = Graphics.vertexDescriptors[.skybox]
     }
 }

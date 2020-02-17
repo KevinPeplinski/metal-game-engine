@@ -10,6 +10,7 @@ import MetalKit
 
 enum FragmentShaderType {
     case basic
+    case skybox
 }
 
 class FragmentShaderLibrary: Library<FragmentShaderType, MTLFunction> {
@@ -20,6 +21,11 @@ class FragmentShaderLibrary: Library<FragmentShaderType, MTLFunction> {
         fragmentShaders.updateValue(
             Shader(name: "Basic Fragment Shader", functionName: "basic_fragment_shader"),
             forKey: .basic
+        )
+        
+        fragmentShaders.updateValue(
+            Shader(name: "Skybox Fragment Shader", functionName: "skybox_fragment_shader"),
+            forKey: .skybox
         )
     }
     

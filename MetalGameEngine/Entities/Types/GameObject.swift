@@ -11,7 +11,7 @@ import simd
 
 class GameObject: RotateableObject, Renderable {
 
-    private var mesh: Mesh
+    var mesh: Mesh
     private var modelUniforms = ModelUniforms()
     private var scale = SIMD3<Float>(1, 1, 1)
     var material = Material()

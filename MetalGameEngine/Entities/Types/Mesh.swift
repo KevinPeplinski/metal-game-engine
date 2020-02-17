@@ -81,7 +81,9 @@ class CustomMesh: Mesh {
     func createVertices() -> Void {}
     
     func drawPrimitives(_ renderCommandEncoder: MTLRenderCommandEncoder) -> Void {
+
         renderCommandEncoder.setVertexBuffer(self.vertexBuffer, offset: 0, index: VertexBufferIndizes.buffer.rawValue)
         renderCommandEncoder.drawPrimitives(type: .triangle, vertexStart: 0, vertexCount: self.vertices.count)
+        
     }
 }

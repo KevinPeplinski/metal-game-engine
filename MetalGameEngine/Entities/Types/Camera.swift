@@ -20,9 +20,6 @@ class Camera: RotateableObject, Renderable {
     override func doUpdate() {
         super.doUpdate()
         
-        self.modelMatrix.translate(direction: -getPosition())
-        self.modelMatrix.translate(direction: -getPosition())
-        
         self.cameraUniforms.viewMatrix = self.modelMatrix
         self.cameraUniforms.projectionMatrix = self.projectionMatrix
     }

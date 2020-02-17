@@ -10,6 +10,7 @@ import MetalKit
 
 enum VertexShaderType {
     case basic
+    case skybox
 }
 
 class VertexShaderLibrary: Library<VertexShaderType, MTLFunction> {
@@ -20,6 +21,11 @@ class VertexShaderLibrary: Library<VertexShaderType, MTLFunction> {
         vertexShaders.updateValue(
             Shader(name: "Basic Vertex Shader", functionName: "basic_vertex_shader"),
             forKey: .basic
+        )
+        
+        vertexShaders.updateValue(
+            Shader(name: "Skybox Vertex Shader", functionName: "skybox_vertex_shader"),
+            forKey: .skybox
         )
     }
     

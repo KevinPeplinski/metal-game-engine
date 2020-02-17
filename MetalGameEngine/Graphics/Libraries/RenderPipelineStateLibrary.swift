@@ -10,6 +10,7 @@ import MetalKit
 
 enum RenderPipelineStateType {
     case basic
+    case skybox
 }
 
 class RenderPipelineStateLibrary: Library<RenderPipelineStateType, MTLRenderPipelineState> {
@@ -20,6 +21,11 @@ class RenderPipelineStateLibrary: Library<RenderPipelineStateType, MTLRenderPipe
         renderPipelineStates.updateValue(
             RenderPipelineState(renderPipelineDescriptorType: .basic),
             forKey: .basic
+        )
+        
+        renderPipelineStates.updateValue(
+            RenderPipelineState(renderPipelineDescriptorType: .skybox),
+            forKey: .skybox
         )
     }
     

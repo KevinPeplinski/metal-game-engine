@@ -39,6 +39,7 @@ class LinearSamplerState: SamplerState {
         let samplerDescriptor = MTLSamplerDescriptor()
         samplerDescriptor.minFilter = .linear
         samplerDescriptor.magFilter = .linear
+        samplerDescriptor.mipFilter = .linear
         samplerDescriptor.label = name
         samplerState = Engine.device.makeSamplerState(descriptor: samplerDescriptor)
     }

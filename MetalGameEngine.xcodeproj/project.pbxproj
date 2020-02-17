@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA4BB37A23FB125F00B02812 /* Skybox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4BB37923FB125F00B02812 /* Skybox.swift */; };
 		EA56482123F8051B003D0379 /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56482023F8051B003D0379 /* Updateable.swift */; };
 		EA56482423F80691003D0379 /* BasicShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = EA56482323F80691003D0379 /* BasicShaders.metal */; };
 		EA56482623F806B4003D0379 /* ExchangeTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56482523F806B4003D0379 /* ExchangeTypes.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA4BB37923FB125F00B02812 /* Skybox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skybox.swift; sourceTree = "<group>"; };
 		EA56482023F8051B003D0379 /* Updateable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updateable.swift; sourceTree = "<group>"; };
 		EA56482323F80691003D0379 /* BasicShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = BasicShaders.metal; sourceTree = "<group>"; };
 		EA56482523F806B4003D0379 /* ExchangeTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTypes.swift; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 				EA56482723F8072B003D0379 /* GameObject.swift */,
 				EA56482923F80846003D0379 /* LocateableObject.swift */,
 				EA56482B23F80C70003D0379 /* RotateableObject.swift */,
+				EA4BB37923FB125F00B02812 /* Skybox.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				EA6D43EE23F5A9FD000A2989 /* ColorUtils.swift in Sources */,
 				EA6D43C323F5A35C000A2989 /* VertexShaderLibrary.swift in Sources */,
 				EA6D43B923F59717000A2989 /* SceneManager.swift in Sources */,
+				EA4BB37A23FB125F00B02812 /* Skybox.swift in Sources */,
 				EA6D439D23F55F8E000A2989 /* GameView.swift in Sources */,
 				EA6D43BF23F59BF9000A2989 /* Mesh.swift in Sources */,
 				EA568B4C23F8510100AB2AA8 /* CubeMesh.swift in Sources */,
