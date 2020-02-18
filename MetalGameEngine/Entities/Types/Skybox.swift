@@ -9,19 +9,11 @@
 import Foundation
 import MetalKit
 
-//class Skybox: GameObject {
-//    init() {
-//        super.init(.cube)
-//    }
-//}
-
 class Skybox: Renderable {
 
-    let position = SIMD3<Float>(0, 0, 0)
+    private let cubeMesh: Mesh = Entities.meshes[.cube]
 
-    let mesh: Mesh = Entities.meshes[.cube]
-
-    var cubeMap: MTLTexture!
+    private var cubeMap: MTLTexture!
 
     init() {
         let textureLoader = MTKTextureLoader(device: Engine.device)
@@ -45,7 +37,7 @@ class Skybox: Renderable {
         renderCommandEncoder.setFragmentTexture(self.cubeMap, index: 0)
         renderCommandEncoder.setFragmentSamplerState(Graphics.samplerStates[.linear], index: 0)
 
-        self.mesh.drawPrimitives(renderCommandEncoder)
+        self.cubeMesh.drawPrimitives(renderCommandEncoder)
     }
     
     func doUpdate() {

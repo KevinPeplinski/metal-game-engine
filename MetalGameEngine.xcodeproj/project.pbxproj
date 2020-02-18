@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA1E02D823FC275400660F7D /* TextureLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E02D723FC275400660F7D /* TextureLibrary.swift */; };
+		EA1E02DA23FC40FC00660F7D /* SkyboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E02D923FC40FC00660F7D /* SkyboxManager.swift */; };
 		EA4BB37A23FB125F00B02812 /* Skybox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4BB37923FB125F00B02812 /* Skybox.swift */; };
 		EA56482123F8051B003D0379 /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56482023F8051B003D0379 /* Updateable.swift */; };
 		EA56482423F80691003D0379 /* BasicShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = EA56482323F80691003D0379 /* BasicShaders.metal */; };
@@ -53,6 +55,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA1E02D723FC275400660F7D /* TextureLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureLibrary.swift; sourceTree = "<group>"; };
+		EA1E02D923FC40FC00660F7D /* SkyboxManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyboxManager.swift; sourceTree = "<group>"; };
 		EA4BB37923FB125F00B02812 /* Skybox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skybox.swift; sourceTree = "<group>"; };
 		EA56482023F8051B003D0379 /* Updateable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updateable.swift; sourceTree = "<group>"; };
 		EA56482323F80691003D0379 /* BasicShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = BasicShaders.metal; sourceTree = "<group>"; };
@@ -306,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				EA6D43B823F59717000A2989 /* SceneManager.swift */,
+				EA1E02D923FC40FC00660F7D /* SkyboxManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -314,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				EA568B4823F845CA00AB2AA8 /* MeshLibrary.swift */,
+				EA1E02D723FC275400660F7D /* TextureLibrary.swift */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -459,7 +465,9 @@
 				EA6D43D823F5A749000A2989 /* Shader.swift in Sources */,
 				EA6D43AA23F580F8000A2989 /* ClearColors.swift in Sources */,
 				EA6D43B023F59305000A2989 /* Light.swift in Sources */,
+				EA1E02D823FC275400660F7D /* TextureLibrary.swift in Sources */,
 				EA6D43C723F5A37A000A2989 /* RenderPipelineDescriptorLibrary.swift in Sources */,
+				EA1E02DA23FC40FC00660F7D /* SkyboxManager.swift in Sources */,
 				EA56482A23F80846003D0379 /* LocateableObject.swift in Sources */,
 				EA56482F23F80EE3003D0379 /* Math.swift in Sources */,
 				EA6D43B423F594AD000A2989 /* Camera.swift in Sources */,

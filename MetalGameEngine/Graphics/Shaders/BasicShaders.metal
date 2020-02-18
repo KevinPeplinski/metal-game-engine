@@ -27,6 +27,7 @@ struct SkyBoxVertexIn {
 
 struct SkyBoxRastorizerData {
     float4 position [[ position ]];
+    float3 normal;
 };
 
 // Bacis 
@@ -53,6 +54,7 @@ vertex SkyBoxRastorizerData skybox_vertex_shader(const SkyBoxVertexIn vIn [[ sta
     SkyBoxRastorizerData rd;
     
     rd.position = cameraUniforms.projectionMatrix * cameraUniforms.viewMatrix * float4(vIn.position, 1);
+    rd.normal = vIn.position;
     
     return rd;
 }
@@ -62,6 +64,6 @@ fragment half4 skybox_fragment_shader(SkyBoxRastorizerData rd [[ stage_in ]],
                                      sampler samplercube [[ sampler(0) ]],
                                      texturecube<float> skyboxtexture [[ texture(0) ]]) {
     
-    float4 rcolor = skyboxtexture.sample(samplercube, rd.position.xyz);
+    float4 rcolor = skyboxtexture.sample(samplercube, rd.normal);
     return half4(rcolor.r, rcolor.g, rcolor.b, 1);
 }

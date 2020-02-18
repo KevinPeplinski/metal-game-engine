@@ -12,7 +12,7 @@ class Preferences {
     
     // Metal Settings
     public static let clearColor: MTLClearColor = ClearColors.black
-    public static let colorPixelFormat: MTLPixelFormat = .bgra8Unorm
+    public static let colorPixelFormat: MTLPixelFormat = .bgra8Unorm_srgb
     public static let mainDepthPixelFormat: MTLPixelFormat = .depth32Float
 
 }

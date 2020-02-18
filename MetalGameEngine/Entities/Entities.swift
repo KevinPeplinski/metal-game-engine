@@ -12,14 +12,14 @@ class Entities {
     public static var meshes: MeshLibrary {
         return privateMeshLibrary
     }
-//    
-//    private static var privateTextureLibrary: TextureLibrary!
-//    public static var textures: TextureLibrary {
-//        return privateTextureLibrary
-//    }
+    
+    private static var privateTextureLibrary: TextureLibrary!
+    public static var textures: TextureLibrary {
+        return privateTextureLibrary
+    }
     
     public static func initialize() -> Void {
         self.privateMeshLibrary = MeshLibrary()
-//        self.privateTextureLibrary = TextureLibrary()
+        self.privateTextureLibrary = TextureLibrary()
     }
 }
