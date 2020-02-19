@@ -16,8 +16,9 @@ class SingleObjectScene: Scene {
         super.init()
         self.setCamera(self.camera)
         
-        self.camera.setPositionZ(-0.5)
-//        self.camera.setPositionX(-1.1)
+        SkyboxManager.setSkybox(.space)
+        
+        self.camera.setPositionZ(-10)
         
         let gameObject = GameObject(.cube)
         gameObject.material.color = ColorUtil.getRandomColorNotWhiteBlack()
@@ -28,15 +29,9 @@ class SingleObjectScene: Scene {
         let gameObject2 = GameObject(.cube)
         gameObject2.material.color = ColorUtil.getRandomColorNotWhiteBlack()
         
-//        gameObject2.setScale(0.05)
-//        gameObject2.move(+, 0, 0, 0.1)
+        gameObject2.setScale(0.05)
+        gameObject2.move(+, 0, 0, 0.1)
         
-        print(gameObject.getPosition())
-//        print(gameObject2.getPosition())
-        
-        let skybox = Skybox()
-        self.addChild(skybox)
-
         self.addChild(gameObject)
 //        self.addChild(gameObject2)
     }

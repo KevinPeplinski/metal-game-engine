@@ -10,6 +10,7 @@ import Metal
 
 enum MeshType {
     case cube
+    case skyboxCube
 }
 
 class MeshLibrary: Library<MeshType, Mesh> {
@@ -18,6 +19,7 @@ class MeshLibrary: Library<MeshType, Mesh> {
     
     override func fillLibrary() {
         meshes.updateValue(CubeMesh(), forKey: .cube)
+        meshes.updateValue(SkyboxMesh(), forKey: .skyboxCube)
     }
     
     override subscript(_ type: MeshType) -> Mesh {

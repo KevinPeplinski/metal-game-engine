@@ -8,8 +8,8 @@
 
 import MetalKit
 
-enum SkyboxType {
-    case space
+enum SkyboxType: String {
+    case space = "Space"
 }
 
 class SkyboxManager {
@@ -23,7 +23,7 @@ class SkyboxManager {
             return
         }
         
-        self.currentSkybox = Skybox()
+        self.currentSkybox = Skybox(name: skyboxType!.rawValue)
     }
     
 }
