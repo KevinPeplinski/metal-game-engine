@@ -6,7 +6,7 @@
 //  Copyright © 2020 Kevin Peplinski. All rights reserved.
 //
 
-class SkyboxMesh: CustomMesh {
+class SkyboxMesh2: CustomMesh {
     
     override func createVertices() {
         self.vertices = [

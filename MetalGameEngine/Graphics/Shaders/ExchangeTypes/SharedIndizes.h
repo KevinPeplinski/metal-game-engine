@@ -39,6 +39,11 @@ typedef NS_ENUM(NSInteger, FragmentBufferIndizes)
     FragmentBufferIndizesMaterial = 1,
 };
 
+typedef NS_ENUM(NSInteger, FragmentTextureIndizes)
+{
+    FragmentTextureIndizesBaseColor = 0,
+};
+
 typedef struct ModelUniforms {
     simd_float4x4 modelMatrix;
 } ModelUniforms;

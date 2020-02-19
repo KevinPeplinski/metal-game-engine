@@ -11,9 +11,9 @@ import MetalKit
 
 class Skybox: Renderable {
 
-    private let cubeMesh: Mesh = Entities.meshes[.skyboxCube]
+    private let skyboxCubeMesh: Mesh = Entities.meshes[.skyboxCube]
 
-    private var cubeMap: MTLTexture!
+    private var skyboxCubeMap: MTLTexture!
 
     init(name: String) {
         let textureLoader = MTKTextureLoader(device: Engine.device)
@@ -22,7 +22,7 @@ class Skybox: Renderable {
             let texture = try textureLoader.newTexture(name: name, scaleFactor: 1.0, bundle: .main, options: nil)
 
             if texture.textureType == .typeCube {
-                self.cubeMap = texture
+                self.skyboxCubeMap = texture
             } else {
                 fatalError("Skybox: could load Texture \(name), but its not a cubemap!")
             }
@@ -36,10 +36,9 @@ class Skybox: Renderable {
         renderCommandEncoder.setDepthStencilState(Graphics.depthStencilStates[.less])
 
         // Fragment
-        renderCommandEncoder.setFragmentTexture(self.cubeMap, index: 0) // Index
-        renderCommandEncoder.setFragmentSamplerState(Graphics.samplerStates[.linear], index: 0) // Index
+        renderCommandEncoder.setFragmentTexture(self.skyboxCubeMap, index: FragmentTextureIndizes.baseColor.rawValue)
 
-        self.cubeMesh.drawPrimitives(renderCommandEncoder)
+        self.skyboxCubeMesh.drawPrimitives(renderCommandEncoder)
     }
     
     func doUpdate() {

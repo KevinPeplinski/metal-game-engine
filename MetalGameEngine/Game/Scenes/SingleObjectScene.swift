@@ -18,7 +18,7 @@ class SingleObjectScene: Scene {
         
         SkyboxManager.setSkybox(.space)
         
-        self.camera.setPositionZ(-10)
+        self.camera.setPositionZ(10)
         
         let gameObject = GameObject(.cube)
         gameObject.material.color = ColorUtil.getRandomColorNotWhiteBlack()

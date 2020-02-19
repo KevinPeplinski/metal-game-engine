@@ -87,3 +87,77 @@ class CustomMesh: Mesh {
         
     }
 }
+
+class SkyboxMesh: Mesh {
+    var vertexBuffer: MTLBuffer!
+    
+    var positionData: [SIMD3<Float>]!
+    
+    init() {
+        self.createVertices()
+        
+        if let positions = self.positionData {
+            self.vertexBuffer = Engine.device.makeBuffer(bytes: self.positionData, length: SIMD3<Float>.stride * positions.count, options: [])
+        }
+    }
+    
+    func createVertices() -> Void {
+        self.positionData = [
+             //LEFT
+             SIMD3<Float>(-500.0,-500.0,-500.0),
+             SIMD3<Float>(-500.0,-500.0, 500.0),
+             SIMD3<Float>(-500.0, 500.0, 500.0),
+             SIMD3<Float>(-500.0,-500.0,-500.0),
+             SIMD3<Float>(-500.0, 500.0, 500.0),
+             SIMD3<Float>(-500.0, 500.0,-500.0),
+             
+             //RIGHT
+             SIMD3<Float>( 500.0, 500.0, 500.0),
+             SIMD3<Float>( 500.0,-500.0,-500.0),
+             SIMD3<Float>( 500.0, 500.0,-500.0),
+             SIMD3<Float>( 500.0,-500.0,-500.0),
+             SIMD3<Float>( 500.0, 500.0, 500.0),
+             SIMD3<Float>( 500.0,-500.0, 500.0),
+             
+             //TOP
+             SIMD3<Float>( 500.0, 500.0, 500.0),
+             SIMD3<Float>( 500.0, 500.0,-500.0),
+             SIMD3<Float>(-500.0, 500.0,-500.0),
+             SIMD3<Float>( 500.0, 500.0, 500.0),
+             SIMD3<Float>(-500.0, 500.0,-500.0),
+             SIMD3<Float>(-500.0, 500.0, 500.0),
+             
+             //BOTTOM
+             SIMD3<Float>( 500.0,-500.0, 500.0),
+             SIMD3<Float>(-500.0,-500.0,-500.0),
+             SIMD3<Float>( 500.0,-500.0,-500.0),
+             SIMD3<Float>( 500.0,-500.0, 500.0),
+             SIMD3<Float>(-500.0,-500.0, 500.0),
+             SIMD3<Float>(-500.0,-500.0,-500.0),
+             
+             //BACK
+             SIMD3<Float>( 500.0, 500.0,-500.0),
+             SIMD3<Float>(-500.0,-500.0,-500.0),
+             SIMD3<Float>(-500.0, 500.0,-500.0),
+             SIMD3<Float>( 500.0, 500.0,-500.0),
+             SIMD3<Float>( 500.0,-500.0,-500.0),
+             SIMD3<Float>(-500.0,-500.0,-500.0),
+             
+             //FRONT
+             SIMD3<Float>(-500.0, 500.0, 500.0),
+             SIMD3<Float>(-500.0,-500.0, 500.0),
+             SIMD3<Float>( 500.0,-500.0, 500.0),
+             SIMD3<Float>( 500.0, 500.0, 500.0),
+             SIMD3<Float>(-500.0, 500.0, 500.0),
+             SIMD3<Float>( 500.0,-500.0, 500.0),
+             
+         ]
+    }
+    
+    func drawPrimitives(_ renderCommandEncoder: MTLRenderCommandEncoder) -> Void {
+
+        renderCommandEncoder.setVertexBuffer(self.vertexBuffer, offset: 0, index: VertexBufferIndizes.buffer.rawValue)
+        renderCommandEncoder.drawPrimitives(type: .triangle, vertexStart: 0, vertexCount: self.positionData.count)
+        
+    }
+}
