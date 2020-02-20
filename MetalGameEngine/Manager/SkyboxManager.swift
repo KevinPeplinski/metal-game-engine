@@ -26,4 +26,10 @@ class SkyboxManager {
         self.currentSkybox = Skybox(name: skyboxType!.rawValue)
     }
     
+    static func doRender(_ renderCommandEncoder: MTLRenderCommandEncoder) -> Void {
+        if let skybox = self.currentSkybox {
+            skybox.doRender(renderCommandEncoder)
+        }
+    }
+    
 }

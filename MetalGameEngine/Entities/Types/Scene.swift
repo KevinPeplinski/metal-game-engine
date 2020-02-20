@@ -41,9 +41,7 @@ class Scene: Renderable {
             camera.doRender(renderCommandEncoder)
             
             // Render Skybox allways before all other Elements
-            if let skybox = SkyboxManager.currentSkybox {
-                skybox.doRender(renderCommandEncoder)
-            }
+            SkyboxManager.doRender(renderCommandEncoder)
             
             // Render all Childs
             if let children = self.children {
