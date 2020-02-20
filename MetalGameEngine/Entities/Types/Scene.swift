@@ -12,6 +12,7 @@ class Scene: Renderable {
     
     private var children: [Renderable]?
     private var camera: Camera?
+    private var light: Light?
     
     public func addChild(_ renderableObject: Renderable) -> Void {
         if self.children?.append(renderableObject) == nil {
@@ -21,6 +22,10 @@ class Scene: Renderable {
     
     public func setCamera(_ camera: Camera) -> Void {
         self.camera = camera
+    }
+    
+    public func setLight(_ light: Light?) -> Void {
+        self.light = light
     }
     
     func doUpdate() {
@@ -44,10 +49,9 @@ class Scene: Renderable {
             SkyboxManager.doRender(renderCommandEncoder)
             
             // Render Light before all Children
-            var light = Light()
-            light.setLightColor(ColorUtil.getColor(.green))
-            light.setLightAmbientIntensity(0.1)
-            light.render(renderCommandEncoder)
+            if let light = light {
+                light.render(renderCommandEncoder)
+            }
             
             // Render all Childs
             if let children = self.children {

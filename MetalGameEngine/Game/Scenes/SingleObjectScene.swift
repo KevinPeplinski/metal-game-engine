@@ -18,6 +18,11 @@ class SingleObjectScene: Scene {
         
         SkyboxManager.setSkybox(.space)
         
+        let light = Light()
+        light.setLightColor(ColorUtil.getColor(.green))
+        light.setLightAmbientIntensity(1)
+        self.setLight(light)
+        
         self.camera.setPositionZ(0)
         
         let gameObject = GameObject(.cube)
