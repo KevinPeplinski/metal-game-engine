@@ -64,12 +64,7 @@ public struct SkyboxVertexDescriptor: VertexDescriptor {
         vertexDescriptor.attributes[VertexAttributeIndizes.position.rawValue].bufferIndex = VertexBufferIndizes.buffer.rawValue
         vertexDescriptor.attributes[VertexAttributeIndizes.position.rawValue].format = .float3
         vertexDescriptor.attributes[VertexAttributeIndizes.position.rawValue].offset = 0
-        
-        // Normal
-        vertexDescriptor.attributes[VertexAttributeIndizes.normal.rawValue].bufferIndex = VertexBufferIndizes.buffer.rawValue
-        vertexDescriptor.attributes[VertexAttributeIndizes.normal.rawValue].format = .float3
-        vertexDescriptor.attributes[VertexAttributeIndizes.normal.rawValue].offset = SIMD3<Float>.stride
 
-        vertexDescriptor.layouts[0].stride = Vertex.stride
+        vertexDescriptor.layouts[0].stride = SIMD3<Float>.stride
     }
 }

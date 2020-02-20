@@ -20,7 +20,6 @@
 		EA568B4223F82A9100AB2AA8 /* SingleObjectScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA568B4123F82A9100AB2AA8 /* SingleObjectScene.swift */; };
 		EA568B4923F845CA00AB2AA8 /* MeshLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA568B4823F845CA00AB2AA8 /* MeshLibrary.swift */; };
 		EA568B4C23F8510100AB2AA8 /* CubeMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA568B4B23F8510100AB2AA8 /* CubeMesh.swift */; };
-		EA58757723FDD4D900C7F6E7 /* SkyboxMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA58757623FDD4D900C7F6E7 /* SkyboxMesh.swift */; };
 		EA58757C23FDD73800C7F6E7 /* SkyboxShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = EA58757B23FDD73800C7F6E7 /* SkyboxShaders.metal */; };
 		EA6D438523F55C16000A2989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D438423F55C16000A2989 /* AppDelegate.swift */; };
 		EA6D438723F55C16000A2989 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D438623F55C16000A2989 /* SceneDelegate.swift */; };
@@ -72,7 +71,6 @@
 		EA568B4523F8433000AB2AA8 /* MetalGameEngine-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MetalGameEngine-Bridging-Header.h"; sourceTree = "<group>"; };
 		EA568B4823F845CA00AB2AA8 /* MeshLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshLibrary.swift; sourceTree = "<group>"; };
 		EA568B4B23F8510100AB2AA8 /* CubeMesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeMesh.swift; sourceTree = "<group>"; };
-		EA58757623FDD4D900C7F6E7 /* SkyboxMesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyboxMesh.swift; sourceTree = "<group>"; };
 		EA58757B23FDD73800C7F6E7 /* SkyboxShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = SkyboxShaders.metal; sourceTree = "<group>"; };
 		EA6D438123F55C16000A2989 /* MetalGameEngine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalGameEngine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA6D438423F55C16000A2989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -168,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				EA568B4B23F8510100AB2AA8 /* CubeMesh.swift */,
-				EA58757623FDD4D900C7F6E7 /* SkyboxMesh.swift */,
 			);
 			path = CustomMeshes;
 			sourceTree = "<group>";
@@ -458,7 +455,6 @@
 				EA6D43C923F5A388000A2989 /* RenderPipelineStateLibrary.swift in Sources */,
 				EA56482623F806B4003D0379 /* ExchangeTypes.swift in Sources */,
 				EA56482C23F80C70003D0379 /* RotateableObject.swift in Sources */,
-				EA58757723FDD4D900C7F6E7 /* SkyboxMesh.swift in Sources */,
 				EA6D43CD23F5A3A3000A2989 /* DepthStencilStateLibrary.swift in Sources */,
 				EA568B4223F82A9100AB2AA8 /* SingleObjectScene.swift in Sources */,
 				EA56482823F8072B003D0379 /* GameObject.swift in Sources */,
