@@ -32,6 +32,10 @@ class Scene: Renderable {
         if let camera = self.camera {
             camera.doUpdate()
             
+            if let light = light {
+                light.doUpdate()
+            }
+            
             if let children = self.children {
                 children.forEach {
                     $0.doUpdate()

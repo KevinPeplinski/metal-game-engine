@@ -12,27 +12,29 @@ class SingleObjectScene: Scene {
     
     private var camera = Camera()
     
+    let light = Light()
+    let gameObject2 = GameObject(.cube)
+    let gameObject = GameObject(.cube)
+    
     override init() {
         super.init()
         self.setCamera(self.camera)
         
         SkyboxManager.setSkybox(.space)
         
-        let light = Light()
-        light.setLightColor(ColorUtil.getColor(.green))
+        light.setLightColor(ColorUtil.getColor(.white))
         light.setLightAmbientIntensity(1)
+        light.setPosition(SIMD3<Float>(10, 10, -10))
         self.setLight(light)
         
         self.camera.setPositionZ(0)
         
-        let gameObject = GameObject(.cube)
         gameObject.material.color = ColorUtil.getRandomColorNotWhiteBlack()
         gameObject.setScale(0.05)
         gameObject.move(-, 0.1, 0, 1)
         gameObject.rotateX(+, 0.5)
         gameObject.rotateY(+, 0.2)
         
-        let gameObject2 = GameObject(.cube)
         gameObject2.material.color = ColorUtil.getRandomColorNotWhiteBlack()
         gameObject2.setScale(0.05)
         gameObject2.move(-, -0.1, 0, 1)
@@ -45,9 +47,19 @@ class SingleObjectScene: Scene {
     
     override func doUpdate() {
         super.doUpdate()
+        
+        self.gameObject.rotateX(+, GameTime.deltaTime)
+        self.gameObject.rotateY(+, GameTime.deltaTime)
+        
+        self.gameObject2.rotateX(+, GameTime.deltaTime)
+        self.gameObject2.rotateY(+, GameTime.deltaTime)
 //        self.camera.rotateX(+, GameTime.deltaTime)
 //        self.camera.rotateY(+, GameTime.deltaTime)
 //        self.camera.moveZ(+, 0.007)
+        
+//        self.light.moveX(+, GameTime.deltaTime)
+//        self.light.moveY(+, GameTime.deltaTime)
+//        self.light.moveZ(+, GameTime.deltaTime)
     }
     
 }
