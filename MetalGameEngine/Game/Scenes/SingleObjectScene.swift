@@ -18,22 +18,24 @@ class SingleObjectScene: Scene {
         
         SkyboxManager.setSkybox(.space)
         
-        self.camera.setPositionZ(10)
+        self.camera.setPositionZ(0)
         
         let gameObject = GameObject(.cube)
         gameObject.material.color = ColorUtil.getRandomColorNotWhiteBlack()
-        
         gameObject.setScale(0.05)
-        gameObject.move(+, 0, 0, 0.1)
+        gameObject.move(-, 0.1, 0, 1)
+        gameObject.rotateX(+, 0.5)
+        gameObject.rotateY(+, 0.2)
         
         let gameObject2 = GameObject(.cube)
         gameObject2.material.color = ColorUtil.getRandomColorNotWhiteBlack()
-        
         gameObject2.setScale(0.05)
-        gameObject2.move(+, 0, 0, 0.1)
+        gameObject2.move(-, -0.1, 0, 1)
+        gameObject2.rotateX(+, 0.3)
+        gameObject2.rotateY(+, 0.7)
         
         self.addChild(gameObject)
-//        self.addChild(gameObject2)
+        self.addChild(gameObject2)
     }
     
     override func doUpdate() {

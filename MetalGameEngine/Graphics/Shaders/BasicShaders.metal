@@ -32,7 +32,14 @@ vertex RastorizerData basic_vertex_shader(const VertexIn vIn [[ stage_in ]],
 }
 
 fragment half4 basic_fragment_shader(RastorizerData rd [[ stage_in ]],
-                                     constant Material &material [[ buffer(FragmentBufferIndizesMaterial) ]]) {
+                                     constant Material &material [[ buffer(FragmentBufferIndizesMaterial) ]],
+                                     constant LightData &lightData [[ buffer(FragmentBufferIndizesLightData) ]]) {
+    float3 color;
     
-    return half4(material.color.r, material.color.g, material.color.b, material.color.a);
+    // Ambient
+    float3 ambient = lightData.ambientIntensity * lightData.color;
+    
+    color = ambient * material.color.xyz;
+    
+    return half4(color.r, color.g, color.b, 1);
 }

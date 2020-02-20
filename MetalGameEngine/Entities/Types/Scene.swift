@@ -43,6 +43,12 @@ class Scene: Renderable {
             // Render Skybox allways before all other Elements
             SkyboxManager.doRender(renderCommandEncoder)
             
+            // Render Light before all Children
+            var light = Light()
+            light.setLightColor(ColorUtil.getColor(.green))
+            light.setLightAmbientIntensity(0.1)
+            light.render(renderCommandEncoder)
+            
             // Render all Childs
             if let children = self.children {
                 children.forEach {

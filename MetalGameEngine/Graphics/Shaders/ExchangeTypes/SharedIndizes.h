@@ -36,7 +36,8 @@ typedef NS_ENUM(NSInteger, VertexBufferIndizes)
 
 typedef NS_ENUM(NSInteger, FragmentBufferIndizes)
 {
-    FragmentBufferIndizesMaterial = 1,
+    FragmentBufferIndizesMaterial   = 0,
+    FragmentBufferIndizesLightData  = 1,
 };
 
 typedef NS_ENUM(NSInteger, FragmentTextureIndizes)
