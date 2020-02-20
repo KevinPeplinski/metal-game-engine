@@ -12,6 +12,8 @@ enum KPColor {
     case red
     case green
     case blue
+    case white
+    case black
 }
 
 class ColorUtil {
@@ -34,7 +36,11 @@ class ColorUtil {
         case .green:
             return SIMD4<Float>(0, 1, 0, 1)
         case .red:
-            return SIMD4<Float>(1, 0, 0, 0)
+            return SIMD4<Float>(1, 0, 0, 1)
+        case .white:
+            return SIMD4<Float>(1, 1, 1, 1)
+        case .black:
+            return SIMD4<Float>(0, 0, 0, 1)
         }
     }
     

@@ -10,4 +10,8 @@ class Light: LocateableObject {
     
     private var lightData = LightData()
     
+    override init() {
+        self.lightData.color = ColorUtil.getColor(.white)
+    }
+    
 }
