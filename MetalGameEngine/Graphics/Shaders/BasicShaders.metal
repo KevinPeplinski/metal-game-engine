@@ -17,8 +17,8 @@ struct VertexIn {
 
 struct RastorizerData {
     float4 position [[ position ]];
-    float3 normal;
     float3 worldSpacePosition;
+    float3 normal;
 };
 
 vertex RastorizerData basic_vertex_shader(const VertexIn vIn [[ stage_in ]],
@@ -28,8 +28,8 @@ vertex RastorizerData basic_vertex_shader(const VertexIn vIn [[ stage_in ]],
     
     float4 worldSpacePosition = modelUniforms.modelMatrix * float4(vIn.position, 1);
     rd.position = cameraUniforms.projectionMatrix * cameraUniforms.viewMatrix * worldSpacePosition;
-    rd.normal = vIn.normal;
     rd.worldSpacePosition = worldSpacePosition.xyz;
+    rd.normal = (modelUniforms.modelMatrix * float4(vIn.normal, 1)).xyz;
     
     return rd;
 }

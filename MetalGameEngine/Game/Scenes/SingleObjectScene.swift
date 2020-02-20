@@ -22,9 +22,9 @@ class SingleObjectScene: Scene {
         
         SkyboxManager.setSkybox(.space)
         
-        light.setLightColor(ColorUtil.getColor(.white))
-        light.setLightAmbientIntensity(1)
-        light.setPosition(SIMD3<Float>(10, 10, -10))
+        light.setLightColor(ColorUtil.getColor(.green))
+        light.setLightAmbientIntensity(0.3)
+        light.setPosition(SIMD3<Float>(10, 10, 10))
         self.setLight(light)
         
         self.camera.setPositionZ(0)
@@ -59,7 +59,7 @@ class SingleObjectScene: Scene {
         
 //        self.light.moveX(+, GameTime.deltaTime)
 //        self.light.moveY(+, GameTime.deltaTime)
-//        self.light.moveZ(+, GameTime.deltaTime)
+        self.light.moveZ(+, GameTime.deltaTime)
     }
     
 }
