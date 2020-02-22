@@ -17,6 +17,14 @@ class Camera: RotateableObject, Renderable {
         return matrix_float4x4.perspective(fov: 45, aspectRatio: Renderer.aspectRatio, near: 0.1, far: 1000)
     }
     
+    func lookAt(point: SIMD3<Float>) -> Void {
+        
+        let t1 = point - self.getPosition()
+        
+        self.setRotationY(normalize(t1).x)
+        self.setRotationX(-normalize(t1).y)
+    }
+    
     override func doUpdate() {
         super.doUpdate()
         
