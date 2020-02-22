@@ -23,8 +23,9 @@
 
 typedef NS_ENUM(NSInteger, VertexAttributeIndizes)
 {
-    VertexAttributeIndizesPosition = 0,
-    VertexAttributeIndizesNormal   = 1,
+    VertexAttributeIndizesPosition      = 0,
+    VertexAttributeIndizesNormal        = 1,
+    VertexAttributeIndizesTextureCords  = 2,
 };
 
 typedef NS_ENUM(NSInteger, VertexBufferIndizes)

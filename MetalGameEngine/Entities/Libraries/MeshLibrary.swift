@@ -9,11 +9,17 @@
 import Metal
 
 enum MeshType {
+    // Customs
     case cube
     case skyboxCube
     
+    // Models
     case cruiser
+    // EarthModel
     case earth
+    case earth_land
+    case earth_water
+    case earth_around
 }
 
 class MeshLibrary: Library<MeshType, Mesh> {
@@ -26,6 +32,9 @@ class MeshLibrary: Library<MeshType, Mesh> {
         
         meshes.updateValue(ModelMesh(modelName: "cruiser"), forKey: .cruiser)
         meshes.updateValue(ModelMesh(modelName: "EARTH_HighPoly"), forKey: .earth)
+        meshes.updateValue(ModelMesh(modelName: "earth_land"), forKey: .earth_land)
+        meshes.updateValue(ModelMesh(modelName: "earth_water"), forKey: .earth_water)
+        meshes.updateValue(ModelMesh(modelName: "earth_around"), forKey: .earth_around)
     }
     
     override subscript(_ type: MeshType) -> Mesh {

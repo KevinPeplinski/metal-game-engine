@@ -11,4 +11,5 @@ import simd
 struct Vertex: Sizeable {
     var position: SIMD3<Float>
     var normal: SIMD3<Float>
+    var textureCords: SIMD2<Float> = SIMD2<Float>(0, 0)
 }

@@ -17,6 +17,9 @@
 		EA4D86E824014F8200A071A1 /* EARTH_HighPoly.obj in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86E524014F8200A071A1 /* EARTH_HighPoly.obj */; };
 		EA4D86E924014F8200A071A1 /* texture_land.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86E624014F8200A071A1 /* texture_land.jpg */; };
 		EA4D86EB2401580900A071A1 /* Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4D86EA2401580900A071A1 /* Earth.swift */; };
+		EA4D86EF2401902600A071A1 /* earth_land.obj in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86EC2401902600A071A1 /* earth_land.obj */; };
+		EA4D86F02401902600A071A1 /* earth_water.obj in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86ED2401902600A071A1 /* earth_water.obj */; };
+		EA4D86F12401902600A071A1 /* earth_around.obj in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86EE2401902600A071A1 /* earth_around.obj */; };
 		EA56482123F8051B003D0379 /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56482023F8051B003D0379 /* Updateable.swift */; };
 		EA56482423F80691003D0379 /* BasicShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = EA56482323F80691003D0379 /* BasicShaders.metal */; };
 		EA56482623F806B4003D0379 /* ExchangeTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA56482523F806B4003D0379 /* ExchangeTypes.swift */; };
@@ -73,6 +76,9 @@
 		EA4D86E524014F8200A071A1 /* EARTH_HighPoly.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EARTH_HighPoly.obj; path = ../../../../../../../Downloads/EARTH_HighPoly.obj; sourceTree = "<group>"; };
 		EA4D86E624014F8200A071A1 /* texture_land.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = texture_land.jpg; path = ../../../../../../../Downloads/texture_land.jpg; sourceTree = "<group>"; };
 		EA4D86EA2401580900A071A1 /* Earth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth.swift; sourceTree = "<group>"; };
+		EA4D86EC2401902600A071A1 /* earth_land.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = earth_land.obj; sourceTree = "<group>"; };
+		EA4D86ED2401902600A071A1 /* earth_water.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = earth_water.obj; sourceTree = "<group>"; };
+		EA4D86EE2401902600A071A1 /* earth_around.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = earth_around.obj; sourceTree = "<group>"; };
 		EA56482023F8051B003D0379 /* Updateable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updateable.swift; sourceTree = "<group>"; };
 		EA56482323F80691003D0379 /* BasicShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = BasicShaders.metal; sourceTree = "<group>"; };
 		EA56482523F806B4003D0379 /* ExchangeTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTypes.swift; sourceTree = "<group>"; };
@@ -155,6 +161,9 @@
 		EA4D86DD24014ABE00A071A1 /* Earth */ = {
 			isa = PBXGroup;
 			children = (
+				EA4D86EE2401902600A071A1 /* earth_around.obj */,
+				EA4D86EC2401902600A071A1 /* earth_land.obj */,
+				EA4D86ED2401902600A071A1 /* earth_water.obj */,
 				EA4D86E524014F8200A071A1 /* EARTH_HighPoly.obj */,
 				EA4D86E624014F8200A071A1 /* texture_land.jpg */,
 				EA4D86E424014F8200A071A1 /* texture_sea.jpg */,
@@ -481,13 +490,16 @@
 			files = (
 				EA4D86E224014AD900A071A1 /* cruiser.mtl in Resources */,
 				EA4D86E724014F8200A071A1 /* texture_sea.jpg in Resources */,
+				EA4D86F02401902600A071A1 /* earth_water.obj in Resources */,
 				EA4D86E824014F8200A071A1 /* EARTH_HighPoly.obj in Resources */,
 				EA6D439123F55C19000A2989 /* LaunchScreen.storyboard in Resources */,
+				EA4D86F12401902600A071A1 /* earth_around.obj in Resources */,
 				EA4D86E124014AD900A071A1 /* cruiser.bmp in Resources */,
 				EA4D86E924014F8200A071A1 /* texture_land.jpg in Resources */,
 				EA6D438E23F55C19000A2989 /* Assets.xcassets in Resources */,
 				EA6D438C23F55C16000A2989 /* Main.storyboard in Resources */,
 				EA4D86E324014AD900A071A1 /* cruiser.obj in Resources */,
+				EA4D86EF2401902600A071A1 /* earth_land.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

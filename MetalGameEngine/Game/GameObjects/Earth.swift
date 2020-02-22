@@ -11,7 +11,7 @@ import Foundation
 class Earth: GameObject {
 
     init() {
-        super.init(.earth)
+        super.init(.earth_land)
     }
     
 }
