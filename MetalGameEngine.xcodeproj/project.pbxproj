@@ -10,12 +10,6 @@
 		EA1E02D823FC275400660F7D /* TextureLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E02D723FC275400660F7D /* TextureLibrary.swift */; };
 		EA1E02DA23FC40FC00660F7D /* SkyboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E02D923FC40FC00660F7D /* SkyboxManager.swift */; };
 		EA4BB37A23FB125F00B02812 /* Skybox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4BB37923FB125F00B02812 /* Skybox.swift */; };
-		EA4D86E124014AD900A071A1 /* cruiser.bmp in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86DE24014AD900A071A1 /* cruiser.bmp */; };
-		EA4D86E224014AD900A071A1 /* cruiser.mtl in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86DF24014AD900A071A1 /* cruiser.mtl */; };
-		EA4D86E324014AD900A071A1 /* cruiser.obj in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86E024014AD900A071A1 /* cruiser.obj */; };
-		EA4D86E724014F8200A071A1 /* texture_sea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86E424014F8200A071A1 /* texture_sea.jpg */; };
-		EA4D86E824014F8200A071A1 /* EARTH_HighPoly.obj in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86E524014F8200A071A1 /* EARTH_HighPoly.obj */; };
-		EA4D86E924014F8200A071A1 /* texture_land.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86E624014F8200A071A1 /* texture_land.jpg */; };
 		EA4D86EB2401580900A071A1 /* Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4D86EA2401580900A071A1 /* Earth.swift */; };
 		EA4D86EF2401902600A071A1 /* earth_land.obj in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86EC2401902600A071A1 /* earth_land.obj */; };
 		EA4D86F02401902600A071A1 /* earth_water.obj in Resources */ = {isa = PBXBuildFile; fileRef = EA4D86ED2401902600A071A1 /* earth_water.obj */; };
@@ -69,12 +63,6 @@
 		EA1E02D723FC275400660F7D /* TextureLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureLibrary.swift; sourceTree = "<group>"; };
 		EA1E02D923FC40FC00660F7D /* SkyboxManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyboxManager.swift; sourceTree = "<group>"; };
 		EA4BB37923FB125F00B02812 /* Skybox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skybox.swift; sourceTree = "<group>"; };
-		EA4D86DE24014AD900A071A1 /* cruiser.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = cruiser.bmp; path = ../../../../../../../Downloads/cruiser/cruiser.bmp; sourceTree = "<group>"; };
-		EA4D86DF24014AD900A071A1 /* cruiser.mtl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cruiser.mtl; path = ../../../../../../../Downloads/cruiser/cruiser.mtl; sourceTree = "<group>"; };
-		EA4D86E024014AD900A071A1 /* cruiser.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cruiser.obj; path = ../../../../../../../Downloads/cruiser/cruiser.obj; sourceTree = "<group>"; };
-		EA4D86E424014F8200A071A1 /* texture_sea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = texture_sea.jpg; path = ../../../../../../../Downloads/texture_sea.jpg; sourceTree = "<group>"; };
-		EA4D86E524014F8200A071A1 /* EARTH_HighPoly.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = EARTH_HighPoly.obj; path = ../../../../../../../Downloads/EARTH_HighPoly.obj; sourceTree = "<group>"; };
-		EA4D86E624014F8200A071A1 /* texture_land.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = texture_land.jpg; path = ../../../../../../../Downloads/texture_land.jpg; sourceTree = "<group>"; };
 		EA4D86EA2401580900A071A1 /* Earth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earth.swift; sourceTree = "<group>"; };
 		EA4D86EC2401902600A071A1 /* earth_land.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = earth_land.obj; sourceTree = "<group>"; };
 		EA4D86ED2401902600A071A1 /* earth_water.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = earth_water.obj; sourceTree = "<group>"; };
@@ -143,19 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				EA4D86DD24014ABE00A071A1 /* Earth */,
-				EA4D86DC24014AB300A071A1 /* Cruiser */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		EA4D86DC24014AB300A071A1 /* Cruiser */ = {
-			isa = PBXGroup;
-			children = (
-				EA4D86DE24014AD900A071A1 /* cruiser.bmp */,
-				EA4D86DF24014AD900A071A1 /* cruiser.mtl */,
-				EA4D86E024014AD900A071A1 /* cruiser.obj */,
-			);
-			path = Cruiser;
 			sourceTree = "<group>";
 		};
 		EA4D86DD24014ABE00A071A1 /* Earth */ = {
@@ -164,9 +141,6 @@
 				EA4D86EE2401902600A071A1 /* earth_around.obj */,
 				EA4D86EC2401902600A071A1 /* earth_land.obj */,
 				EA4D86ED2401902600A071A1 /* earth_water.obj */,
-				EA4D86E524014F8200A071A1 /* EARTH_HighPoly.obj */,
-				EA4D86E624014F8200A071A1 /* texture_land.jpg */,
-				EA4D86E424014F8200A071A1 /* texture_sea.jpg */,
 			);
 			path = Earth;
 			sourceTree = "<group>";
@@ -488,17 +462,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA4D86E224014AD900A071A1 /* cruiser.mtl in Resources */,
-				EA4D86E724014F8200A071A1 /* texture_sea.jpg in Resources */,
 				EA4D86F02401902600A071A1 /* earth_water.obj in Resources */,
-				EA4D86E824014F8200A071A1 /* EARTH_HighPoly.obj in Resources */,
 				EA6D439123F55C19000A2989 /* LaunchScreen.storyboard in Resources */,
 				EA4D86F12401902600A071A1 /* earth_around.obj in Resources */,
-				EA4D86E124014AD900A071A1 /* cruiser.bmp in Resources */,
-				EA4D86E924014F8200A071A1 /* texture_land.jpg in Resources */,
 				EA6D438E23F55C19000A2989 /* Assets.xcassets in Resources */,
 				EA6D438C23F55C16000A2989 /* Main.storyboard in Resources */,
-				EA4D86E324014AD900A071A1 /* cruiser.obj in Resources */,
 				EA4D86EF2401902600A071A1 /* earth_land.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
