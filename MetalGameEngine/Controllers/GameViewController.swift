@@ -39,6 +39,17 @@ class GameViewController: UIViewController {
         print("translation \(t)")
         print("velocity \(v)")
         
+        switch gesture.state {
+        case .began:
+            print("")
+            EarthRotate.previousPanPoint = gesture.location(in: gestureView)
+        case .changed:
+            EarthRotate.rotate(gesture.location(in: gestureView))
+        default:
+            print("")
+            EarthRotate.previousPanPoint = nil
+        }
+        
 //        EarthRotate.rotate(t)
     }
     
