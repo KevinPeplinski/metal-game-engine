@@ -33,12 +33,6 @@ class GameViewController: UIViewController {
         guard let gestureView = gesture.view else {
             return
         }
-        let t = gesture.translation(in: gestureView)
-        let v = gesture.velocity(in: gestureView)
-        
-        print("translation \(t)")
-        print("velocity \(v)")
-        
         switch gesture.state {
         case .began:
             print("")
@@ -49,14 +43,16 @@ class GameViewController: UIViewController {
             print("")
             EarthRotate.previousPanPoint = nil
         }
-        
-//        EarthRotate.rotate(t)
     }
     
     @IBAction func handlePinch(_ gesture: UIPinchGestureRecognizer) {
         print(Float(gesture.scale))
         
         EarthScale.scale(Float(gesture.scale))
+    }
+    
+    @IBAction func getRotation(_ sender: Any) {
+        print(EarthRotate.getRotation())
     }
 }
 
