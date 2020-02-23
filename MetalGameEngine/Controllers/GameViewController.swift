@@ -28,6 +28,19 @@ class GameViewController: UIViewController {
         
         Engine.ignite(device: metalView.device!)
     }
-
+    
+    @IBAction func handlePan(_ gesture: UIPanGestureRecognizer) {
+        guard let gestureView = gesture.view else {
+            return
+        }
+        
+        print(gesture.velocity(in: gestureView))
+    }
+    
+    @IBAction func handlePinch(_ gesture: UIPinchGestureRecognizer) {
+        print(Float(gesture.scale))
+        
+        EarthScale.scale(Float(gesture.scale))
+    }
 }
 

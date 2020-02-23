@@ -26,6 +26,14 @@ class Earth: GameObject {
         
         self.addChild(water)
         self.addChild(land)
+        
+        self.setScale(EarthScale.scale)
+    }
+    
+    override func doUpdate() {
+        super.doUpdate()
+        
+        self.setScale(EarthScale.scale)
     }
     
 }

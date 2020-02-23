@@ -29,9 +29,7 @@ class SingleObjectScene: Scene {
         
         
         self.setLight(light)
-    
 
-        self.earth.setScale(0.05)
         self.earth.setPositionZ(-1.0)
         self.addChild(self.earth)
     }
@@ -39,8 +37,11 @@ class SingleObjectScene: Scene {
     override func doUpdate() {
         super.doUpdate()
         
-        self.earth.rotateX(+, GameTime.deltaTime * 0.1)
-        self.earth.rotateY(+, GameTime.deltaTime * 0.1)
+        if StateManager.current == .start {
+            self.earth.rotateX(+, GameTime.deltaTime * 0.1)
+            self.earth.rotateY(+, GameTime.deltaTime * 0.1)
+        }
+        
     }
     
 }
