@@ -6,8 +6,6 @@
 //  Copyright © 2020 Kevin Peplinski. All rights reserved.
 //
 
-import Foundation
-
 class EarthScale {
     
     private static var maxScale: Float = 0.07
@@ -16,7 +14,7 @@ class EarthScale {
     
     private static var lastScalar: Float?
     
-    static var scale: Float = 0.05
+    private static var scale: Float = 0.05 // default
     
     static func scale(_ scalar: Float) -> Void {
         
@@ -38,6 +36,10 @@ class EarthScale {
         }
         
         self.lastScalar = scalar
+    }
+    
+    static func getScale() -> Float {
+        return self.scale
     }
     
 }

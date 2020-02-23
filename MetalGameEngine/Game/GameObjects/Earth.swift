@@ -6,8 +6,6 @@
 //  Copyright © 2020 Kevin Peplinski. All rights reserved.
 //
 
-import Foundation
-
 class Earth: GameObject {
 
     init() {
@@ -27,13 +25,17 @@ class Earth: GameObject {
         self.addChild(water)
         self.addChild(land)
         
-        self.setScale(EarthScale.scale)
+        self.setScale(EarthScale.getScale())
+        self.setRotation(EarthRotate.getRotation())
+        
+//        self.rotate(+, 0.4686221, 0.6331452, 0.6331452)
     }
     
     override func doUpdate() {
         super.doUpdate()
         
-        self.setScale(EarthScale.scale)
+        self.setScale(EarthScale.getScale())
+        self.setRotation(EarthRotate.getRotation())
     }
     
 }
