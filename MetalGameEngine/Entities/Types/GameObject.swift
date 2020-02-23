@@ -16,6 +16,10 @@ class GameObject: RotateableObject, Renderable {
     private var scale = SIMD3<Float>(1, 1, 1)
     var material = Material()
     
+    var parentModelMatrix = matrix_identity_float4x4
+    
+    private var children: [GameObject]?
+    
     init(_ mesh: MeshType) {
 //        self.modelUniforms.modelMatrix = matrix_identity_float4x4
         self.mesh = Entities.meshes[mesh]
@@ -25,7 +29,15 @@ class GameObject: RotateableObject, Renderable {
         super.doUpdate()
         
         self.modelMatrix.scale(axis: self.scale)
-        self.modelUniforms.modelMatrix = self.modelMatrix
+        self.modelUniforms.modelMatrix = matrix_multiply(self.parentModelMatrix, self.modelMatrix)
+        
+        if let children = self.children {
+            for child in children {
+                
+                child.parentModelMatrix = self.modelMatrix
+                child.doUpdate()
+            }
+        }
     }
     
     func doRender(_ renderCommandEncoder: MTLRenderCommandEncoder) {
@@ -40,6 +52,18 @@ class GameObject: RotateableObject, Renderable {
         renderCommandEncoder.setFragmentBytes(&material, length: Material.stride, index: FragmentBufferIndizes.material.rawValue)
         
         self.mesh.drawPrimitives(renderCommandEncoder)
+        
+        if let children = self.children {
+            for child in children {
+                child.doRender(renderCommandEncoder)
+            }
+        }
+    }
+    
+    func addChild(_ child: GameObject) -> Void {
+        if self.children?.append(child) == nil {
+            self.children = [child]
+        }
     }
     
 }

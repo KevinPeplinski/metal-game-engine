@@ -14,6 +14,10 @@ enum KPColor {
     case blue
     case white
     case black
+    
+    case earth_water
+    case earth_land
+    case earth_around
 }
 
 class ColorUtil {
@@ -41,6 +45,12 @@ class ColorUtil {
             return SIMD4<Float>(1, 1, 1, 1)
         case .black:
             return SIMD4<Float>(0, 0, 0, 1)
+        case .earth_water:
+            return SIMD4<Float>(15/255, 84/255, 117/255, 1)
+        case .earth_land:
+            return SIMD4<Float>(30/255, 130/255, 76/255, 1)
+        case .earth_around:
+            return SIMD4<Float>(25/255, 110/255, 60/255, 1)
         }
     }
     
