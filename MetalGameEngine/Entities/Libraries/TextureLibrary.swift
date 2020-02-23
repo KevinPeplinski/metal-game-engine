@@ -19,7 +19,7 @@ class TextureLibrary: Library<TextureType, MTLTexture> {
     
     override func fillLibrary() {
         
-        textures.updateValue(Texture("texture_land", ext: "jpg"), forKey: .earth)
+//        textures.updateValue(Texture("texture_land", ext: "jpg"), forKey: .earth)
         
     }
     

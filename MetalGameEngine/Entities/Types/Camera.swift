@@ -30,6 +30,7 @@ class Camera: RotateableObject, Renderable {
         
         self.cameraUniforms.viewMatrix = self.modelMatrix
         self.cameraUniforms.projectionMatrix = self.projectionMatrix
+        self.cameraUniforms.cameraPosition = self.getPosition()
     }
     
     func doRender(_ renderCommandEncoder: MTLRenderCommandEncoder) {

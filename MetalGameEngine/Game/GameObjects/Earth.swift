@@ -11,7 +11,9 @@ import Foundation
 class Earth: GameObject {
 
     init() {
-        super.init(.earth_land)
+        super.init(.earth_water)
+        
+        self.material.shininess = 1.2
     }
     
 }

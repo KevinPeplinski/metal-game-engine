@@ -53,10 +53,12 @@ typedef struct ModelUniforms {
 typedef struct CameraUniforms {
     simd_float4x4 viewMatrix;
     simd_float4x4 projectionMatrix;
+    simd_float3 cameraPosition;
 } CameraUniforms;
 
 typedef struct Material {
     simd_float4 color;
+    float shininess;
     
     ////    var useMaterialColor = false
     ////    var useTexture = false
