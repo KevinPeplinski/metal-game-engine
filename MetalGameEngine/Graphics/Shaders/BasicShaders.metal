@@ -32,6 +32,7 @@ vertex RastorizerData basic_vertex_shader(const VertexIn vIn [[ stage_in ]],
     rd.position = cameraUniforms.projectionMatrix * cameraUniforms.viewMatrix * worldSpacePosition;
     rd.worldSpacePosition = worldSpacePosition.xyz;
     rd.normal = (modelUniforms.modelMatrix * float4(vIn.normal, 1)).xyz;
+//    rd.normal = vIn.normal;
     
 //    rd.cameraPosition = cameraUniforms.cameraPosition;
     rd.cameraPosition = cameraUniforms.cameraPosition - worldSpacePosition.xyz;
@@ -50,7 +51,7 @@ fragment half4 basic_fragment_shader(RastorizerData rd [[ stage_in ]],
     // Diffuse
     float3 unitNormal = normalize(rd.normal);
     float3 unitLightDirection = normalize(lightData.position - rd.worldSpacePosition);
-    float diff = max(dot(unitNormal, unitLightDirection), 0.0);
+    float diff = max(dot(-unitNormal, unitLightDirection), 0.0);
     float3 diffuse = clamp(diff * lightData.color, 0.0, 1.0);
 
     // Specular
@@ -60,7 +61,7 @@ fragment half4 basic_fragment_shader(RastorizerData rd [[ stage_in ]],
     float3 specular = clamp(spec * lightData.color, 0.0, 1.0);
     
     
-    color = (ambient  + specular) * material.color.xyz;
+    color = (specular) * material.color.xyz;
     
     return half4(color.r, color.g, color.b, 1);
 }
