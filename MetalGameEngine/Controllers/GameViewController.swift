@@ -28,6 +28,31 @@ class GameViewController: UIViewController {
         
         Engine.ignite(device: metalView.device!)
     }
-
+    
+    @IBAction func handlePan(_ gesture: UIPanGestureRecognizer) {
+        guard let gestureView = gesture.view else {
+            return
+        }
+        switch gesture.state {
+        case .began:
+            print("")
+            EarthRotate.previousPanPoint = gesture.location(in: gestureView)
+        case .changed:
+            EarthRotate.rotate(gesture.location(in: gestureView))
+        default:
+            print("")
+            EarthRotate.previousPanPoint = nil
+        }
+    }
+    
+    @IBAction func handlePinch(_ gesture: UIPinchGestureRecognizer) {
+        print(Float(gesture.scale))
+        
+        EarthScale.scale(Float(gesture.scale))
+    }
+    
+    @IBAction func getRotation(_ sender: Any) {
+        print(EarthRotate.getRotation())
+    }
 }
 

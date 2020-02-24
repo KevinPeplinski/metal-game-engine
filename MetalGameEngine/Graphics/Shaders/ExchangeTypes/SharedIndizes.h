@@ -23,8 +23,9 @@
 
 typedef NS_ENUM(NSInteger, VertexAttributeIndizes)
 {
-    VertexAttributeIndizesPosition = 0,
-    VertexAttributeIndizesNormal   = 1,
+    VertexAttributeIndizesPosition      = 0,
+    VertexAttributeIndizesNormal        = 1,
+    VertexAttributeIndizesTextureCords  = 2,
 };
 
 typedef NS_ENUM(NSInteger, VertexBufferIndizes)
@@ -52,10 +53,12 @@ typedef struct ModelUniforms {
 typedef struct CameraUniforms {
     simd_float4x4 viewMatrix;
     simd_float4x4 projectionMatrix;
+    simd_float3 cameraPosition;
 } CameraUniforms;
 
 typedef struct Material {
     simd_float4 color;
+    float shininess;
     
     ////    var useMaterialColor = false
     ////    var useTexture = false

@@ -10,6 +10,7 @@ import MetalKit
 
 enum TextureType {
     case none
+    case earth
 }
 
 class TextureLibrary: Library<TextureType, MTLTexture> {
@@ -18,10 +19,7 @@ class TextureLibrary: Library<TextureType, MTLTexture> {
     
     override func fillLibrary() {
         
-//        textures.updateValue(Texture("Tree-Texture-715x715", ext: "jpg"), forKey: .tree)
-//        textures.updateValue(Texture("cat_diffuse", ext: "jpg", origin: .bottomLeft), forKey: .cat)
-//        textures.updateValue(Texture("cruiser", ext: "bmp", origin: .bottomLeft), forKey: .cruiser)
-//        textures.updateValue(Texture("Diffuse_2K", ext: "png"), forKey: .moon)
+//        textures.updateValue(Texture("texture_land", ext: "jpg"), forKey: .earth)
         
     }
     
