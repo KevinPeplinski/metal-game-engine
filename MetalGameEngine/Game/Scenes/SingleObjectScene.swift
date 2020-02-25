@@ -51,7 +51,7 @@ class SingleObjectScene: Scene {
 //        self.camera.rotateX(+, GameTime.deltaTime * 0.1)
 //        self.camera.rotateY(+, GameTime.deltaTime * 0.1)
         
-        self.light.moveZ(-, GameTime.deltaTime * 0.01)
+//        self.light.moveY(+, cos(GameTime.deltaTime))
         self.lightvisual.setPosition(self.light.getPosition())
 //        self.camera.rotateX(-, GameTime.deltaTime)
 //        self.camera.rotateY(-, GameTime.deltaTime)

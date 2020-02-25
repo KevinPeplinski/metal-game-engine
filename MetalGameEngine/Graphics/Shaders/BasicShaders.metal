@@ -61,7 +61,7 @@ fragment half4 basic_fragment_shader(RastorizerData rd [[ stage_in ]],
     float3 specular = clamp(spec * lightData.color, 0.0, 1.0);
     
     
-    color = (specular) * material.color.xyz;
+    color = (ambient  + specular) * material.color.xyz;
     
     return half4(color.r, color.g, color.b, 1);
 }

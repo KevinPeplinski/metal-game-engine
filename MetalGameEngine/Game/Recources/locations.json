@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1;
+        "name": "Berlin",
+        "name_de": "Berlin",
+        "long": 52.518611,
+        "lat": 13.408333
+    },
+    {
+        "id": 2,
+        "name": "Sydney",
+        "name_de": "Sydney",
+        "long": -33.85,
+        "lat": 151.2
+    }
+]
+
