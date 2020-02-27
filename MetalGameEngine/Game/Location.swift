@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+struct Location: Codable {
+    
+//    let id: UUID
+    let name: String
+    let country: String
+    let population: Int
+    let capital: Bool
+    let long: Float
+    let lat: Float
+    
+}

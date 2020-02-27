@@ -63,6 +63,7 @@
 		EA6D43F023F5AA27000A2989 /* Sizeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6D43EF23F5AA27000A2989 /* Sizeable.swift */; };
 		EAF5F465240559BA00733BC5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5F464240559BA00733BC5 /* Location.swift */; };
 		EAF5F46824055A1A00733BC5 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = EAF5F46724055A1A00733BC5 /* locations.json */; };
+		EAF5F46A2408139B00733BC5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5F4692408139B00733BC5 /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -126,6 +127,7 @@
 		EA6D43EF23F5AA27000A2989 /* Sizeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizeable.swift; sourceTree = "<group>"; };
 		EAF5F464240559BA00733BC5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		EAF5F46724055A1A00733BC5 /* locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		EAF5F4692408139B00733BC5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 				EA568B4023F82A7500AB2AA8 /* Scenes */,
 				EA63C2572402EF3800940CE3 /* Level.swift */,
 				EAF5F464240559BA00733BC5 /* Location.swift */,
+				EAF5F4692408139B00733BC5 /* Data.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -544,6 +547,7 @@
 				EA4D86EB2401580900A071A1 /* Earth.swift in Sources */,
 				EA56482F23F80EE3003D0379 /* Math.swift in Sources */,
 				EA6D43B423F594AD000A2989 /* Camera.swift in Sources */,
+				EAF5F46A2408139B00733BC5 /* Data.swift in Sources */,
 				EA6D43EA23F5A83B000A2989 /* GameTime.swift in Sources */,
 				EA568B4923F845CA00AB2AA8 /* MeshLibrary.swift in Sources */,
 				EA6D43A323F57B03000A2989 /* Renderer.swift in Sources */,

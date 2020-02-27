@@ -51,6 +51,9 @@ class GameViewController: UIViewController {
     
     @IBAction func getRotation(_ sender: Any) {
         print(EarthRotate.getRotation())
+        
+        printJSON(data)
+
     }
 }
 
