@@ -38,6 +38,7 @@ class Earth: GameObject {
         self.setRotation(EarthRotate.getRotation())
         
         self.setRotation(SIMD3<Float>(0.905826, 1.1405728, 0.0))
+        
     }
     
 }
