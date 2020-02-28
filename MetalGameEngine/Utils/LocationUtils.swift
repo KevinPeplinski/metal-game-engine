@@ -13,6 +13,10 @@ class LocationUtils {
         return locationsData[0]
     }
     
+    static func getShuffled() -> [Location] {
+        return locationsData.shuffled()
+    }
+    
     static func getRandomLocation() -> Location {
         let randomIndex = Int.random(in: 0..<locationsData.count)
         

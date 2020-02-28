@@ -65,7 +65,19 @@
 		EAF5F46824055A1A00733BC5 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = EAF5F46724055A1A00733BC5 /* locations.json */; };
 		EAF5F46A2408139B00733BC5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5F4692408139B00733BC5 /* Data.swift */; };
 		EAF5F46E2409461500733BC5 /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5F46D2409461500733BC5 /* LocationUtils.swift */; };
+		EAF5F4762409548E00733BC5 /* MetalGameEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5F4752409548E00733BC5 /* MetalGameEngineTests.swift */; };
+		EAF5F47E24095F8400733BC5 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5F47D24095F8400733BC5 /* Game.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAF5F4782409548E00733BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA6D437923F55C16000A2989 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA6D438023F55C16000A2989;
+			remoteInfo = MetalGameEngine;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EA1E02D723FC275400660F7D /* TextureLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureLibrary.swift; sourceTree = "<group>"; };
@@ -130,10 +142,21 @@
 		EAF5F46724055A1A00733BC5 /* locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		EAF5F4692408139B00733BC5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		EAF5F46D2409461500733BC5 /* LocationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUtils.swift; sourceTree = "<group>"; };
+		EAF5F4732409548E00733BC5 /* MetalGameEngineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalGameEngineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF5F4752409548E00733BC5 /* MetalGameEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalGameEngineTests.swift; sourceTree = "<group>"; };
+		EAF5F4772409548E00733BC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAF5F47D24095F8400733BC5 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EA6D437E23F55C16000A2989 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF5F4702409548E00733BC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,6 +212,7 @@
 				EA63C2572402EF3800940CE3 /* Level.swift */,
 				EAF5F464240559BA00733BC5 /* Location.swift */,
 				EAF5F4692408139B00733BC5 /* Data.swift */,
+				EAF5F47D24095F8400733BC5 /* Game.swift */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -232,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				EA6D438323F55C16000A2989 /* MetalGameEngine */,
+				EAF5F4742409548E00733BC5 /* MetalGameEngineTests */,
 				EA6D438223F55C16000A2989 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -240,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				EA6D438123F55C16000A2989 /* MetalGameEngine.app */,
+				EAF5F4732409548E00733BC5 /* MetalGameEngineTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -443,6 +469,15 @@
 			path = Recources;
 			sourceTree = "<group>";
 		};
+		EAF5F4742409548E00733BC5 /* MetalGameEngineTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAF5F4752409548E00733BC5 /* MetalGameEngineTests.swift */,
+				EAF5F4772409548E00733BC5 /* Info.plist */,
+			);
+			path = MetalGameEngineTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -463,6 +498,24 @@
 			productReference = EA6D438123F55C16000A2989 /* MetalGameEngine.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EAF5F4722409548E00733BC5 /* MetalGameEngineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAF5F47C2409548E00733BC5 /* Build configuration list for PBXNativeTarget "MetalGameEngineTests" */;
+			buildPhases = (
+				EAF5F46F2409548E00733BC5 /* Sources */,
+				EAF5F4702409548E00733BC5 /* Frameworks */,
+				EAF5F4712409548E00733BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAF5F4792409548E00733BC5 /* PBXTargetDependency */,
+			);
+			name = MetalGameEngineTests;
+			productName = MetalGameEngineTests;
+			productReference = EAF5F4732409548E00733BC5 /* MetalGameEngineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -476,6 +529,10 @@
 					EA6D438023F55C16000A2989 = {
 						CreatedOnToolsVersion = 11.1;
 						LastSwiftMigration = 1130;
+					};
+					EAF5F4722409548E00733BC5 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = EA6D438023F55C16000A2989;
 					};
 				};
 			};
@@ -493,6 +550,7 @@
 			projectRoot = "";
 			targets = (
 				EA6D438023F55C16000A2989 /* MetalGameEngine */,
+				EAF5F4722409548E00733BC5 /* MetalGameEngineTests */,
 			);
 		};
 /* End PBXProject section */
@@ -512,6 +570,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAF5F4712409548E00733BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -522,6 +587,7 @@
 				EA6D438923F55C16000A2989 /* GameViewController.swift in Sources */,
 				EA6D43D423F5A462000A2989 /* Library.swift in Sources */,
 				EA56482123F8051B003D0379 /* Updateable.swift in Sources */,
+				EAF5F47E24095F8400733BC5 /* Game.swift in Sources */,
 				EA6D43A623F58044000A2989 /* Preferences.swift in Sources */,
 				EA6D439A23F55E03000A2989 /* Engine.swift in Sources */,
 				EA6D43C923F5A388000A2989 /* RenderPipelineStateLibrary.swift in Sources */,
@@ -573,7 +639,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EAF5F46F2409548E00733BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAF5F4762409548E00733BC5 /* MetalGameEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAF5F4792409548E00733BC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA6D438023F55C16000A2989 /* MetalGameEngine */;
+			targetProxy = EAF5F4782409548E00733BC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EA6D438A23F55C16000A2989 /* Main.storyboard */ = {
@@ -750,6 +832,46 @@
 			};
 			name = Release;
 		};
+		EAF5F47A2409548E00733BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2GC378C6N;
+				INFOPLIST_FILE = MetalGameEngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.peplinski.MetalGameEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalGameEngine.app/MetalGameEngine";
+			};
+			name = Debug;
+		};
+		EAF5F47B2409548E00733BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E2GC378C6N;
+				INFOPLIST_FILE = MetalGameEngineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ninja.peplinski.MetalGameEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MetalGameEngine.app/MetalGameEngine";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -767,6 +889,15 @@
 			buildConfigurations = (
 				EA6D439623F55C19000A2989 /* Debug */,
 				EA6D439723F55C19000A2989 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAF5F47C2409548E00733BC5 /* Build configuration list for PBXNativeTarget "MetalGameEngineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAF5F47A2409548E00733BC5 /* Debug */,
+				EAF5F47B2409548E00733BC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
