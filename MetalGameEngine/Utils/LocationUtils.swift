@@ -18,4 +18,16 @@ class LocationUtils {
         
         return locationsData[randomIndex]
     }
+    
+    static func getLocationsByCountry(name: String) -> [Location] {
+        return locationsData.filter {
+            $0.country == name
+        }
+    }
+    
+    static func getCapitals() -> [Location] {
+        return locationsData.filter {
+            $0.capital
+        }
+    }
 }
