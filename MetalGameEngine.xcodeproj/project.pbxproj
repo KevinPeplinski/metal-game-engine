@@ -64,6 +64,7 @@
 		EAF5F465240559BA00733BC5 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5F464240559BA00733BC5 /* Location.swift */; };
 		EAF5F46824055A1A00733BC5 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = EAF5F46724055A1A00733BC5 /* locations.json */; };
 		EAF5F46A2408139B00733BC5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5F4692408139B00733BC5 /* Data.swift */; };
+		EAF5F46E2409461500733BC5 /* LocationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF5F46D2409461500733BC5 /* LocationUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,6 +129,7 @@
 		EAF5F464240559BA00733BC5 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		EAF5F46724055A1A00733BC5 /* locations.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		EAF5F4692408139B00733BC5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EAF5F46D2409461500733BC5 /* LocationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -426,6 +428,7 @@
 		EA6D43EC23F5A9E6000A2989 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				EAF5F46D2409461500733BC5 /* LocationUtils.swift */,
 				EA6D43ED23F5A9FD000A2989 /* ColorUtils.swift */,
 				EA6D43EF23F5AA27000A2989 /* Sizeable.swift */,
 			);
@@ -561,6 +564,7 @@
 				EA6D43C523F5A36A000A2989 /* FragmentShaderLibrary.swift in Sources */,
 				EA56482423F80691003D0379 /* BasicShaders.metal in Sources */,
 				EA6D43D623F5A4AD000A2989 /* Entities.swift in Sources */,
+				EAF5F46E2409461500733BC5 /* LocationUtils.swift in Sources */,
 				EA6D43B623F595AF000A2989 /* Renderable.swift in Sources */,
 				EA6D43AE23F59214000A2989 /* Scene.swift in Sources */,
 				EA63C2582402EF3800940CE3 /* Level.swift in Sources */,

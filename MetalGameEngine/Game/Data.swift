@@ -8,8 +8,6 @@
 
 import Foundation
 
-var data: [Location] = load("locations.json", as: [Location].self)
-
 func load<T: Codable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data
     
@@ -53,6 +51,31 @@ func encode<T: Codable>(obj: T) -> Data {
         return try encoder.encode(obj)
     } catch {
         fatalError("Couldn't encode")
+    }
+}
+
+func csvStringToArray(data: String) -> [[String]] {
+    var result: [[String]] = []
+    let rows = data.components(separatedBy: "\n")
+    for row in rows {
+        let columns = row.components(separatedBy: ",")
+        result.append(columns.map {
+            $0.replacingOccurrences(of: "\"", with: "")
+        })
+    }
+    return result
+}
+
+func readDataFromCSV(fileName:String, fileType: String) -> String!{
+    guard let filepath = Bundle.main.path(forResource: fileName, ofType: fileType)
+        else {
+            return nil
+    }
+    do {
+        return try String(contentsOfFile: filepath, encoding: .utf8)
+    } catch {
+        print("File Read Error for file \(filepath)")
+        return nil
     }
 }
 

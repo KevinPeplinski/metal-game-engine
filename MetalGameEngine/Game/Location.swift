@@ -8,12 +8,12 @@
 
 import Foundation
 
-struct Location: Codable {
+struct Location: Codable, Identifiable {
     
-//    let id: UUID
+    let id: UUID
     let name: String
     let country: String
-    let population: Int
+    let population: Float
     let capital: Bool
     let long: Float
     let lat: Float

@@ -1,21 +1,4088 @@
 [
-    {
-        "name": "Berlin",
-        "name_de": "Berlin",
-        "country": "Germany",
-        "population": 1234124,
-        "capital": true,
-        "long": 52.518611,
-        "lat": 13.408333
-    },
-    {
-        "name": "Sydney",
-        "name_de": "Sydney",
-        "country": "Australia",
-        "population": 1234124,
-        "capital": true,
-        "long": -33.85,
-        "lat": 151.2
-    }
+  {
+    "country" : "Japan",
+    "id" : "CEE25159-747C-4BE0-9A00-6862B707F763",
+    "capital" : true,
+    "population" : 35676000,
+    "lat" : 35.685001373291016,
+    "name" : "Tokyo",
+    "long" : 139.75140380859375
+  },
+  {
+    "country" : "Mexico",
+    "id" : "989F6916-54BD-4C14-86D9-7E83797DFBDF",
+    "capital" : true,
+    "population" : 19028000,
+    "lat" : 19.442399978637695,
+    "name" : "Mexico City",
+    "long" : -99.130996704101562
+  },
+  {
+    "country" : "India",
+    "id" : "110FDA1A-A033-41BB-A58A-AD5407A3629E",
+    "capital" : false,
+    "population" : 18978000,
+    "lat" : 19.017000198364258,
+    "name" : "Mumbai",
+    "long" : 72.857002258300781
+  },
+  {
+    "country" : "Brazil",
+    "id" : "71A6477B-A772-4656-9E5E-8B836E90C34C",
+    "capital" : false,
+    "population" : 18845000,
+    "lat" : -23.558700561523438,
+    "name" : "Sao Paulo",
+    "long" : -46.625
+  },
+  {
+    "country" : "India",
+    "id" : "BCB0C3EA-E9CB-4C81-B63A-8CFEF3E1403E",
+    "capital" : false,
+    "population" : 15926000,
+    "lat" : 28.670000076293945,
+    "name" : "Delhi",
+    "long" : 77.230003356933594
+  },
+  {
+    "country" : "China",
+    "id" : "C7E6B1EC-2B84-4707-B4C6-225698E17BEE",
+    "capital" : false,
+    "population" : 14987000,
+    "lat" : 31.216499328613281,
+    "name" : "Shanghai",
+    "long" : 121.43650054931641
+  },
+  {
+    "country" : "India",
+    "id" : "204C9270-4E69-4701-961B-887F48612CB9",
+    "capital" : false,
+    "population" : 14787000,
+    "lat" : 22.495000839233398,
+    "name" : "Kolkata",
+    "long" : 88.324699401855469
+  },
+  {
+    "country" : "Bangladesh",
+    "id" : "0D14C26E-291E-4E00-AD56-289C8B85CA2B",
+    "capital" : true,
+    "population" : 12797394,
+    "lat" : 23.723100662231445,
+    "name" : "Dhaka",
+    "long" : 90.408599853515625
+  },
+  {
+    "country" : "Pakistan",
+    "id" : "38FD902F-5459-4284-85D5-8BA7C0032CD2",
+    "capital" : false,
+    "population" : 12130000,
+    "lat" : 24.870000839233398,
+    "name" : "Karachi",
+    "long" : 66.989997863769531
+  },
+  {
+    "country" : "Egypt",
+    "id" : "31116FBF-9E2C-4BEC-84F7-4B0F76B1D2E7",
+    "capital" : true,
+    "population" : 11893000,
+    "lat" : 30.049999237060547,
+    "name" : "Cairo",
+    "long" : 31.25
+  },
+  {
+    "country" : "Brazil",
+    "id" : "19D23244-2F73-47D8-9DD5-C0F7B755A46D",
+    "capital" : false,
+    "population" : 11748000,
+    "lat" : -22.924999237060547,
+    "name" : "Rio de Janeiro",
+    "long" : -43.224998474121094
+  },
+  {
+    "country" : "Japan",
+    "id" : "9B2B3AD9-4B82-43BA-9E3D-BB4600A44850",
+    "capital" : false,
+    "population" : 11294000,
+    "lat" : 34.75,
+    "name" : "Osaka",
+    "long" : 135.46009826660156
+  },
+  {
+    "country" : "China",
+    "id" : "5337415C-12BE-4743-8BF7-D9B5736589C1",
+    "capital" : true,
+    "population" : 11106000,
+    "lat" : 39.928901672363281,
+    "name" : "Beijing",
+    "long" : 116.38829803466797
+  },
+  {
+    "country" : "Philippines",
+    "id" : "5C367DA3-04E1-481E-BC75-CEAFE1C2AA76",
+    "capital" : true,
+    "population" : 11100000,
+    "lat" : 14.60420036315918,
+    "name" : "Manila",
+    "long" : 120.98220062255859
+  },
+  {
+    "country" : "Russia",
+    "id" : "F564FB2B-0CEA-44C0-87E6-CF4A59BBB4ED",
+    "capital" : true,
+    "population" : 10452000,
+    "lat" : 55.752201080322266,
+    "name" : "Moscow",
+    "long" : 37.615501403808594
+  },
+  {
+    "country" : "Turkey",
+    "id" : "8BFE9072-3675-41C0-9E31-D1E9AE4046EF",
+    "capital" : false,
+    "population" : 10061000,
+    "lat" : 41.104999542236328,
+    "name" : "Istanbul",
+    "long" : 29.010000228881836
+  },
+  {
+    "country" : "France",
+    "id" : "937C339A-4A69-495D-8B9C-1614F99DA951",
+    "capital" : true,
+    "population" : 9904000,
+    "lat" : 48.86669921875,
+    "name" : "Paris",
+    "long" : 2.3333001136779785
+  },
+  {
+    "country" : "Nigeria",
+    "id" : "F6FF9851-1B23-4B90-BD57-D1A7662DC2EC",
+    "capital" : false,
+    "population" : 9466000,
+    "lat" : 6.4432997703552246,
+    "name" : "Lagos",
+    "long" : 3.3914999961853027
+  },
+  {
+    "country" : "Indonesia",
+    "id" : "03E2CE89-75B7-442B-8311-97D1B335C18A",
+    "capital" : true,
+    "population" : 9125000,
+    "lat" : -6.1743998527526855,
+    "name" : "Jakarta",
+    "long" : 106.82939910888672
+  },
+  {
+    "country" : "China",
+    "id" : "9B4E1FF9-35AA-42F9-AE43-DA63185009B8",
+    "capital" : false,
+    "population" : 8829000,
+    "lat" : 23.145000457763672,
+    "name" : "Guangzhou",
+    "long" : 113.32499694824219
+  },
+  {
+    "country" : "Peru",
+    "id" : "94FCB88C-33AB-4081-898A-8C05BD256093",
+    "capital" : true,
+    "population" : 8012000,
+    "lat" : -12.048000335693359,
+    "name" : "Lima",
+    "long" : -77.050102233886719
+  },
+  {
+    "country" : "Iran",
+    "id" : "5A136ED8-7F92-401C-98B6-707B3A63FF08",
+    "capital" : true,
+    "population" : 7873000,
+    "lat" : 35.671901702880859,
+    "name" : "Tehran",
+    "long" : 51.424301147460938
+  },
+  {
+    "country" : "Congo (Kinshasa)",
+    "id" : "7102B077-22DE-47E8-9513-58713ABD3102",
+    "capital" : true,
+    "population" : 7843000,
+    "lat" : -4.3296999931335449,
+    "name" : "Kinshasa",
+    "long" : 15.314999580383301
+  },
+  {
+    "country" : "Colombia",
+    "id" : "530CE14D-5434-4E83-9081-63EA7843DFD3",
+    "capital" : true,
+    "population" : 7772000,
+    "lat" : 4.5963997840881348,
+    "name" : "Bogota",
+    "long" : -74.083297729492188
+  },
+  {
+    "country" : "China",
+    "id" : "B7E96258-CA38-497B-9B0B-69E8CAE21412",
+    "capital" : false,
+    "population" : 7581000,
+    "lat" : 22.552400588989258,
+    "name" : "Shenzhen",
+    "long" : 114.12210083007812
+  },
+  {
+    "country" : "China",
+    "id" : "E7C05DF1-4529-46E7-BBBE-6EF7B0BE72D4",
+    "capital" : false,
+    "population" : 7243000,
+    "lat" : 30.579999923706055,
+    "name" : "Wuhan",
+    "long" : 114.26999664306641
+  },
+  {
+    "country" : "China",
+    "id" : "736A79F6-8D23-482E-827D-69F9D2AEAC80",
+    "capital" : false,
+    "population" : 7180000,
+    "lat" : 39.130001068115234,
+    "name" : "Tianjin",
+    "long" : 117.19999694824219
+  },
+  {
+    "country" : "India",
+    "id" : "3F22166A-5233-4EAD-A405-EA938010C464",
+    "capital" : false,
+    "population" : 7163000,
+    "lat" : 13.090000152587891,
+    "name" : "Chennai",
+    "long" : 80.279998779296875
+  },
+  {
+    "country" : "Taiwan",
+    "id" : "9E11902A-C8D4-4EF1-8EBA-DE6475104633",
+    "capital" : true,
+    "population" : 6900273,
+    "lat" : 25.035800933837891,
+    "name" : "Taipei",
+    "long" : 121.56829833984375
+  },
+  {
+    "country" : "India",
+    "id" : "7CEABE9D-5AF5-4043-BCCB-89DC16643E67",
+    "capital" : false,
+    "population" : 6787000,
+    "lat" : 12.970000267028809,
+    "name" : "Bengaluru",
+    "long" : 77.55999755859375
+  },
+  {
+    "country" : "Thailand",
+    "id" : "092B01AB-F0BC-4D45-87E9-FC098674A615",
+    "capital" : true,
+    "population" : 6704000,
+    "lat" : 13.75,
+    "name" : "Bangkok",
+    "long" : 100.5166015625
+  },
+  {
+    "country" : "Pakistan",
+    "id" : "9A6FB278-E111-47F2-984A-56F0EB543AC3",
+    "capital" : false,
+    "population" : 6577000,
+    "lat" : 31.559999465942383,
+    "name" : "Lahore",
+    "long" : 74.349998474121094
+  },
+  {
+    "country" : "China",
+    "id" : "AF7C1345-916F-4AD6-99D0-66BB7BCA6A1C",
+    "capital" : false,
+    "population" : 6461000,
+    "lat" : 29.565000534057617,
+    "name" : "Chongqing",
+    "long" : 106.59500122070312
+  },
+  {
+    "country" : "India",
+    "id" : "2084E223-2B8B-4E54-A2D9-E85EE84E1F97",
+    "capital" : false,
+    "population" : 6376000,
+    "lat" : 17.399999618530273,
+    "name" : "Hyderabad",
+    "long" : 78.480003356933594
+  },
+  {
+    "country" : "Chile",
+    "id" : "CA3B5E59-EAC9-4EA4-94A5-C40B8ED1A101",
+    "capital" : true,
+    "population" : 5720000,
+    "lat" : -33.450000762939453,
+    "name" : "Santiago",
+    "long" : -70.666999816894531
+  },
+  {
+    "country" : "Brazil",
+    "id" : "D2791F19-7C9E-4DD1-91DD-EF3B3890AA05",
+    "capital" : false,
+    "population" : 5575000,
+    "lat" : -19.915000915527344,
+    "name" : "Belo Horizonte",
+    "long" : -43.915000915527344
+  },
+  {
+    "country" : "Spain",
+    "id" : "BD30E59A-8E05-42FB-9F11-552D5ACF49A1",
+    "capital" : true,
+    "population" : 5567000,
+    "lat" : 40.400001525878906,
+    "name" : "Madrid",
+    "long" : -3.6833999156951904
+  },
+  {
+    "country" : "India",
+    "id" : "86C59175-0C66-4E59-AEBA-180308B75855",
+    "capital" : false,
+    "population" : 5375000,
+    "lat" : 23.030099868774414,
+    "name" : "Ahmadabad",
+    "long" : 72.580001831054688
+  },
+  {
+    "country" : "Vietnam",
+    "id" : "9EA69F0C-433C-4AAD-8518-8F20174153C3",
+    "capital" : false,
+    "population" : 5314000,
+    "lat" : 10.779999732971191,
+    "name" : "Ho Chi Minh City",
+    "long" : 106.69499969482422
+  },
+  {
+    "country" : "United States",
+    "id" : "A3B04DFB-D69F-4E12-ACE2-3FCA56543FCE",
+    "capital" : true,
+    "population" : 5289420,
+    "lat" : 38.904701232910156,
+    "name" : "Washington",
+    "long" : -77.01629638671875
+  },
+  {
+    "country" : "United States",
+    "id" : "7F453F11-2303-42C9-B372-0B55A7C67246",
+    "capital" : false,
+    "population" : 5228750,
+    "lat" : 33.762699127197266,
+    "name" : "Atlanta",
+    "long" : -84.422500610351562
+  },
+  {
+    "country" : "Canada",
+    "id" : "B205D1EB-3BF8-4E8D-B238-3A2EF0CA1347",
+    "capital" : false,
+    "population" : 5213000,
+    "lat" : 43.700000762939453,
+    "name" : "Toronto",
+    "long" : -79.419998168945312
+  },
+  {
+    "country" : "Singapore",
+    "id" : "58F6BDA3-0FA5-49B4-955A-67E044D4E6E5",
+    "capital" : true,
+    "population" : 5183700,
+    "lat" : 1.2929999828338623,
+    "name" : "Singapore",
+    "long" : 103.85579681396484
+  },
+  {
+    "country" : "Angola",
+    "id" : "2BE95637-8A09-4C23-BF5D-952004B90D49",
+    "capital" : true,
+    "population" : 5172900,
+    "lat" : -8.8382997512817383,
+    "name" : "Luanda",
+    "long" : 13.234399795532227
+  },
+  {
+    "country" : "Iraq",
+    "id" : "3E125A17-5DDB-4330-B663-0CB7B5405AC8",
+    "capital" : true,
+    "population" : 5054000,
+    "lat" : 33.338600158691406,
+    "name" : "Baghdad",
+    "long" : 44.393901824951172
+  },
+  {
+    "country" : "Spain",
+    "id" : "A4B36841-4FC0-445E-B46B-1C4CBDFD5176",
+    "capital" : false,
+    "population" : 4920000,
+    "lat" : 41.38330078125,
+    "name" : "Barcelona",
+    "long" : 2.1833999156951904
+  },
+  {
+    "country" : "China",
+    "id" : "0F2B8707-B03B-4CDF-8CE1-893470532CF1",
+    "capital" : false,
+    "population" : 4787000,
+    "lat" : 41.805000305175781,
+    "name" : "Shenyang",
+    "long" : 123.44999694824219
+  },
+  {
+    "country" : "Sudan",
+    "id" : "F2B27844-98A5-4134-A2C3-3538015BD3B4",
+    "capital" : true,
+    "population" : 4754000,
+    "lat" : 15.588100433349609,
+    "name" : "Khartoum",
+    "long" : 32.534198760986328
+  },
+  {
+    "country" : "United States",
+    "id" : "A04DAFEF-DA5A-4E89-BF3A-13AC8D91C9DB",
+    "capital" : false,
+    "population" : 4637537,
+    "lat" : 42.318801879882812,
+    "name" : "Boston",
+    "long" : -71.084602355957031
+  },
+  {
+    "country" : "Australia",
+    "id" : "7F6F1ED7-E6E5-4680-B87D-3E7057328597",
+    "capital" : false,
+    "population" : 4630000,
+    "lat" : -33.919998168945312,
+    "name" : "Sydney",
+    "long" : 151.18519592285156
+  },
+  {
+    "country" : "Russia",
+    "id" : "B4767436-7763-4141-8790-959A404605E3",
+    "capital" : false,
+    "population" : 4553000,
+    "lat" : 59.938999176025391,
+    "name" : "Saint Petersburg",
+    "long" : 30.315999984741211
+  },
+  {
+    "country" : "Bangladesh",
+    "id" : "7B5D5229-55B9-4382-8F02-13781BE84B72",
+    "capital" : false,
+    "population" : 4529000,
+    "lat" : 22.329999923706055,
+    "name" : "Chittagong",
+    "long" : 91.800003051757812
+  },
+  {
+    "country" : "China",
+    "id" : "34AA2E9C-D935-49B9-93C0-1385C7CF31D1",
+    "capital" : false,
+    "population" : 4528000,
+    "lat" : 23.048900604248047,
+    "name" : "Dongguan",
+    "long" : 113.74469757080078
+  },
+  {
+    "country" : "Saudi Arabia",
+    "id" : "D1A15AA0-9A21-446D-B6DD-24F225AD472E",
+    "capital" : true,
+    "population" : 4465000,
+    "lat" : 24.640800476074219,
+    "name" : "Riyadh",
+    "long" : 46.772701263427734
+  },
+  {
+    "country" : "Vietnam",
+    "id" : "911834F2-F500-4E9C-8E32-ED0F00A51477",
+    "capital" : true,
+    "population" : 4378000,
+    "lat" : 21.033300399780273,
+    "name" : "Hanoi",
+    "long" : 105.84999847412109
+  },
+  {
+    "country" : "Mexico",
+    "id" : "F4B6F2F9-28F2-4387-A79E-8DBAFE6660CD",
+    "capital" : false,
+    "population" : 4198000,
+    "lat" : 20.670000076293945,
+    "name" : "Guadalajara",
+    "long" : -103.33000183105469
+  },
+  {
+    "country" : "Australia",
+    "id" : "E5F62D5A-7BC2-4650-BB82-D4B5D2A241D2",
+    "capital" : false,
+    "population" : 4170000,
+    "lat" : -37.819999694824219,
+    "name" : "Melbourne",
+    "long" : 144.97500610351562
+  },
+  {
+    "country" : "Egypt",
+    "id" : "331D6F7E-1763-413F-BFB7-1F2709A4CF01",
+    "capital" : false,
+    "population" : 4165000,
+    "lat" : 31.200000762939453,
+    "name" : "Alexandria",
+    "long" : 29.950000762939453
+  },
+  {
+    "country" : "China",
+    "id" : "0C5B0529-9CE2-4BDF-B96C-5FD4393F5325",
+    "capital" : false,
+    "population" : 4123000,
+    "lat" : 30.670000076293945,
+    "name" : "Chengdu",
+    "long" : 104.06999969482422
+  },
+  {
+    "country" : "Burma",
+    "id" : "F2A7092F-AA68-4631-A3E5-A0A682E2C6D3",
+    "capital" : true,
+    "population" : 4088000,
+    "lat" : 16.78339958190918,
+    "name" : "Rangoon",
+    "long" : 96.166702270507812
+  },
+  {
+    "country" : "United States",
+    "id" : "2FEEA931-F750-47EF-889B-782B20741924",
+    "capital" : false,
+    "population" : 4081849,
+    "lat" : 33.572200775146484,
+    "name" : "Phoenix",
+    "long" : -112.08910369873047
+  },
+  {
+    "country" : "China",
+    "id" : "DFC35F89-EC0A-4640-9A61-83348BD2C60F",
+    "capital" : false,
+    "population" : 4009000,
+    "lat" : 34.275001525878906,
+    "name" : "Xi'an",
+    "long" : 108.89499664306641
+  },
+  {
+    "country" : "Brazil",
+    "id" : "6EB9D418-6F58-4B0C-AE6B-3026B3988234",
+    "capital" : false,
+    "population" : 3917000,
+    "lat" : -30.049999237060547,
+    "name" : "Porto Alegre",
+    "long" : -51.200000762939453
+  },
+  {
+    "country" : "Côte D’Ivoire",
+    "id" : "F35169DE-41BC-486F-A2FE-A243BE56CBC0",
+    "capital" : true,
+    "population" : 3802000,
+    "lat" : 5.320000171661377,
+    "name" : "Abidjan",
+    "long" : -4.0399999618530273
+  },
+  {
+    "country" : "Brazil",
+    "id" : "6C6E958C-4B15-405B-A3DF-06ED4AF79C5B",
+    "capital" : true,
+    "population" : 3716996,
+    "lat" : -15.783300399780273,
+    "name" : "Brasilia",
+    "long" : -47.916099548339844
+  },
+  {
+    "country" : "Turkey",
+    "id" : "7F2E1EC4-DE68-4212-BADE-B782CFABB434",
+    "capital" : true,
+    "population" : 3716000,
+    "lat" : 39.927200317382812,
+    "name" : "Ankara",
+    "long" : 32.864398956298828
+  },
+  {
+    "country" : "Mexico",
+    "id" : "CAAAC58A-8186-4E82-A727-ED1668640DCB",
+    "capital" : false,
+    "population" : 3712000,
+    "lat" : 25.670000076293945,
+    "name" : "Monterrey",
+    "long" : -100.33000183105469
+  },
+  {
+    "country" : "Japan",
+    "id" : "928AFE19-17B5-4C46-977B-68C243140051",
+    "capital" : false,
+    "population" : 3697894,
+    "lat" : 35.319999694824219,
+    "name" : "Yokohama",
+    "long" : 139.58000183105469
+  },
+  {
+    "country" : "China",
+    "id" : "F3678BFD-A98D-4C4A-A60C-20509E656949",
+    "capital" : false,
+    "population" : 3679000,
+    "lat" : 32.049999237060547,
+    "name" : "Nanjing",
+    "long" : 118.77999877929688
+  },
+  {
+    "country" : "China",
+    "id" : "F4E7F2E2-00AD-442F-954C-2FA47EE3268B",
+    "capital" : false,
+    "population" : 3662000,
+    "lat" : 26.579999923706055,
+    "name" : "Guiyang",
+    "long" : 106.72000122070312
+  },
+  {
+    "country" : "Brazil",
+    "id" : "4B91B4AB-854C-4EDB-B402-6516461D6399",
+    "capital" : false,
+    "population" : 3651000,
+    "lat" : -8.0755996704101562,
+    "name" : "Recife",
+    "long" : -34.915599822998047
+  },
+  {
+    "country" : "China",
+    "id" : "C9400B0C-B299-4027-958A-4D147AADB036",
+    "capital" : false,
+    "population" : 3621000,
+    "lat" : 45.75,
+    "name" : "Harbin",
+    "long" : 126.65000152587891
+  },
+  {
+    "country" : "Brazil",
+    "id" : "0D890CF3-B09C-4681-AD6B-44876FD71D33",
+    "capital" : false,
+    "population" : 3602319,
+    "lat" : -3.75,
+    "name" : "Fortaleza",
+    "long" : -38.580001831054688
+  },
+  {
+    "country" : "China",
+    "id" : "E106B8BE-48DA-4B9F-B3D2-812D9A040E69",
+    "capital" : false,
+    "population" : 3531147,
+    "lat" : 24.52039909362793,
+    "name" : "Zhangzhou",
+    "long" : 117.66999816894531
+  },
+  {
+    "country" : "Brazil",
+    "id" : "D97F379E-6558-49AE-A2CD-51A5763686AE",
+    "capital" : false,
+    "population" : 3484000,
+    "lat" : -12.970000267028809,
+    "name" : "Salvador",
+    "long" : -38.479999542236328
+  },
+  {
+    "country" : "South Africa",
+    "id" : "26C42CBA-4E04-4458-8A7A-6BAF4356741B",
+    "capital" : false,
+    "population" : 3435000,
+    "lat" : -26.170000076293945,
+    "name" : "Johannesburg",
+    "long" : 28.030000686645508
+  },
+  {
+    "country" : "Germany",
+    "id" : "F1AA9DE9-148B-439B-A040-D8246469D963",
+    "capital" : true,
+    "population" : 3406000,
+    "lat" : 52.521800994873047,
+    "name" : "Berlin",
+    "long" : 13.40149974822998
+  },
+  {
+    "country" : "Algeria",
+    "id" : "3F628A47-4B95-4CD6-B793-35BCD0ACCC6A",
+    "capital" : true,
+    "population" : 3354000,
+    "lat" : 36.763099670410156,
+    "name" : "Algiers",
+    "long" : 3.0506000518798828
+  },
+  {
+    "country" : "Italy",
+    "id" : "DA907800-F92F-4F83-BF3C-AE26F1A6772E",
+    "capital" : true,
+    "population" : 3339000,
+    "lat" : 41.895999908447266,
+    "name" : "Rome",
+    "long" : 12.48330020904541
+  },
+  {
+    "country" : "Colombia",
+    "id" : "09A443F9-4D3A-49CA-9991-95CDA7A869D7",
+    "capital" : false,
+    "population" : 3297000,
+    "lat" : 6.2750000953674316,
+    "name" : "Medellin",
+    "long" : -75.574996948242188
+  },
+  {
+    "country" : "Afghanistan",
+    "id" : "DA4CBEA1-A281-484F-A2E0-5124BA44A9D3",
+    "capital" : true,
+    "population" : 3277000,
+    "lat" : 34.516700744628906,
+    "name" : "Kabul",
+    "long" : 69.183296203613281
+  },
+  {
+    "country" : "Greece",
+    "id" : "E755A58C-A69D-437E-8F70-07F4315E6078",
+    "capital" : true,
+    "population" : 3242000,
+    "lat" : 37.983299255371094,
+    "name" : "Athens",
+    "long" : 23.733299255371094
+  },
+  {
+    "country" : "Japan",
+    "id" : "CF7207F7-1E15-48E3-A20B-AB3C8732FDB7",
+    "capital" : false,
+    "population" : 3230000,
+    "lat" : 35.154998779296875,
+    "name" : "Nagoya",
+    "long" : 136.91499328613281
+  },
+  {
+    "country" : "South Africa",
+    "id" : "2E208AB4-A25C-4A86-BDEA-8E951F03002B",
+    "capital" : true,
+    "population" : 3215000,
+    "lat" : -33.919998168945312,
+    "name" : "Cape Town",
+    "long" : 18.434999465942383
+  },
+  {
+    "country" : "China",
+    "id" : "03FB04E7-73B7-4ADC-8219-8FBB67BDA488",
+    "capital" : false,
+    "population" : 3183000,
+    "lat" : 43.865001678466797,
+    "name" : "Changchun",
+    "long" : 125.33999633789062
+  },
+  {
+    "country" : "Morocco",
+    "id" : "15DAE829-7201-4B3B-8A32-63BFDAA6B4BD",
+    "capital" : false,
+    "population" : 3181000,
+    "lat" : 33.599998474121094,
+    "name" : "Casablanca",
+    "long" : -7.6163997650146484
+  },
+  {
+    "country" : "Nigeria",
+    "id" : "7F202310-639A-4ACD-A6E3-1A36DC9BDB23",
+    "capital" : false,
+    "population" : 3140000,
+    "lat" : 12,
+    "name" : "Kano",
+    "long" : 8.5200004577636719
+  },
+  {
+    "country" : "Israel",
+    "id" : "A4B662F8-03DB-42E2-9E4C-24866EA95CFD",
+    "capital" : false,
+    "population" : 3112000,
+    "lat" : 32.080001831054688,
+    "name" : "Tel Aviv-Yafo",
+    "long" : 34.770000457763672
+  },
+  {
+    "country" : "Ethiopia",
+    "id" : "8FE354D8-AF10-4E10-B7C3-990CB7022806",
+    "capital" : true,
+    "population" : 3100000,
+    "lat" : 9.0333003997802734,
+    "name" : "Addis Ababa",
+    "long" : 38.700000762939453
+  },
+  {
+    "country" : "Brazil",
+    "id" : "3A30C260-64E6-43F5-8A2A-F9D0C2E10F0A",
+    "capital" : false,
+    "population" : 3084000,
+    "lat" : -25.420000076293945,
+    "name" : "Curitiba",
+    "long" : -49.319999694824219
+  },
+  {
+    "country" : "Kenya",
+    "id" : "A6A591AA-D336-4748-AFD5-148716ECABA5",
+    "capital" : true,
+    "population" : 3010000,
+    "lat" : -1.2833000421524048,
+    "name" : "Nairobi",
+    "long" : 36.816699981689453
+  },
+  {
+    "country" : "China",
+    "id" : "2C9D32F3-5DCD-43DE-A5EA-549D3F271700",
+    "capital" : false,
+    "population" : 3007000,
+    "lat" : 30.25,
+    "name" : "Hangzhou",
+    "long" : 120.16999816894531
+  },
+  {
+    "country" : "Venezuela",
+    "id" : "5FB5BDDC-A0EC-425A-B58D-A76F2B2A587B",
+    "capital" : true,
+    "population" : 2985000,
+    "lat" : 10.50100040435791,
+    "name" : "Caracas",
+    "long" : -66.916999816894531
+  },
+  {
+    "country" : "Italy",
+    "id" : "257CCD75-C964-4821-9465-4C7B82559926",
+    "capital" : false,
+    "population" : 2945000,
+    "lat" : 45.470001220703125,
+    "name" : "Milan",
+    "long" : 9.2049999237060547
+  },
+  {
+    "country" : "Germany",
+    "id" : "F238D249-FB4D-465C-BDF8-270CD6D2D567",
+    "capital" : false,
+    "population" : 2944700,
+    "lat" : 48.779998779296875,
+    "name" : "Stuttgart",
+    "long" : 9.1999998092651367
+  },
+  {
+    "country" : "China",
+    "id" : "821DC124-3702-46F0-83F2-E4E26D985479",
+    "capital" : false,
+    "population" : 2931000,
+    "lat" : 25.069999694824219,
+    "name" : "Kunming",
+    "long" : 102.68000030517578
+  },
+  {
+    "country" : "Tanzania",
+    "id" : "5E8893A8-5278-4BE7-9E90-03720982CB99",
+    "capital" : true,
+    "population" : 2930000,
+    "lat" : -6.8000001907348633,
+    "name" : "Dar es Salaam",
+    "long" : 39.268299102783203
+  },
+  {
+    "country" : "India",
+    "id" : "AAD033AD-8E4B-435B-8009-E77CABEBBE6F",
+    "capital" : false,
+    "population" : 2917000,
+    "lat" : 26.921100616455078,
+    "name" : "Jaipur",
+    "long" : 75.80999755859375
+  },
+  {
+    "country" : "China",
+    "id" : "49E6B9B8-7317-4AC3-9B73-2E1BB7756633",
+    "capital" : false,
+    "population" : 2913000,
+    "lat" : 37.875,
+    "name" : "Taiyuan",
+    "long" : 112.54509735107422
+  },
+  {
+    "country" : "Germany",
+    "id" : "5D0BB3F9-D0F4-4388-BAFC-162C195B2F39",
+    "capital" : false,
+    "population" : 2895000,
+    "lat" : 50.099998474121094,
+    "name" : "Frankfurt",
+    "long" : 8.6750001907348633
+  },
+  {
+    "country" : "China",
+    "id" : "C62D23E1-57FF-41C1-9913-5388ABF48C67",
+    "capital" : false,
+    "population" : 2866000,
+    "lat" : 36.090000152587891,
+    "name" : "Qingdao",
+    "long" : 120.33000183105469
+  },
+  {
+    "country" : "Indonesia",
+    "id" : "2C681F52-C996-405E-BA27-8AF26A2B439B",
+    "capital" : false,
+    "population" : 2845000,
+    "lat" : -7.2491998672485352,
+    "name" : "Surabaya",
+    "long" : 112.75080108642578
+  },
+  {
+    "country" : "Portugal",
+    "id" : "EE1CECE8-CD00-499B-9B5B-C2E3A5180FA2",
+    "capital" : true,
+    "population" : 2812000,
+    "lat" : 38.722698211669922,
+    "name" : "Lisbon",
+    "long" : -9.1449003219604492
+  },
+  {
+    "country" : "China",
+    "id" : "89061E5A-7B2B-4EB3-B3B6-5D3DC7846DCE",
+    "capital" : false,
+    "population" : 2798000,
+    "lat" : 36.674999237060547,
+    "name" : "Jinan",
+    "long" : 116.99500274658203
+  },
+  {
+    "country" : "Japan",
+    "id" : "AFF24536-B2C2-494C-8FD2-C0F5E05B700A",
+    "capital" : false,
+    "population" : 2792000,
+    "lat" : 33.595001220703125,
+    "name" : "Fukuoka",
+    "long" : 130.41000366210938
+  },
+  {
+    "country" : "United States",
+    "id" : "72CD99ED-E60D-42D6-8BB1-F7CF3A0E99F2",
+    "capital" : false,
+    "population" : 2787266,
+    "lat" : 39.762100219726562,
+    "name" : "Denver",
+    "long" : -104.87590026855469
+  },
+  {
+    "country" : "Taiwan",
+    "id" : "3F0733BA-27AE-4235-B9AE-197F6A102BA0",
+    "capital" : false,
+    "population" : 2769072,
+    "lat" : 22.63330078125,
+    "name" : "Kaohsiung",
+    "long" : 120.2666015625
+  },
+  {
+    "country" : "Philippines",
+    "id" : "24826CB5-4CBD-4CE4-A69C-E11652B51EDA",
+    "capital" : false,
+    "population" : 2761720,
+    "lat" : 14.650400161743164,
+    "name" : "Quezon City",
+    "long" : 121.02999877929688
+  },
+  {
+    "country" : "Poland",
+    "id" : "B659C00D-25CE-4565-B888-E15B5B34803E",
+    "capital" : false,
+    "population" : 2746000,
+    "lat" : 50.260398864746094,
+    "name" : "Katowice",
+    "long" : 19.020000457763672
+  },
+  {
+    "country" : "Syria",
+    "id" : "E74867D1-222C-45EF-8390-03A192CDD20B",
+    "capital" : false,
+    "population" : 2738000,
+    "lat" : 36.229999542236328,
+    "name" : "Aleppo",
+    "long" : 37.169998168945312
+  },
+  {
+    "country" : "India",
+    "id" : "B2F0C300-AF8C-49D8-9706-1BDF8336A1A6",
+    "capital" : false,
+    "population" : 2695000,
+    "lat" : 26.854999542236328,
+    "name" : "Lucknow",
+    "long" : 80.915000915527344
+  },
+  {
+    "country" : "Egypt",
+    "id" : "DDC7EE26-5B36-490B-B454-F78DB853844D",
+    "capital" : false,
+    "population" : 2681863,
+    "lat" : 30.010000228881836,
+    "name" : "Giza",
+    "long" : 31.190000534057617
+  },
+  {
+    "country" : "China",
+    "id" : "48C901B4-A978-4C25-97A3-735B69395BF9",
+    "capital" : false,
+    "population" : 2636000,
+    "lat" : 34.755001068115234,
+    "name" : "Zhengzhou",
+    "long" : 113.66510009765625
+  },
+  {
+    "country" : "Taiwan",
+    "id" : "7BE8FC33-6117-450B-B62F-B87FAF01F71A",
+    "capital" : false,
+    "population" : 2629323,
+    "lat" : 24.152099609375,
+    "name" : "Taichung",
+    "long" : 120.68170166015625
+  },
+  {
+    "country" : "Nigeria",
+    "id" : "F5215A81-DB5D-4401-AD69-3F40A3252942",
+    "capital" : false,
+    "population" : 2628000,
+    "lat" : 7.380000114440918,
+    "name" : "Ibadan",
+    "long" : 3.9300000667572021
+  },
+  {
+    "country" : "Pakistan",
+    "id" : "805DEC79-6D0F-4CF0-9501-B7A54FB8FB6E",
+    "capital" : false,
+    "population" : 2617000,
+    "lat" : 31.409999847412109,
+    "name" : "Faisalabad",
+    "long" : 73.110000610351562
+  },
+  {
+    "country" : "China",
+    "id" : "2D492A7D-7907-42BB-A733-B9A07DB4BA6F",
+    "capital" : false,
+    "population" : 2606000,
+    "lat" : 26.079999923706055,
+    "name" : "Fuzhou",
+    "long" : 119.30000305175781
+  },
+  {
+    "country" : "China",
+    "id" : "3EF62610-F654-4BD3-890C-020D9C39D2A7",
+    "capital" : false,
+    "population" : 2604000,
+    "lat" : 28.200000762939453,
+    "name" : "Changsha",
+    "long" : 112.97000122070312
+  },
+  {
+    "country" : "Senegal",
+    "id" : "38F89F54-5CC8-4DCD-81D7-4CA3E185A7DB",
+    "capital" : true,
+    "population" : 2604000,
+    "lat" : 14.715800285339355,
+    "name" : "Dakar",
+    "long" : -17.473100662231445
+  },
+  {
+    "country" : "Turkey",
+    "id" : "33ACB002-40DE-4F40-BAE5-A999E1000A97",
+    "capital" : false,
+    "population" : 2587000,
+    "lat" : 38.436100006103516,
+    "name" : "Izmir",
+    "long" : 27.151800155639648
+  },
+  {
+    "country" : "China",
+    "id" : "2B963435-AE4C-4515-B21B-7B37EE1FE20C",
+    "capital" : false,
+    "population" : 2561000,
+    "lat" : 36.055999755859375,
+    "name" : "Lanzhou",
+    "long" : 103.79199981689453
+  },
+  {
+    "country" : "Japan",
+    "id" : "EB64C200-224C-481F-8611-65909CB187F4",
+    "capital" : false,
+    "population" : 2544000,
+    "lat" : 43.075000762939453,
+    "name" : "Sapporo",
+    "long" : 141.33999633789062
+  },
+  {
+    "country" : "China",
+    "id" : "8EF602BB-1C48-486F-8CA6-4DC9BB9A3F5F",
+    "capital" : false,
+    "population" : 2519000,
+    "lat" : 24.450000762939453,
+    "name" : "Xiamen",
+    "long" : 118.08000183105469
+  },
+  {
+    "country" : "Ecuador",
+    "id" : "73E617FA-C8F1-420C-8863-86AABE2B4814",
+    "capital" : false,
+    "population" : 2514000,
+    "lat" : -2.2200000286102295,
+    "name" : "Guayaquil",
+    "long" : -79.919998168945312
+  },
+  {
+    "country" : "Malaysia",
+    "id" : "A29040FD-CF11-4C2C-8C51-DFB1BAF06164",
+    "capital" : false,
+    "population" : 2500000,
+    "lat" : 5.413599967956543,
+    "name" : "George Town",
+    "long" : 100.32939910888672
+  },
+  {
+    "country" : "Iran",
+    "id" : "4628BEB7-CFC8-4CA5-910B-785076FCBCFC",
+    "capital" : false,
+    "population" : 2469000,
+    "lat" : 36.270000457763672,
+    "name" : "Mashhad",
+    "long" : 59.569999694824219
+  },
+  {
+    "country" : "Syria",
+    "id" : "A70386F1-B1AA-44B0-AAE9-88AC189375D5",
+    "capital" : true,
+    "population" : 2466000,
+    "lat" : 33.5,
+    "name" : "Damascus",
+    "long" : 36.299999237060547
+  },
+  {
+    "country" : "China",
+    "id" : "816A529F-12B5-4712-BD46-5C151CA55BFD",
+    "capital" : false,
+    "population" : 2426000,
+    "lat" : 40.750301361083984,
+    "name" : "Lianshan",
+    "long" : 120.83000183105469
+  },
+  {
+    "country" : "China",
+    "id" : "DA078D01-A951-483B-BD70-3031A5D1ACC7",
+    "capital" : false,
+    "population" : 2417000,
+    "lat" : 38.049999237060547,
+    "name" : "Shijiazhuang",
+    "long" : 114.48000335693359
+  },
+  {
+    "country" : "Tunisia",
+    "id" : "420D68C0-D22D-4176-A120-3891A2DE9AF6",
+    "capital" : true,
+    "population" : 2412500,
+    "lat" : 36.802799224853516,
+    "name" : "Tunis",
+    "long" : 10.179699897766113
+  },
+  {
+    "country" : "Austria",
+    "id" : "A9FBCFAE-C8EE-43DA-B52F-F94321CAA49A",
+    "capital" : true,
+    "population" : 2400000,
+    "lat" : 48.200000762939453,
+    "name" : "Vienna",
+    "long" : 16.366600036621094
+  },
+  {
+    "country" : "Indonesia",
+    "id" : "3B5CF2E8-935A-4625-9971-293016FA1F59",
+    "capital" : false,
+    "population" : 2394000,
+    "lat" : -6.9499998092651367,
+    "name" : "Bandung",
+    "long" : 107.56999969482422
+  },
+  {
+    "country" : "Germany",
+    "id" : "BC4FFBAF-1AE8-4356-99D0-111A367CD9CA",
+    "capital" : false,
+    "population" : 2362000,
+    "lat" : 49.500400543212891,
+    "name" : "Mannheim",
+    "long" : 8.4700002670288086
+  },
+  {
+    "country" : "China",
+    "id" : "3AB9F960-AD39-45C9-97CE-33A271079919",
+    "capital" : false,
+    "population" : 2350000,
+    "lat" : 28.680000305175781,
+    "name" : "Nanchang",
+    "long" : 115.87999725341797
+  },
+  {
+    "country" : "United Kingdom",
+    "id" : "4FDCED7D-6210-4324-994E-EDC92B9CDE14",
+    "capital" : false,
+    "population" : 2285000,
+    "lat" : 52.474998474121094,
+    "name" : "Birmingham",
+    "long" : -1.9199999570846558
+  },
+  {
+    "country" : "Colombia",
+    "id" : "BB0F4CF5-98DC-4BB1-B56D-4CC8F7C8B675",
+    "capital" : false,
+    "population" : 2254000,
+    "lat" : 3.4000000953674316,
+    "name" : "Cali",
+    "long" : -76.5
+  },
+  {
+    "country" : "Italy",
+    "id" : "7AD1BC24-AAC6-4962-816A-8E02EC1B741B",
+    "capital" : false,
+    "population" : 2250000,
+    "lat" : 40.840000152587891,
+    "name" : "Naples",
+    "long" : 14.244999885559082
+  },
+  {
+    "country" : "Japan",
+    "id" : "788D6888-23A3-47D4-9F41-9139C5198EB7",
+    "capital" : false,
+    "population" : 2250000,
+    "lat" : 38.287101745605469,
+    "name" : "Sendai",
+    "long" : 141.02169799804688
+  },
+  {
+    "country" : "United Kingdom",
+    "id" : "45F7CCE0-8E8C-445B-912F-8B64AF064E1B",
+    "capital" : false,
+    "population" : 2230000,
+    "lat" : 53.500400543212891,
+    "name" : "Manchester",
+    "long" : -2.247999906539917
+  },
+  {
+    "country" : "Mexico",
+    "id" : "DA92375D-FC93-4493-8066-29898A984D31",
+    "capital" : false,
+    "population" : 2195000,
+    "lat" : 19.049999237060547,
+    "name" : "Puebla",
+    "long" : -98.199996948242188
+  },
+  {
+    "country" : "Libya",
+    "id" : "4C01EACC-D08F-4390-A4C8-70E86F560883",
+    "capital" : true,
+    "population" : 2189000,
+    "lat" : 32.892501831054688,
+    "name" : "Tripoli",
+    "long" : 13.180000305175781
+  },
+  {
+    "country" : "Uzbekistan",
+    "id" : "2C019B25-E1A1-4827-B121-FDD2A4068069",
+    "capital" : true,
+    "population" : 2184000,
+    "lat" : 41.311698913574219,
+    "name" : "Tashkent",
+    "long" : 69.294898986816406
+  },
+  {
+    "country" : "Cuba",
+    "id" : "9C6B6415-11ED-4E96-88E9-F494F8A9ACDC",
+    "capital" : true,
+    "population" : 2174000,
+    "lat" : 23.131999969482422,
+    "name" : "Havana",
+    "long" : -82.36419677734375
+  },
+  {
+    "country" : "China",
+    "id" : "0BD7BEAE-967B-4F14-B014-F429F38E4FD7",
+    "capital" : false,
+    "population" : 2174000,
+    "lat" : 30.780399322509766,
+    "name" : "Gaoping",
+    "long" : 106.12999725341797
+  },
+  {
+    "country" : "China",
+    "id" : "E6A43F53-7E4B-496D-82F1-A59C3919ED8F",
+    "capital" : false,
+    "population" : 2167000,
+    "lat" : 22.819999694824219,
+    "name" : "Nanning",
+    "long" : 108.31999969482422
+  },
+  {
+    "country" : "Brazil",
+    "id" : "5F4E0A47-0CC0-4229-B8ED-F8CF527E419F",
+    "capital" : false,
+    "population" : 2167000,
+    "lat" : -1.4500000476837158,
+    "name" : "Belem",
+    "long" : -48.479999542236328
+  },
+  {
+    "country" : "India",
+    "id" : "236A0C68-8177-4E69-AD91-A1381837D8E2",
+    "capital" : false,
+    "population" : 2158000,
+    "lat" : 25.625,
+    "name" : "Patna",
+    "long" : 85.129997253417969
+  },
+  {
+    "country" : "Dominican Republic",
+    "id" : "9FEDBF83-EC2A-4526-9A09-9BC78006E8E8",
+    "capital" : true,
+    "population" : 2154000,
+    "lat" : 18.470100402832031,
+    "name" : "Santo Domingo",
+    "long" : -69.900100708007812
+  },
+  {
+    "country" : "China",
+    "id" : "886D2AC8-B5A7-49CF-B33A-CA57253373A0",
+    "capital" : false,
+    "population" : 2151000,
+    "lat" : 43.805000305175781,
+    "name" : "Urumqi",
+    "long" : 87.574996948242188
+  },
+  {
+    "country" : "Azerbaijan",
+    "id" : "C4A64427-C3CF-47B9-AEF5-051D966B58B4",
+    "capital" : true,
+    "population" : 2122300,
+    "lat" : 40.395301818847656,
+    "name" : "Baku",
+    "long" : 49.862201690673828
+  },
+  {
+    "country" : "Ghana",
+    "id" : "6C8CEF5C-ECF4-4D96-9FC5-929BC457D4F8",
+    "capital" : true,
+    "population" : 2121000,
+    "lat" : 5.5500001907348633,
+    "name" : "Accra",
+    "long" : -0.2167000025510788
+  },
+  {
+    "country" : "Indonesia",
+    "id" : "EDBF7153-EF96-4EAF-8CF5-AC614D2AFC03",
+    "capital" : false,
+    "population" : 2115000,
+    "lat" : 3.5799999237060547,
+    "name" : "Medan",
+    "long" : 98.650001525878906
+  },
+  {
+    "country" : "China",
+    "id" : "B2EEB973-FC73-44F7-AD13-4435E9A15493",
+    "capital" : false,
+    "population" : 2091000,
+    "lat" : 34.279998779296875,
+    "name" : "Tongshan",
+    "long" : 117.18000030517578
+  },
+  {
+    "country" : "Venezuela",
+    "id" : "F3D52F6B-5A80-4D3C-B1D3-23B927BFB935",
+    "capital" : false,
+    "population" : 2072000,
+    "lat" : 10.729999542236328,
+    "name" : "Maracaibo",
+    "long" : -71.660003662109375
+  },
+  {
+    "country" : "Kuwait",
+    "id" : "14863830-5476-4578-A6E9-4AD3AAF1E692",
+    "capital" : true,
+    "population" : 2063000,
+    "lat" : 29.369699478149414,
+    "name" : "Kuwait City",
+    "long" : 47.978298187255859
+  },
+  {
+    "country" : "Saudi Arabia",
+    "id" : "45B22C0D-8B33-4C78-8CAD-295421D9605D",
+    "capital" : false,
+    "population" : 2054710,
+    "lat" : 26.428199768066406,
+    "name" : "Ad Dammam",
+    "long" : 50.099700927734375
+  },
+  {
+    "country" : "China",
+    "id" : "DBFD1166-5756-4775-9110-66A95D5F3389",
+    "capital" : false,
+    "population" : 2046189,
+    "lat" : 20.049999237060547,
+    "name" : "Haikou",
+    "long" : 110.31999969482422
+  },
+  {
+    "country" : "Japan",
+    "id" : "20673BA3-34EA-4B55-B21E-BAAAB14FB424",
+    "capital" : false,
+    "population" : 2045000,
+    "lat" : 34.387798309326172,
+    "name" : "Hiroshima",
+    "long" : 132.44290161132812
+  },
+  {
+    "country" : "China",
+    "id" : "8FB598C6-1BCC-4F79-B709-895FF3076454",
+    "capital" : false,
+    "population" : 2035000,
+    "lat" : 31.850000381469727,
+    "name" : "Hefei",
+    "long" : 117.27999877929688
+  },
+  {
+    "country" : "Brazil",
+    "id" : "6DDAF549-2AFF-4632-B454-E6A3686AAEA4",
+    "capital" : false,
+    "population" : 2022000,
+    "lat" : -16.719999313354492,
+    "name" : "Goiania",
+    "long" : -49.299999237060547
+  },
+  {
+    "country" : "Yemen",
+    "id" : "D49A7ACB-717E-46BC-A5D7-F9A92841B574",
+    "capital" : true,
+    "population" : 2008000,
+    "lat" : 15.354700088500977,
+    "name" : "Sanaa",
+    "long" : 44.206600189208984
+  },
+  {
+    "country" : "Haiti",
+    "id" : "2307537E-1961-4DD6-83AF-831833BB8C96",
+    "capital" : true,
+    "population" : 1998000,
+    "lat" : 18.541000366210938,
+    "name" : "Port-au-Prince",
+    "long" : -72.33599853515625
+  },
+  {
+    "country" : "Vietnam",
+    "id" : "1BFA8FCB-C33F-4217-B7BE-DE144C68416F",
+    "capital" : false,
+    "population" : 1969000,
+    "lat" : 20.829999923706055,
+    "name" : "Haiphong",
+    "long" : 106.68009948730469
+  },
+  {
+    "country" : "Romania",
+    "id" : "BFA92D98-A66A-435A-B3DD-7F77F7619F47",
+    "capital" : true,
+    "population" : 1942000,
+    "lat" : 44.433399200439453,
+    "name" : "Bucharest",
+    "long" : 26.099899291992188
+  },
+  {
+    "country" : "China",
+    "id" : "FF8CA93C-76E9-49FF-BF23-16D1D1CFA5B8",
+    "capital" : false,
+    "population" : 1923000,
+    "lat" : 29.879999160766602,
+    "name" : "Ningbo",
+    "long" : 121.55000305175781
+  },
+  {
+    "country" : "Cameroon",
+    "id" : "38F18E09-BDB9-4CAE-B17D-F70F4CEA439A",
+    "capital" : false,
+    "population" : 1906000,
+    "lat" : 4.0604000091552734,
+    "name" : "Douala",
+    "long" : 9.7100000381469727
+  },
+  {
+    "country" : "Taiwan",
+    "id" : "97F3A01E-0083-4018-AB33-0DE4965DAC24",
+    "capital" : false,
+    "population" : 1876312,
+    "lat" : 23,
+    "name" : "Tainan",
+    "long" : 120.19999694824219
+  },
+  {
+    "country" : "China",
+    "id" : "6A896863-581D-477E-9E92-31F7D9C82FB8",
+    "capital" : false,
+    "population" : 1873000,
+    "lat" : 40.080001831054688,
+    "name" : "Xiping",
+    "long" : 113.30000305175781
+  },
+  {
+    "country" : "Paraguay",
+    "id" : "9F82C076-ACFE-489A-8FDB-2A47842C2F97",
+    "capital" : true,
+    "population" : 1870000,
+    "lat" : -25.29640007019043,
+    "name" : "Asuncion",
+    "long" : -57.641498565673828
+  },
+  {
+    "country" : "Pakistan",
+    "id" : "3DF33DEE-9ED9-4E42-9B67-57892F971FE5",
+    "capital" : false,
+    "population" : 1860310,
+    "lat" : 34.75,
+    "name" : "Saidu Sharif",
+    "long" : 72.349998474121094
+  },
+  {
+    "country" : "Australia",
+    "id" : "3D70B0F9-9F52-40E3-B5E0-2350BC187FDB",
+    "capital" : false,
+    "population" : 1860000,
+    "lat" : -27.454999923706055,
+    "name" : "Brisbane",
+    "long" : 153.03509521484375
+  },
+  {
+    "country" : "Pakistan",
+    "id" : "C5DC8B34-1268-4E0A-BFAF-DA29067F31F9",
+    "capital" : false,
+    "population" : 1858000,
+    "lat" : 33.599998474121094,
+    "name" : "Rawalpindi",
+    "long" : 73.040000915527344
+  },
+  {
+    "country" : "United States",
+    "id" : "D2E2B3F6-C0C3-406E-933E-6E84874B6AFF",
+    "capital" : false,
+    "population" : 1854698,
+    "lat" : 38.566699981689453,
+    "name" : "Sacramento",
+    "long" : -121.46829986572266
+  },
+  {
+    "country" : "Lebanon",
+    "id" : "29CDC1A0-2F9B-4A4C-A7CF-4FD51AED9123",
+    "capital" : true,
+    "population" : 1846000,
+    "lat" : 33.872001647949219,
+    "name" : "Beirut",
+    "long" : 35.509700775146484
+  },
+  {
+    "country" : "Belarus",
+    "id" : "94E7766F-30DB-487C-9469-3F395A0AEB53",
+    "capital" : true,
+    "population" : 1805000,
+    "lat" : 53.900001525878906,
+    "name" : "Minsk",
+    "long" : 27.566600799560547
+  },
+  {
+    "country" : "Japan",
+    "id" : "9A311989-96E5-4786-9A0E-E935766D238E",
+    "capital" : false,
+    "population" : 1805000,
+    "lat" : 35.029998779296875,
+    "name" : "Kyoto",
+    "long" : 135.75
+  },
+  {
+    "country" : "Colombia",
+    "id" : "38A2FE16-1245-4E2A-B3C3-202B9718CCF6",
+    "capital" : false,
+    "population" : 1798000,
+    "lat" : 10.960000038146973,
+    "name" : "Barranquilla",
+    "long" : -74.800003051757812
+  },
+  {
+    "country" : "Venezuela",
+    "id" : "049208D2-7EA7-42E5-A9CF-EB0270F46247",
+    "capital" : false,
+    "population" : 1770000,
+    "lat" : 10.229999542236328,
+    "name" : "Valencia",
+    "long" : -67.980003356933594
+  },
+  {
+    "country" : "Germany",
+    "id" : "6AA51677-3F0A-4C24-A746-BAF97E5435EC",
+    "capital" : false,
+    "population" : 1757000,
+    "lat" : 53.549999237060547,
+    "name" : "Hamburg",
+    "long" : 10
+  },
+  {
+    "country" : "Brazil",
+    "id" : "A75EDF28-B7BB-45EB-9480-5217968913E1",
+    "capital" : false,
+    "population" : 1753000,
+    "lat" : -3.0999999046325684,
+    "name" : "Manaus",
+    "long" : -60
+  },
+  {
+    "country" : "China",
+    "id" : "74B07594-27FB-4DF5-AB04-52D9E3A09DA7",
+    "capital" : false,
+    "population" : 1749000,
+    "lat" : 31.579999923706055,
+    "name" : "Wuxi",
+    "long" : 120.30000305175781
+  },
+  {
+    "country" : "Indonesia",
+    "id" : "7B204E15-F9C7-423E-A380-4A5EC6E54299",
+    "capital" : false,
+    "population" : 1749000,
+    "lat" : -2.9800000190734863,
+    "name" : "Palembang",
+    "long" : 104.75
+  },
+  {
+    "country" : "Belgium",
+    "id" : "CF1C4C2D-EB35-4F81-BF1C-3A17452FAD8A",
+    "capital" : true,
+    "population" : 1743000,
+    "lat" : 50.833301544189453,
+    "name" : "Brussels",
+    "long" : 4.3333001136779785
+  },
+  {
+    "country" : "Germany",
+    "id" : "B7D8CC3E-5222-4BE2-9963-0E5C13416919",
+    "capital" : false,
+    "population" : 1742135,
+    "lat" : 51.450000762939453,
+    "name" : "Essen",
+    "long" : 7.0166001319885254
+  },
+  {
+    "country" : "India",
+    "id" : "39E72BF8-255D-436E-A680-F397D0DB9220",
+    "capital" : false,
+    "population" : 1727000,
+    "lat" : 23.25,
+    "name" : "Bhopal",
+    "long" : 77.410003662109375
+  },
+  {
+    "country" : "China",
+    "id" : "B633EFD4-47F3-410A-A825-02ABEFFD5B41",
+    "capital" : false,
+    "population" : 1726000,
+    "lat" : 40.819999694824219,
+    "name" : "Hohhot",
+    "long" : 111.66000366210938
+  },
+  {
+    "country" : "Poland",
+    "id" : "670E152B-52BD-4E70-8BA6-0E58C53FA695",
+    "capital" : true,
+    "population" : 1707000,
+    "lat" : 52.25,
+    "name" : "Warsaw",
+    "long" : 21
+  },
+  {
+    "country" : "Morocco",
+    "id" : "453E6791-C4BC-46AF-9AA3-311F7FE65BEE",
+    "capital" : true,
+    "population" : 1705000,
+    "lat" : 34.025299072265625,
+    "name" : "Rabat",
+    "long" : -6.8361001014709473
+  },
+  {
+    "country" : "Brazil",
+    "id" : "2AB871D4-FDFA-44CB-AA63-32FCA4088816",
+    "capital" : false,
+    "population" : 1704000,
+    "lat" : -20.323999404907227,
+    "name" : "Vitoria",
+    "long" : -40.366001129150391
+  },
+  {
+    "country" : "Ecuador",
+    "id" : "A92EA830-E396-48E1-9CE7-156DC646C02B",
+    "capital" : true,
+    "population" : 1701000,
+    "lat" : -0.21500000357627869,
+    "name" : "Quito",
+    "long" : -78.500099182128906
+  },
+  {
+    "country" : "Madagascar",
+    "id" : "5B3A71EE-2192-4DB4-9F6A-1E15D37A32A3",
+    "capital" : true,
+    "population" : 1697000,
+    "lat" : -18.916599273681641,
+    "name" : "Antananarivo",
+    "long" : 47.5166015625
+  },
+  {
+    "country" : "China",
+    "id" : "88558CD9-C96A-43A4-A134-28A1EAA37F55",
+    "capital" : false,
+    "population" : 1690000,
+    "lat" : 31.750299453735352,
+    "name" : "Lu'an",
+    "long" : 116.48000335693359
+  },
+  {
+    "country" : "Hungary",
+    "id" : "327A4AFF-C92E-4B4B-9365-7994303E06F3",
+    "capital" : true,
+    "population" : 1679000,
+    "lat" : 47.5,
+    "name" : "Budapest",
+    "long" : 19.08329963684082
+  },
+  {
+    "country" : "Italy",
+    "id" : "744F51F2-7BB3-484E-BB12-73C0EDD18D06",
+    "capital" : false,
+    "population" : 1652000,
+    "lat" : 45.070400238037109,
+    "name" : "Turin",
+    "long" : 7.6700000762939453
+  },
+  {
+    "country" : "China",
+    "id" : "FBDD3892-36DE-4BB1-8442-C187F0716F53",
+    "capital" : false,
+    "population" : 1650000,
+    "lat" : 31.300500869750977,
+    "name" : "Suzhou",
+    "long" : 120.62000274658203
+  },
+  {
+    "country" : "Ghana",
+    "id" : "603AF164-2DE0-422C-A9EE-3D4E713EEAB3",
+    "capital" : false,
+    "population" : 1646000,
+    "lat" : 6.690000057220459,
+    "name" : "Kumasi",
+    "long" : -1.6299999952316284
+  },
+  {
+    "country" : "China",
+    "id" : "C2639A87-9F3C-4FF9-BE90-A51C78032BAA",
+    "capital" : false,
+    "population" : 1641000,
+    "lat" : 47.345001220703125,
+    "name" : "Qiqihar",
+    "long" : 123.98999786376953
+  },
+  {
+    "country" : "United States",
+    "id" : "B7B43BEE-D087-435E-B200-96FDA7C67DEB",
+    "capital" : false,
+    "population" : 1638716,
+    "lat" : 30.300600051879883,
+    "name" : "Austin",
+    "long" : -97.751701354980469
+  },
+  {
+    "country" : "Iran",
+    "id" : "BAB347D4-3758-46D0-AFBA-425E1DFEE6E1",
+    "capital" : false,
+    "population" : 1628000,
+    "lat" : 32.700000762939453,
+    "name" : "Esfahan",
+    "long" : 51.700000762939453
+  },
+  {
+    "country" : "Cameroon",
+    "id" : "2620E72C-437C-496E-9944-156769BCB60C",
+    "capital" : true,
+    "population" : 1611000,
+    "lat" : 3.8666999340057373,
+    "name" : "Yaounde",
+    "long" : 11.51669979095459
+  },
+  {
+    "country" : "China",
+    "id" : "BE082ADE-5F3D-4FF1-8418-0B14447A4FEA",
+    "capital" : false,
+    "population" : 1601000,
+    "lat" : 23.370000839233398,
+    "name" : "Shantou",
+    "long" : 116.66999816894531
+  },
+  {
+    "country" : "China",
+    "id" : "E004ADE1-1A47-4880-87D0-0A4D327B4EEF",
+    "capital" : false,
+    "population" : 1590000,
+    "lat" : 21.200000762939453,
+    "name" : "Zhanjiang",
+    "long" : 110.37999725341797
+  },
+  {
+    "country" : "Bolivia",
+    "id" : "29C06B84-B294-4851-8AC5-093067A21677",
+    "capital" : true,
+    "population" : 1590000,
+    "lat" : -16.49799919128418,
+    "name" : "La Paz",
+    "long" : -68.150001525878906
+  },
+  {
+    "country" : "Nigeria",
+    "id" : "DBDE8C47-15F8-4E47-8E2C-141C3316132F",
+    "capital" : true,
+    "population" : 1576000,
+    "lat" : 9.0832996368408203,
+    "name" : "Abuja",
+    "long" : 7.5332999229431152
+  },
+  {
+    "country" : "Zimbabwe",
+    "id" : "CA9DA68B-ECF5-4A02-97F9-F234C557F40D",
+    "capital" : true,
+    "population" : 1572000,
+    "lat" : -17.817800521850586,
+    "name" : "Harare",
+    "long" : 31.044700622558594
+  },
+  {
+    "country" : "United States",
+    "id" : "B69DB67E-3014-4D20-8A72-45AB52339992",
+    "capital" : false,
+    "population" : 1564699,
+    "lat" : 39.777099609375,
+    "name" : "Indianapolis",
+    "long" : -86.145797729492188
+  },
+  {
+    "country" : "Bangladesh",
+    "id" : "8DEFAED9-43B9-4892-9968-CD8CA726ED3D",
+    "capital" : false,
+    "population" : 1553000,
+    "lat" : 22.840000152587891,
+    "name" : "Khulna",
+    "long" : 89.55999755859375
+  },
+  {
+    "country" : "Mexico",
+    "id" : "A6154129-948E-4E60-85A9-F5B8DE3D8844",
+    "capital" : false,
+    "population" : 1553000,
+    "lat" : 32.5,
+    "name" : "Tijuana",
+    "long" : -117.08000183105469
+  },
+  {
+    "country" : "Dominican Republic",
+    "id" : "6E060D03-05B5-48CA-8E9E-808FC65D3C9A",
+    "capital" : false,
+    "population" : 1550753,
+    "lat" : 19.5,
+    "name" : "Santiago",
+    "long" : -70.669998168945312
+  },
+  {
+    "country" : "China",
+    "id" : "75E40E8E-FB7B-45BC-8EBB-299DCEFE3501",
+    "capital" : false,
+    "population" : 1537000,
+    "lat" : 28.879999160766602,
+    "name" : "Luzhou",
+    "long" : 105.37999725341797
+  },
+  {
+    "country" : "Australia",
+    "id" : "5C8C04CA-A82A-41B9-8299-810FDB61E4E9",
+    "capital" : false,
+    "population" : 1532000,
+    "lat" : -31.954999923706055,
+    "name" : "Perth",
+    "long" : 115.83999633789062
+  },
+  {
+    "country" : "Mexico",
+    "id" : "38E3C83A-6CE6-4DC7-B65D-12006D9ED776",
+    "capital" : false,
+    "population" : 1531000,
+    "lat" : 19.330400466918945,
+    "name" : "Toluca",
+    "long" : -99.669998168945312
+  },
+  {
+    "country" : "United Kingdom",
+    "id" : "457D52A5-95CC-406B-BAF8-3F8D1B1C9226",
+    "capital" : false,
+    "population" : 1529000,
+    "lat" : 53.830001831054688,
+    "name" : "Leeds",
+    "long" : -1.5800000429153442
+  },
+  {
+    "country" : "Japan",
+    "id" : "51794188-395A-4E3F-8150-F5C6E92AA537",
+    "capital" : false,
+    "population" : 1528478,
+    "lat" : 34.680000305175781,
+    "name" : "Kobe",
+    "long" : 135.16999816894531
+  },
+  {
+    "country" : "United States",
+    "id" : "0A4A10B2-FA91-471F-8B40-E5DCE887BCEF",
+    "capital" : false,
+    "population" : 1528314,
+    "lat" : 39.986000061035156,
+    "name" : "Columbus",
+    "long" : -82.985099792480469
+  },
+  {
+    "country" : "Pakistan",
+    "id" : "0F8E29BB-3F34-426C-816B-ABB5984445B2",
+    "capital" : false,
+    "population" : 1522000,
+    "lat" : 30.200000762939453,
+    "name" : "Multan",
+    "long" : 71.455001831054688
+  },
+  {
+    "country" : "Uruguay",
+    "id" : "BC82D0E1-0CD5-413F-8363-00384B22E1CF",
+    "capital" : true,
+    "population" : 1513000,
+    "lat" : -34.858001708984375,
+    "name" : "Montevideo",
+    "long" : -56.171100616455078
+  },
+  {
+    "country" : "Pakistan",
+    "id" : "E792CB15-4F0A-4019-927D-7300095CF546",
+    "capital" : false,
+    "population" : 1513000,
+    "lat" : 32.160400390625,
+    "name" : "Gujranwala",
+    "long" : 74.18499755859375
+  },
+  {
+    "country" : "China",
+    "id" : "2DFFA32B-4A6C-4C2F-A1F2-606E408FDDBB",
+    "capital" : false,
+    "population" : 1500000,
+    "lat" : 25.920000076293945,
+    "name" : "Ganzhou",
+    "long" : 114.94999694824219
+  },
+  {
+    "country" : "Italy",
+    "id" : "A7FCFB91-4518-4418-BAC0-491D66199BC0",
+    "capital" : false,
+    "population" : 1500000,
+    "lat" : 43.779998779296875,
+    "name" : "Florence",
+    "long" : 11.25
+  },
+  {
+    "country" : "China",
+    "id" : "4AF18E06-A1BE-4F71-B77F-D4932A770C8B",
+    "capital" : false,
+    "population" : 1497000,
+    "lat" : 24.280000686645508,
+    "name" : "Liuzhou",
+    "long" : 109.25
+  },
+  {
+    "country" : "Mali",
+    "id" : "93230F7C-1490-4AEE-AC86-B66D50257F35",
+    "capital" : true,
+    "population" : 1494000,
+    "lat" : 12.649999618530273,
+    "name" : "Bamako",
+    "long" : -8
+  },
+  {
+    "country" : "Guinea",
+    "id" : "50B36D9D-E713-4543-ABC0-BEA56E769558",
+    "capital" : true,
+    "population" : 1494000,
+    "lat" : 9.5314998626708984,
+    "name" : "Conakry",
+    "long" : -13.68019962310791
+  },
+  {
+    "country" : "Turkey",
+    "id" : "49E96E14-4E66-4F84-93A6-51E9033A1677",
+    "capital" : false,
+    "population" : 1492000,
+    "lat" : 40.200000762939453,
+    "name" : "Bursa",
+    "long" : 29.069999694824219
+  },
+  {
+    "country" : "Mexico",
+    "id" : "11EAE868-6A2A-4FF5-B130-C681BF4AA63B",
+    "capital" : false,
+    "population" : 1488000,
+    "lat" : 21.149999618530273,
+    "name" : "Leon de los Aldama",
+    "long" : -101.69999694824219
+  },
+  {
+    "country" : "China",
+    "id" : "C7CBBF71-3263-464E-A715-ABD56074AE55",
+    "capital" : false,
+    "population" : 1469000,
+    "lat" : 29.030000686645508,
+    "name" : "Changde",
+    "long" : 111.68000030517578
+  },
+  {
+    "country" : "Cambodia",
+    "id" : "1CC511B1-0EF1-4AF1-B8B8-2A23A644BBCB",
+    "capital" : true,
+    "population" : 1466000,
+    "lat" : 11.550000190734863,
+    "name" : "Phnom Penh",
+    "long" : 104.91660308837891
+  },
+  {
+    "country" : "China",
+    "id" : "3A9B60B7-F001-4479-9DB2-D5DB32B00148",
+    "capital" : false,
+    "population" : 1466000,
+    "lat" : 29.580400466918945,
+    "name" : "Neijiang",
+    "long" : 105.05000305175781
+  },
+  {
+    "country" : "China",
+    "id" : "13160212-8FB8-4AD7-815A-55866B276BB9",
+    "capital" : false,
+    "population" : 1463000,
+    "lat" : 24.899999618530273,
+    "name" : "Quanzhou",
+    "long" : 118.58000183105469
+  },
+  {
+    "country" : "Ukraine",
+    "id" : "9F5C147C-72DE-4F74-B7D6-0D6219E0EAD7",
+    "capital" : false,
+    "population" : 1461000,
+    "lat" : 50,
+    "name" : "Kharkiv",
+    "long" : 36.25
+  },
+  {
+    "country" : "Togo",
+    "id" : "F8EA6E11-E458-4434-A89F-F62561243596",
+    "capital" : true,
+    "population" : 1452000,
+    "lat" : 6.1318998336791992,
+    "name" : "Lome",
+    "long" : 1.2228000164031982
+  },
+  {
+    "country" : "Argentina",
+    "id" : "0010C8C1-24B2-4E02-B2BA-B049487D5759",
+    "capital" : false,
+    "population" : 1452000,
+    "lat" : -31.399999618530273,
+    "name" : "Cordoba",
+    "long" : -64.182296752929688
+  },
+  {
+    "country" : "Qatar",
+    "id" : "A91A9FFE-471E-49D4-BACC-3EF0CEA9B8FD",
+    "capital" : true,
+    "population" : 1450000,
+    "lat" : 25.286600112915039,
+    "name" : "Doha",
+    "long" : 51.533000946044922
+  },
+  {
+    "country" : "Malaysia",
+    "id" : "7410CA2A-4EDD-45EA-963D-EBBDECBBF60A",
+    "capital" : true,
+    "population" : 1448000,
+    "lat" : 3.1666998863220215,
+    "name" : "Kuala Lumpur",
+    "long" : 101.69999694824219
+  },
+  {
+    "country" : "Mozambique",
+    "id" : "CC87CC9A-1837-478D-8ED0-1D0303A89B39",
+    "capital" : true,
+    "population" : 1446000,
+    "lat" : -25.955299377441406,
+    "name" : "Maputo",
+    "long" : 32.589199066162109
+  },
+  {
+    "country" : "Nigeria",
+    "id" : "9464767A-2828-4498-86B7-B982F081158B",
+    "capital" : false,
+    "population" : 1442000,
+    "lat" : 10.520000457763672,
+    "name" : "Kaduna",
+    "long" : 7.440000057220459
+  },
+  {
+    "country" : "El Salvador",
+    "id" : "64BFE668-BB74-4537-AAB5-BB3522F7EFAF",
+    "capital" : true,
+    "population" : 1433000,
+    "lat" : 13.710000038146973,
+    "name" : "San Salvador",
+    "long" : -89.2030029296875
+  },
+  {
+    "country" : "China",
+    "id" : "D78D566E-9029-4503-84B3-721A3991A3C9",
+    "capital" : false,
+    "population" : 1425000,
+    "lat" : 30.533300399780273,
+    "name" : "Suining",
+    "long" : 105.53330230712891
+  },
+  {
+    "country" : "France",
+    "id" : "0C29ECA2-8497-4C95-AC2C-744362B58496",
+    "capital" : false,
+    "population" : 1423000,
+    "lat" : 45.770000457763672,
+    "name" : "Lyon",
+    "long" : 4.8299999237060547
+  },
+  {
+    "country" : "Iran",
+    "id" : "8A88C588-79DA-4888-B837-888A019A360A",
+    "capital" : false,
+    "population" : 1423000,
+    "lat" : 35.800399780273438,
+    "name" : "Karaj",
+    "long" : 50.970001220703125
+  },
+  {
+    "country" : "Uganda",
+    "id" : "EA126C4F-92F1-4325-97FA-2F999EF72C3F",
+    "capital" : true,
+    "population" : 1420000,
+    "lat" : 0.31670001149177551,
+    "name" : "Kampala",
+    "long" : 32.583301544189453
+  },
+  {
+    "country" : "Iran",
+    "id" : "1ECED0E8-5D65-44D9-8B11-D2AF47FBEEC3",
+    "capital" : false,
+    "population" : 1413000,
+    "lat" : 38.086299896240234,
+    "name" : "Tabriz",
+    "long" : 46.301200866699219
+  },
+  {
+    "country" : "Netherlands",
+    "id" : "C81E020C-FF47-4401-8D3A-A19928884BCF",
+    "capital" : true,
+    "population" : 1406000,
+    "lat" : 52.080001831054688,
+    "name" : "The Hague",
+    "long" : 4.2699999809265137
+  },
+  {
+    "country" : "Philippines",
+    "id" : "9F4602AE-19BF-4716-AB56-72BA275D4624",
+    "capital" : false,
+    "population" : 1402000,
+    "lat" : 7.1100001335144043,
+    "name" : "Davao",
+    "long" : 125.62999725341797
+  },
+  {
+    "country" : "France",
+    "id" : "4D525007-4CEE-44BD-A5C2-0D692E938A40",
+    "capital" : false,
+    "population" : 1400000,
+    "lat" : 43.290000915527344,
+    "name" : "Marseille",
+    "long" : 5.375
+  },
+  {
+    "country" : "China",
+    "id" : "05488690-1149-4B72-811B-56C37B492795",
+    "capital" : false,
+    "population" : 1396000,
+    "lat" : 31.469999313354492,
+    "name" : "Mianyang",
+    "long" : 104.76999664306641
+  },
+  {
+    "country" : "Indonesia",
+    "id" : "C22E2BF9-CA19-49FC-AED4-758D17C5CB47",
+    "capital" : false,
+    "population" : 1396000,
+    "lat" : -6.9665999412536621,
+    "name" : "Semarang",
+    "long" : 110.41999816894531
+  },
+  {
+    "country" : "Russia",
+    "id" : "C302C036-D1BA-4C34-969A-81C24974B0B4",
+    "capital" : false,
+    "population" : 1389000,
+    "lat" : 55.029998779296875,
+    "name" : "Novosibirsk",
+    "long" : 82.959999084472656
+  },
+  {
+    "country" : "Saudi Arabia",
+    "id" : "A0021C5D-496F-4B93-BF31-A453E8F18915",
+    "capital" : false,
+    "population" : 1385000,
+    "lat" : 21.430000305175781,
+    "name" : "Mecca",
+    "long" : 39.819999694824219
+  },
+  {
+    "country" : "United Arab Emirates",
+    "id" : "E48E6749-F5AA-4DB0-9B2E-CED2F22CC635",
+    "capital" : false,
+    "population" : 1379000,
+    "lat" : 25.229999542236328,
+    "name" : "Dubai",
+    "long" : 55.279998779296875
+  },
+  {
+    "country" : "New Zealand",
+    "id" : "D57DA7C3-DB3A-4FB1-AC62-3C9C8F094DC5",
+    "capital" : false,
+    "population" : 1377200,
+    "lat" : -36.848098754882812,
+    "name" : "Auckland",
+    "long" : 174.76300048828125
+  },
+  {
+    "country" : "China",
+    "id" : "13652F9D-3D17-4868-A900-172C48E2AD44",
+    "capital" : false,
+    "population" : 1366302,
+    "lat" : 31.730400085449219,
+    "name" : "Ma'anshan",
+    "long" : 118.48000335693359
+  },
+  {
+    "country" : "Congo (Brazzaville)",
+    "id" : "32D4B117-66E9-4030-98E3-EDD4A3835B3C",
+    "capital" : true,
+    "population" : 1355000,
+    "lat" : -4.2592000961303711,
+    "name" : "Brazzaville",
+    "long" : 15.284700393676758
+  },
+  {
+    "country" : "Congo (Kinshasa)",
+    "id" : "C6A87348-59EB-4F7A-9A2C-FCAE929769C1",
+    "capital" : false,
+    "population" : 1352000,
+    "lat" : -11.680000305175781,
+    "name" : "Lubumbashi",
+    "long" : 27.479999542236328
+  },
+  {
+    "country" : "Mexico",
+    "id" : "2EC3E2B8-AD0E-4B0A-B78D-65B5459E13CE",
+    "capital" : false,
+    "population" : 1343000,
+    "lat" : 31.690399169921875,
+    "name" : "Juarez",
+    "long" : -106.48999786376953
+  },
+  {
+    "country" : "South Africa",
+    "id" : "554A3A9D-416E-414D-84DE-F80C8876CAD8",
+    "capital" : true,
+    "population" : 1338000,
+    "lat" : -25.706899642944336,
+    "name" : "Pretoria",
+    "long" : 28.229400634765625
+  },
+  {
+    "country" : "China",
+    "id" : "BEE12285-8ECF-4E1D-83C0-93559FF0BE2F",
+    "capital" : false,
+    "population" : 1338000,
+    "lat" : 35.229999542236328,
+    "name" : "Heze",
+    "long" : 115.44999694824219
+  },
+  {
+    "country" : "Portugal",
+    "id" : "B27D534E-A815-47E9-94C5-B4DC6AEC33AE",
+    "capital" : false,
+    "population" : 1337000,
+    "lat" : 41.150001525878906,
+    "name" : "Porto",
+    "long" : -8.619999885559082
+  },
+  {
+    "country" : "Zambia",
+    "id" : "C59B85D1-3A2F-411B-B9E5-6FF338BCDA32",
+    "capital" : true,
+    "population" : 1328000,
+    "lat" : -15.416600227355957,
+    "name" : "Lusaka",
+    "long" : 28.283300399780273
+  },
+  {
+    "country" : "China",
+    "id" : "040CAC67-68BE-427C-A1F5-778D026B7C15",
+    "capital" : false,
+    "population" : 1327000,
+    "lat" : 31.780000686645508,
+    "name" : "Changzhou",
+    "long" : 119.97000122070312
+  },
+  {
+    "country" : "Iraq",
+    "id" : "E605602B-9333-4F48-B2E8-7A25351BF5B4",
+    "capital" : false,
+    "population" : 1316000,
+    "lat" : 36.345001220703125,
+    "name" : "Mosul",
+    "long" : 43.145000457763672
+  },
+  {
+    "country" : "Russia",
+    "id" : "749E6A8B-87D8-4BDD-A683-329ACB86E420",
+    "capital" : false,
+    "population" : 1313000,
+    "lat" : 56.849998474121094,
+    "name" : "Yekaterinburg",
+    "long" : 60.599998474121094
+  },
+  {
+    "country" : "Pakistan",
+    "id" : "6F8C496B-8959-43D4-B161-7374682253F6",
+    "capital" : false,
+    "population" : 1303000,
+    "lat" : 34.005001068115234,
+    "name" : "Peshawar",
+    "long" : 71.535003662109375
+  },
+  {
+    "country" : "Burma",
+    "id" : "01C596FC-EED6-47C0-A116-6C26928685BC",
+    "capital" : false,
+    "population" : 1300000,
+    "lat" : 21.969999313354492,
+    "name" : "Mandalay",
+    "long" : 96.084999084472656
+  },
+  {
+    "country" : "Congo (Kinshasa)",
+    "id" : "01C698C0-34FC-44D4-81C6-4C46CFC45C51",
+    "capital" : false,
+    "population" : 1295000,
+    "lat" : -6.1500000953674316,
+    "name" : "Mbuji-Mayi",
+    "long" : 23.600000381469727
+  },
+  {
+    "country" : "Turkey",
+    "id" : "A1A338F0-1D33-4D12-9099-E50CD93B3ABB",
+    "capital" : false,
+    "population" : 1293000,
+    "lat" : 36.994998931884766,
+    "name" : "Adana",
+    "long" : 35.319999694824219
+  },
+  {
+    "country" : "United Kingdom",
+    "id" : "DA8F7796-2B2B-48B3-87A3-4B3CA1D81CD1",
+    "capital" : false,
+    "population" : 1292900,
+    "lat" : 53.36669921875,
+    "name" : "Sheffield",
+    "long" : -1.5
+  },
+  {
+    "country" : "Costa Rica",
+    "id" : "799B9828-8C38-401C-BF92-78260E38364E",
+    "capital" : true,
+    "population" : 1284000,
+    "lat" : 9.9350004196166992,
+    "name" : "San Jose",
+    "long" : -84.084098815917969
+  },
+  {
+    "country" : "Panama",
+    "id" : "D7DB8C03-B980-4664-B9C4-82677DA806CF",
+    "capital" : true,
+    "population" : 1281000,
+    "lat" : 8.9680004119873047,
+    "name" : "Panama City",
+    "long" : -79.532997131347656
+  },
+  {
+    "country" : "Russia",
+    "id" : "03BEAC7C-FB60-4D9C-A36C-8016C4E63217",
+    "capital" : false,
+    "population" : 1278000,
+    "lat" : 56.333000183105469,
+    "name" : "Nizhniy Novgorod",
+    "long" : 44.000099182128906
+  },
+  {
+    "country" : "China",
+    "id" : "EA37C603-6592-43A4-B54C-ECAAE2E72D75",
+    "capital" : false,
+    "population" : 1277000,
+    "lat" : 42.270000457763672,
+    "name" : "Chifeng",
+    "long" : 118.94999694824219
+  },
+  {
+    "country" : "Germany",
+    "id" : "451CADC6-C6E4-4575-A55C-B382D71FFB51",
+    "capital" : false,
+    "population" : 1276757,
+    "lat" : 51.430000305175781,
+    "name" : "Duisburg",
+    "long" : 6.75
+  },
+  {
+    "country" : "Germany",
+    "id" : "5A4DBD20-C9A8-46B2-A07C-70206465DFB9",
+    "capital" : false,
+    "population" : 1275000,
+    "lat" : 48.129901885986328,
+    "name" : "Munich",
+    "long" : 11.574999809265137
+  },
+  {
+    "country" : "Sweden",
+    "id" : "1811DC11-4A07-4C9E-9F2D-32FC5DB27879",
+    "capital" : true,
+    "population" : 1264000,
+    "lat" : 59.350799560546875,
+    "name" : "Stockholm",
+    "long" : 18.097299575805664
+  },
+  {
+    "country" : "Indonesia",
+    "id" : "2C275D2F-78D0-40B4-BD33-6B11BD04C83F",
+    "capital" : false,
+    "population" : 1262000,
+    "lat" : -5.1399998664855957,
+    "name" : "Makassar",
+    "long" : 119.43199920654297
+  },
+  {
+    "country" : "China",
+    "id" : "BA82DCDE-6A12-4519-81BB-461DB0601282",
+    "capital" : false,
+    "population" : 1244000,
+    "lat" : 44.575000762939453,
+    "name" : "Mudanjiang",
+    "long" : 129.58999633789062
+  },
+  {
+    "country" : "Switzerland",
+    "id" : "275B3171-AF0C-4AC3-BE67-B87C366B4556",
+    "capital" : false,
+    "population" : 1240000,
+    "lat" : 46.209999084472656,
+    "name" : "Geneva",
+    "long" : 6.1399998664855957
+  },
+  {
+    "country" : "Iran",
+    "id" : "24F376B0-EAB9-4F3D-98A1-AF3614A908DF",
+    "capital" : false,
+    "population" : 1240000,
+    "lat" : 29.629999160766602,
+    "name" : "Shiraz",
+    "long" : 52.569999694824219
+  },
+  {
+    "country" : "China",
+    "id" : "68746B92-3AF3-471E-92D3-0D17A3D3FE12",
+    "capital" : false,
+    "population" : 1231000,
+    "lat" : 30.870399475097656,
+    "name" : "Huzhou",
+    "long" : 120.09999847412109
+  },
+  {
+    "country" : "China",
+    "id" : "BE8922A8-F2B2-40A3-A5F4-4790B47EE400",
+    "capital" : false,
+    "population" : 1225000,
+    "lat" : 34.599998474121094,
+    "name" : "Beidao",
+    "long" : 105.91999816894531
+  },
+  {
+    "country" : "Germany",
+    "id" : "4E62640D-0F71-4FFA-A51D-F5AA861607BA",
+    "capital" : false,
+    "population" : 1220000,
+    "lat" : 51.220401763916016,
+    "name" : "Dusseldorf",
+    "long" : 6.7800002098083496
+  },
+  {
+    "country" : "Spain",
+    "id" : "9244CC63-F234-4DE8-B5DC-C8818AA0914B",
+    "capital" : false,
+    "population" : 1212045,
+    "lat" : 37.404998779296875,
+    "name" : "Sevilla",
+    "long" : -5.9800000190734863
+  },
+  {
+    "country" : "Kazakhstan",
+    "id" : "21821FB1-4363-42F4-A189-CA214511344B",
+    "capital" : false,
+    "population" : 1209000,
+    "lat" : 43.325000762939453,
+    "name" : "Almaty",
+    "long" : 76.915000915527344
+  },
+  {
+    "country" : "United States",
+    "id" : "12A349A0-47C4-4100-B769-AC673801B157",
+    "capital" : false,
+    "population" : 1206642,
+    "lat" : 41.823001861572266,
+    "name" : "Providence",
+    "long" : -71.418701171875
+  },
+  {
+    "country" : "Argentina",
+    "id" : "0A6F4816-0C9F-4F68-BDDC-7674637E1297",
+    "capital" : false,
+    "population" : 1203000,
+    "lat" : -32.951099395751953,
+    "name" : "Rosario",
+    "long" : -60.666301727294922
+  },
+  {
+    "country" : "Nigeria",
+    "id" : "986E0792-7775-4AC9-9306-45C0B87878C0",
+    "capital" : false,
+    "population" : 1190000,
+    "lat" : 6.3404998779296875,
+    "name" : "Benin City",
+    "long" : 5.619999885559082
+  },
+  {
+    "country" : "Brazil",
+    "id" : "F3075E92-F123-488E-B7CD-575F6462E381",
+    "capital" : false,
+    "population" : 1186000,
+    "lat" : -9.619999885559082,
+    "name" : "Maceio",
+    "long" : -35.729999542236328
+  },
+  {
+    "country" : "Bulgaria",
+    "id" : "DF6893F4-B231-4681-A6ED-8DD3C412426C",
+    "capital" : true,
+    "population" : 1185000,
+    "lat" : 42.683300018310547,
+    "name" : "Sofia",
+    "long" : 23.316699981689453
+  },
+  {
+    "country" : "Pakistan",
+    "id" : "5E0FA9FB-EB43-4EC5-BD5F-74C106633BB5",
+    "capital" : false,
+    "population" : 1183647,
+    "lat" : 34.149501800537109,
+    "name" : "Abbottabad",
+    "long" : 73.199501037597656
+  },
+  {
+    "country" : "Libya",
+    "id" : "17FB4213-4E47-40AE-A805-D02EFB5AEE78",
+    "capital" : false,
+    "population" : 1180000,
+    "lat" : 32.11669921875,
+    "name" : "Benghazi",
+    "long" : 20.066699981689453
+  },
+  {
+    "country" : "Indonesia",
+    "id" : "B75A6917-029F-4709-BB41-6AD79C8132AC",
+    "capital" : false,
+    "population" : 1174964,
+    "lat" : -7.7188000679016113,
+    "name" : "Cilacap",
+    "long" : 109.01540374755859
+  },
+  {
+    "country" : "United Kingdom",
+    "id" : "C4650160-639B-4E38-A4E2-BFF7D2C4B7C5",
+    "capital" : false,
+    "population" : 1160000,
+    "lat" : 55.874401092529297,
+    "name" : "Glasgow",
+    "long" : -4.2506999969482422
+  },
+  {
+    "country" : "Burkina Faso",
+    "id" : "16923D18-3410-4411-B509-EE49D188BDCD",
+    "capital" : true,
+    "population" : 1149000,
+    "lat" : 12.37030029296875,
+    "name" : "Ouagadougou",
+    "long" : -1.5247000455856323
+  },
+  {
+    "country" : "Canada",
+    "id" : "842C7370-579C-4042-821D-C3B71A7378A3",
+    "capital" : true,
+    "population" : 1145000,
+    "lat" : 45.416698455810547,
+    "name" : "Ottawa",
+    "long" : -75.699996948242188
+  },
+  {
+    "country" : "Australia",
+    "id" : "AF034E38-7B86-4B04-BBA3-32229B7505BF",
+    "capital" : false,
+    "population" : 1145000,
+    "lat" : -34.935001373291016,
+    "name" : "Adelaide",
+    "long" : 138.60000610351562
+  },
+  {
+    "country" : "China",
+    "id" : "B2526BA1-8610-4E31-A15E-BBA76FA0E3E9",
+    "capital" : false,
+    "population" : 1144577,
+    "lat" : 28.470399856567383,
+    "name" : "Shangrao",
+    "long" : 117.97000122070312
+  },
+  {
+    "country" : "Mexico",
+    "id" : "72E4D685-2ECF-4209-942C-AE2FC549AA08",
+    "capital" : false,
+    "population" : 1144000,
+    "lat" : 25.570100784301758,
+    "name" : "Torreon",
+    "long" : -103.41999816894531
+  },
+  {
+    "country" : "India",
+    "id" : "F1279E9F-56BE-45E3-9101-4BF9C0BCA410",
+    "capital" : false,
+    "population" : 1140000,
+    "lat" : 34.099998474121094,
+    "name" : "Srinagar",
+    "long" : 74.81500244140625
+  },
+  {
+    "country" : "Russia",
+    "id" : "D94D4E19-2CFE-4BAA-9FEE-2897C1A145B7",
+    "capital" : false,
+    "population" : 1137000,
+    "lat" : 53.194999694824219,
+    "name" : "Samara",
+    "long" : 50.151298522949219
+  },
+  {
+    "country" : "Russia",
+    "id" : "0007BB92-7ED6-46D8-8543-F9242FE39598",
+    "capital" : false,
+    "population" : 1135000,
+    "lat" : 54.990001678466797,
+    "name" : "Omsk",
+    "long" : 73.400001525878906
+  },
+  {
+    "country" : "China",
+    "id" : "C538A8F1-4B3C-4A7C-8F57-33007CA8B89E",
+    "capital" : false,
+    "population" : 1126000,
+    "lat" : 34.345600128173828,
+    "name" : "Xianyang",
+    "long" : 108.71469879150391
+  },
+  {
+    "country" : "Philippines",
+    "id" : "2630F29B-CDA7-403C-AB7F-380E60AA650B",
+    "capital" : false,
+    "population" : 1121561,
+    "lat" : 8.4507999420166016,
+    "name" : "Cagayan de Oro",
+    "long" : 124.685302734375
+  },
+  {
+    "country" : "Vietnam",
+    "id" : "3CC8E03F-2D34-4BE2-8E71-557A25D7D115",
+    "capital" : false,
+    "population" : 1121000,
+    "lat" : 10.050000190734863,
+    "name" : "Can Tho",
+    "long" : 105.76999664306641
+  },
+  {
+    "country" : "Venezuela",
+    "id" : "4E539767-75CF-4B51-8103-6D0BEE0058E4",
+    "capital" : false,
+    "population" : 1116000,
+    "lat" : 10.050000190734863,
+    "name" : "Barquisimeto",
+    "long" : -69.300003051757812
+  },
+  {
+    "country" : "Finland",
+    "id" : "238D0665-4315-43F4-8C7D-0BA620183DA4",
+    "capital" : true,
+    "population" : 1115000,
+    "lat" : 60.17559814453125,
+    "name" : "Helsinki",
+    "long" : 24.934099197387695
+  },
+  {
+    "country" : "Russia",
+    "id" : "F8B4E135-E26B-463D-AC69-D98FF4E35769",
+    "capital" : false,
+    "population" : 1115000,
+    "lat" : 55.749900817871094,
+    "name" : "Kazan'",
+    "long" : 49.126300811767578
+  },
+  {
+    "country" : "Switzerland",
+    "id" : "CEA13167-3CB6-4E47-B928-CD5ACE059C10",
+    "capital" : false,
+    "population" : 1108000,
+    "lat" : 47.380001068115234,
+    "name" : "Zurich",
+    "long" : 8.5500001907348633
+  },
+  {
+    "country" : "United Arab Emirates",
+    "id" : "F72C38D7-71BC-49B7-8B88-12BC7696A775",
+    "capital" : false,
+    "population" : 1103027,
+    "lat" : 25.371400833129883,
+    "name" : "Sharjah",
+    "long" : 55.406501770019531
+  },
+  {
+    "country" : "Armenia",
+    "id" : "42F2456E-3BE3-48DC-A96E-F86FBB810DBD",
+    "capital" : true,
+    "population" : 1102000,
+    "lat" : 40.181198120117188,
+    "name" : "Yerevan",
+    "long" : 44.513599395751953
+  },
+  {
+    "country" : "Somalia",
+    "id" : "816753D7-56F1-4B7E-BE1E-F4AA6DB2DEF5",
+    "capital" : true,
+    "population" : 1100000,
+    "lat" : 2.0666999816894531,
+    "name" : "Mogadishu",
+    "long" : 45.36669921875
+  },
+  {
+    "country" : "Georgia",
+    "id" : "1519F28B-22EB-4396-8BF0-A999ADC5E2A9",
+    "capital" : true,
+    "population" : 1100000,
+    "lat" : 41.724998474121094,
+    "name" : "Tbilisi",
+    "long" : 44.790798187255859
+  },
+  {
+    "country" : "Angola",
+    "id" : "B7559766-FC4C-468B-8B64-DEEABB18968C",
+    "capital" : false,
+    "population" : 1100000,
+    "lat" : -12.75,
+    "name" : "Huambo",
+    "long" : 15.760000228881836
+  },
+  {
+    "country" : "Nigeria",
+    "id" : "B7ED19BD-798F-4BF3-8BD9-DF46090A2D20",
+    "capital" : false,
+    "population" : 1099931,
+    "lat" : 7.5303997993469238,
+    "name" : "Ikare",
+    "long" : 5.7600002288818359
+  },
+  {
+    "country" : "Serbia",
+    "id" : "ED39B48A-190C-4DBA-97B7-3B7EC3C9B18D",
+    "capital" : true,
+    "population" : 1099000,
+    "lat" : 44.818599700927734,
+    "name" : "Belgrade",
+    "long" : 20.468000411987305
+  },
+  {
+    "country" : "United States",
+    "id" : "E4DDF625-91F3-4609-A738-40DCE590FA4C",
+    "capital" : false,
+    "population" : 1098400,
+    "lat" : 40.777400970458984,
+    "name" : "Salt Lake City",
+    "long" : -111.93000030517578
+  },
+  {
+    "country" : "China",
+    "id" : "4A9B951F-D5E5-4180-9E6A-E43D268A7093",
+    "capital" : false,
+    "population" : 1092852,
+    "lat" : 29.120000839233398,
+    "name" : "Jinhua",
+    "long" : 119.65000152587891
+  },
+  {
+    "country" : "Russia",
+    "id" : "989D2CFE-A589-4FA5-BFDB-9CCCBDE10FB6",
+    "capital" : false,
+    "population" : 1091000,
+    "lat" : 55.154998779296875,
+    "name" : "Chelyabinsk",
+    "long" : 61.438701629638672
+  },
+  {
+    "country" : "Brazil",
+    "id" : "50D12AF7-3019-485B-94D1-D6FD1DE0AD18",
+    "capital" : false,
+    "population" : 1088000,
+    "lat" : -5.7800002098083496,
+    "name" : "Natal",
+    "long" : -35.240001678466797
+  },
+  {
+    "country" : "Tajikistan",
+    "id" : "0BCA8A9D-BEB6-4E73-9C10-624B344D624E",
+    "capital" : true,
+    "population" : 1086244,
+    "lat" : 38.560001373291016,
+    "name" : "Dushanbe",
+    "long" : 68.773902893066406
+  },
+  {
+    "country" : "Denmark",
+    "id" : "A3B899FF-23E1-4593-9F42-78712DDBF57A",
+    "capital" : true,
+    "population" : 1085000,
+    "lat" : 55.678600311279297,
+    "name" : "Copenhagen",
+    "long" : 12.56350040435791
+  },
+  {
+    "country" : "China",
+    "id" : "8CDE5036-CC79-44B5-869E-45486342A550",
+    "capital" : false,
+    "population" : 1080000,
+    "lat" : 27.829999923706055,
+    "name" : "Zhuzhou",
+    "long" : 113.15000152587891
+  },
+  {
+    "country" : "United States",
+    "id" : "4206FB85-E633-4CA8-B681-E0472B1FFA83",
+    "capital" : false,
+    "population" : 1076645,
+    "lat" : 36.171501159667969,
+    "name" : "Nashville",
+    "long" : -86.7843017578125
+  },
+  {
+    "country" : "China",
+    "id" : "110F4322-73D6-4C22-96E6-227E7B0E23DC",
+    "capital" : false,
+    "population" : 1069000,
+    "lat" : 32.020000457763672,
+    "name" : "Xiangyang",
+    "long" : 112.12999725341797
+  },
+  {
+    "country" : "Jordan",
+    "id" : "F51150B8-690C-4527-86CC-80850F930CE1",
+    "capital" : true,
+    "population" : 1060000,
+    "lat" : 31.950000762939453,
+    "name" : "Amman",
+    "long" : 35.933300018310547
+  },
+  {
+    "country" : "China",
+    "id" : "9ACF5276-9774-4A8F-BA42-4B525FBE8CF8",
+    "capital" : false,
+    "population" : 1060000,
+    "lat" : 35.990001678466797,
+    "name" : "Mizhou",
+    "long" : 119.38009643554688
+  },
+  {
+    "country" : "United States",
+    "id" : "6F28BAAD-E3F4-4749-9620-A1BB652B3B44",
+    "capital" : false,
+    "population" : 1059907,
+    "lat" : 37.529499053955078,
+    "name" : "Richmond",
+    "long" : -77.475601196289062
+  },
+  {
+    "country" : "Ireland",
+    "id" : "3BC1A0AA-C475-4ABC-911C-28E94390DEFA",
+    "capital" : true,
+    "population" : 1059000,
+    "lat" : 53.333099365234375,
+    "name" : "Dublin",
+    "long" : -6.2488999366760254
+  },
+  {
+    "country" : "Canada",
+    "id" : "0F49C0AF-C288-48A3-8BDD-C64232831AF0",
+    "capital" : false,
+    "population" : 1058000,
+    "lat" : 53.549999237060547,
+    "name" : "Edmonton",
+    "long" : -113.5
+  },
+  {
+    "country" : "Russia",
+    "id" : "7FB7B17C-CD42-4469-AA71-BEFC0780A152",
+    "capital" : false,
+    "population" : 1052000,
+    "lat" : 47.234600067138672,
+    "name" : "Rostov-na-Donu",
+    "long" : 39.712699890136719
+  },
+  {
+    "country" : "Ukraine",
+    "id" : "1F35B032-A62B-46A2-AA26-89F5C4D0D5C1",
+    "capital" : false,
+    "population" : 1050000,
+    "lat" : 48.479999542236328,
+    "name" : "Dnipro",
+    "long" : 35
+  },
+  {
+    "country" : "China",
+    "id" : "3522E16A-4034-433C-ADBC-152B167D5BBE",
+    "capital" : false,
+    "population" : 1048000,
+    "lat" : 36.619998931884766,
+    "name" : "Xining",
+    "long" : 101.76999664306641
+  },
+  {
+    "country" : "France",
+    "id" : "43E64880-FA7C-4009-B075-587706D30535",
+    "capital" : false,
+    "population" : 1044000,
+    "lat" : 50.650001525878906,
+    "name" : "Lille",
+    "long" : 3.0799999237060547
+  },
+  {
+    "country" : "India",
+    "id" : "EAB08742-80C8-45F8-A889-CFCB97DB48D8",
+    "capital" : false,
+    "population" : 1044000,
+    "lat" : 23.370000839233398,
+    "name" : "Ranchi",
+    "long" : 85.330001831054688
+  },
+  {
+    "country" : "Turkey",
+    "id" : "068482C6-EB3C-4D4B-A40E-37D3AED821C0",
+    "capital" : false,
+    "population" : 1044000,
+    "lat" : 37.075000762939453,
+    "name" : "Gaziantep",
+    "long" : 37.384998321533203
+  },
+  {
+    "country" : "Liberia",
+    "id" : "B8D86ACC-147C-43ED-97E4-63107CD5482D",
+    "capital" : true,
+    "population" : 1041000,
+    "lat" : 6.3105998039245605,
+    "name" : "Monrovia",
+    "long" : -10.804800033569336
+  },
+  {
+    "country" : "Brazil",
+    "id" : "83DEE73D-CEEC-41A5-A2E3-E924B443DFFE",
+    "capital" : false,
+    "population" : 1038000,
+    "lat" : -2.5160000324249268,
+    "name" : "Sao Luis",
+    "long" : -44.265998840332031
+  },
+  {
+    "country" : "Netherlands",
+    "id" : "22F35A03-7629-4528-A282-B92ED9BD2A1E",
+    "capital" : true,
+    "population" : 1031000,
+    "lat" : 52.349998474121094,
+    "name" : "Amsterdam",
+    "long" : 4.916600227355957
+  },
+  {
+    "country" : "Israel",
+    "id" : "5BCD3A42-360F-4778-BE94-D11DB788F7A3",
+    "capital" : true,
+    "population" : 1029300,
+    "lat" : 31.778400421142578,
+    "name" : "Jerusalem",
+    "long" : 35.206600189208984
+  },
+  {
+    "country" : "Guatemala",
+    "id" : "E4C180D9-7A7E-4ED5-A289-4182423C6FBC",
+    "capital" : true,
+    "population" : 1024000,
+    "lat" : 14.621100425720215,
+    "name" : "Guatemala City",
+    "long" : -90.527000427246094
+  },
+  {
+    "country" : "China",
+    "id" : "E9E70A63-A002-4128-BEC5-F5719CC77625",
+    "capital" : false,
+    "population" : 1023000,
+    "lat" : 22.276899337768555,
+    "name" : "Zhuhai",
+    "long" : 113.56780242919922
+  },
+  {
+    "country" : "Brazil",
+    "id" : "538139D8-859B-45BD-92AE-F31725699E27",
+    "capital" : false,
+    "population" : 1023000,
+    "lat" : -27.579999923706055,
+    "name" : "Florianopolis",
+    "long" : -48.520000457763672
+  },
+  {
+    "country" : "China",
+    "id" : "F039D24F-FC18-4A9A-AF15-58F319EDE57C",
+    "capital" : false,
+    "population" : 1020000,
+    "lat" : 46.830001831054688,
+    "name" : "Jiamusi",
+    "long" : 130.35000610351562
+  },
+  {
+    "country" : "Nigeria",
+    "id" : "63E2D855-2A01-4B56-8CDD-05AD4EA119F7",
+    "capital" : false,
+    "population" : 1020000,
+    "lat" : 4.809999942779541,
+    "name" : "Port Harcourt",
+    "long" : 7.0100002288818359
+  },
+  {
+    "country" : "United States",
+    "id" : "1B21BC9C-3B6A-4D2E-8E35-3B306F5FD45E",
+    "capital" : false,
+    "population" : 1018336,
+    "lat" : 35.832401275634766,
+    "name" : "Raleigh",
+    "long" : -78.643798828125
+  },
+  {
+    "country" : "Russia",
+    "id" : "62BC78FC-9CB2-4F6A-BFD5-ECB44D6BF87F",
+    "capital" : false,
+    "population" : 1018000,
+    "lat" : 54.790000915527344,
+    "name" : "Ufa",
+    "long" : 56.040000915527344
+  },
+  {
+    "country" : "Israel",
+    "id" : "1941EE6D-26E4-4E6C-B57D-BCB335E35B66",
+    "capital" : false,
+    "population" : 1011000,
+    "lat" : 32.820400238037109,
+    "name" : "Haifa",
+    "long" : 34.979999542236328
+  },
+  {
+    "country" : "Saudi Arabia",
+    "id" : "37045DA0-149A-4733-BD6C-FF76D98C4917",
+    "capital" : false,
+    "population" : 1010000,
+    "lat" : 24.5,
+    "name" : "Medina",
+    "long" : 39.580001831054688
+  },
+  {
+    "country" : "Colombia",
+    "id" : "EC95BB0B-80B2-4EAB-A4CF-B67B56F797DC",
+    "capital" : false,
+    "population" : 1009000,
+    "lat" : 7.1300997734069824,
+    "name" : "Bucaramanga",
+    "long" : -73.125900268554688
+  },
+  {
+    "country" : "Venezuela",
+    "id" : "15CE7B8D-38E7-497D-B029-58457A65A56B",
+    "capital" : false,
+    "population" : 1007000,
+    "lat" : 10.246899604797363,
+    "name" : "Maracay",
+    "long" : -67.595802307128906
+  },
+  {
+    "country" : "Netherlands",
+    "id" : "1243D65B-0629-4641-8051-1EA8CBEDF6F9",
+    "capital" : false,
+    "population" : 1005000,
+    "lat" : 51.919998168945312,
+    "name" : "Rotterdam",
+    "long" : 4.4800000190734863
+  },
+  {
+    "country" : "Syria",
+    "id" : "5F22A401-05F6-4DE2-B6AE-BA145DC0F160",
+    "capital" : false,
+    "population" : 1005000,
+    "lat" : 34.729999542236328,
+    "name" : "Homs",
+    "long" : 36.720001220703125
+  },
+  {
+    "country" : "Morocco",
+    "id" : "E24B09B6-D632-47CA-A9C8-1333C0A2401C",
+    "capital" : false,
+    "population" : 1002000,
+    "lat" : 34.054599761962891,
+    "name" : "Fes",
+    "long" : -5.0004000663757324
+  },
+  {
+    "country" : "Chad",
+    "id" : "6B643537-511F-4AAB-9E24-1AB404159012",
+    "capital" : true,
+    "population" : 989000,
+    "lat" : 12.113100051879883,
+    "name" : "N'Djamena",
+    "long" : 15.049099922180176
+  },
+  {
+    "country" : "Honduras",
+    "id" : "62614EBB-ADE2-4F72-A95C-B31767ABCC53",
+    "capital" : true,
+    "population" : 946000,
+    "lat" : 14.10200023651123,
+    "name" : "Tegucigalpa",
+    "long" : -87.217498779296875
+  },
+  {
+    "country" : "Jamaica",
+    "id" : "7323B6B5-57BB-4D37-8A33-3E13183044B1",
+    "capital" : true,
+    "population" : 937700,
+    "lat" : 17.977100372314453,
+    "name" : "Kingston",
+    "long" : -76.767402648925781
+  },
+  {
+    "country" : "Burma",
+    "id" : "564AB297-F457-4637-BEAD-763B595364F2",
+    "capital" : true,
+    "population" : 930000,
+    "lat" : 19.766599655151367,
+    "name" : "Nay Pyi Taw",
+    "long" : 96.118598937988281
+  },
+  {
+    "country" : "Djibouti",
+    "id" : "A364E745-0F32-4846-AE92-C84EF02EB848",
+    "capital" : true,
+    "population" : 923000,
+    "lat" : 11.595000267028809,
+    "name" : "Djibouti",
+    "long" : 43.147998809814453
+  },
+  {
+    "country" : "Nicaragua",
+    "id" : "85BEB25F-6D39-442E-B186-36400B6B66BC",
+    "capital" : true,
+    "population" : 920000,
+    "lat" : 12.152999877929688,
+    "name" : "Managua",
+    "long" : -86.268501281738281
+  },
+  {
+    "country" : "Niger",
+    "id" : "1411CC0D-0C0A-4563-9FB7-08978DB0D4D0",
+    "capital" : true,
+    "population" : 915000,
+    "lat" : 13.51669979095459,
+    "name" : "Niamey",
+    "long" : 2.1166999340057373
+  },
+  {
+    "country" : "Albania",
+    "id" : "6C6E9D0B-DCB3-451E-B87A-E3FC11C0F437",
+    "capital" : true,
+    "population" : 895350,
+    "lat" : 41.327499389648438,
+    "name" : "Tirana",
+    "long" : 19.818899154663086
+  },
+  {
+    "country" : "Nepal",
+    "id" : "4C503570-C8BB-4566-A222-AA82CF5BEF24",
+    "capital" : true,
+    "population" : 895000,
+    "lat" : 27.716699600219727,
+    "name" : "Kathmandu",
+    "long" : 85.316596984863281
+  },
+  {
+    "country" : "Mongolia",
+    "id" : "433822EB-EB87-4E83-9B64-6A07B9F72A6B",
+    "capital" : true,
+    "population" : 885000,
+    "lat" : 47.916698455810547,
+    "name" : "Ulaanbaatar",
+    "long" : 106.91660308837891
+  },
+  {
+    "country" : "Rwanda",
+    "id" : "4303B4B1-2A69-47E1-B192-7FD6055023A5",
+    "capital" : true,
+    "population" : 860000,
+    "lat" : -1.9536000490188599,
+    "name" : "Kigali",
+    "long" : 30.06049919128418
+  },
+  {
+    "country" : "Kyrgyzstan",
+    "id" : "1D2639CF-FA77-4194-B1F8-31DAD7C03654",
+    "capital" : true,
+    "population" : 837000,
+    "lat" : 42.873100280761719,
+    "name" : "Bishkek",
+    "long" : 74.585197448730469
+  },
+  {
+    "country" : "Norway",
+    "id" : "30BF6178-C668-4623-B46F-1970423E61F1",
+    "capital" : true,
+    "population" : 835000,
+    "lat" : 59.916698455810547,
+    "name" : "Oslo",
+    "long" : 10.75
+  },
+  {
+    "country" : "Central African Republic",
+    "id" : "ACC03EC9-9DEC-4C01-8414-A27CA6616D8E",
+    "capital" : true,
+    "population" : 831925,
+    "lat" : 4.3666000366210938,
+    "name" : "Bangui",
+    "long" : 18.558300018310547
+  },
+  {
+    "country" : "Sierra Leone",
+    "id" : "15C87826-EBDA-4AA5-9916-2C13738220FD",
+    "capital" : true,
+    "population" : 827000,
+    "lat" : 8.4700002670288086,
+    "name" : "Freetown",
+    "long" : -13.234199523925781
+  },
+  {
+    "country" : "Pakistan",
+    "id" : "A98999E4-5C33-4D43-8BE9-FDD5CADF8531",
+    "capital" : true,
+    "population" : 780000,
+    "lat" : 33.700000762939453,
+    "name" : "Islamabad",
+    "long" : 73.166603088378906
+  },
+  {
+    "country" : "Benin",
+    "id" : "5B9CFD15-831B-4C96-A498-3E749C8F44D4",
+    "capital" : true,
+    "population" : 762000,
+    "lat" : 6.4000000953674316,
+    "name" : "Cotonou",
+    "long" : 2.5199999809265137
+  },
+  {
+    "country" : "Laos",
+    "id" : "6B7673B2-2569-41C5-8392-3D14D728C1CA",
+    "capital" : true,
+    "population" : 754000,
+    "lat" : 17.966699600219727,
+    "name" : "Vientiane",
+    "long" : 102.59999847412109
+  },
+  {
+    "country" : "Latvia",
+    "id" : "08B933A5-D97C-493A-B91B-CC8F56C408EC",
+    "capital" : true,
+    "population" : 742572,
+    "lat" : 56.950000762939453,
+    "name" : "Riga",
+    "long" : 24.100000381469727
+  },
+  {
+    "country" : "Mauritania",
+    "id" : "047EBD62-925C-4702-A1C6-6E97FCA377CB",
+    "capital" : true,
+    "population" : 742144,
+    "lat" : 18.086399078369141,
+    "name" : "Nouakchott",
+    "long" : -15.975299835205078
+  },
+  {
+    "country" : "Oman",
+    "id" : "3DD7ED3A-05B3-4360-BFCC-D1A622B0A49D",
+    "capital" : true,
+    "population" : 734697,
+    "lat" : 23.613300323486328,
+    "name" : "Muscat",
+    "long" : 58.593299865722656
+  },
+  {
+    "country" : "Turkmenistan",
+    "id" : "0630B52D-614B-4670-8CA4-728BAD2A2A72",
+    "capital" : true,
+    "population" : 727700,
+    "lat" : 37.950000762939453,
+    "name" : "Ashgabat",
+    "long" : 58.38330078125
+  },
+  {
+    "country" : "Moldova",
+    "id" : "4464C7BD-02B8-46FB-82CB-AFF741A2265D",
+    "capital" : true,
+    "population" : 688134,
+    "lat" : 47.005001068115234,
+    "name" : "Chisinau",
+    "long" : 28.857700347900391
+  },
+  {
+    "country" : "Malawi",
+    "id" : "28150DD1-E034-4656-8A76-0E4799588206",
+    "capital" : true,
+    "population" : 646750,
+    "lat" : -13.98330020904541,
+    "name" : "Lilongwe",
+    "long" : 33.783298492431641
+  },
+  {
+    "country" : "Eritrea",
+    "id" : "1423D057-F8A4-4EA3-B969-5463F3EA82B3",
+    "capital" : true,
+    "population" : 620802,
+    "lat" : 15.33329963684082,
+    "name" : "Asmara",
+    "long" : 38.933300018310547
+  },
+  {
+    "country" : "United Arab Emirates",
+    "id" : "59FD8680-5E95-4972-9223-00A927CBFF58",
+    "capital" : true,
+    "population" : 603492,
+    "lat" : 24.466699600219727,
+    "name" : "Abu Dhabi",
+    "long" : 54.366600036621094
+  },
+  {
+    "country" : "Mauritius",
+    "id" : "871C9D34-AFDC-40D5-811D-6BCAA6F63345",
+    "capital" : true,
+    "population" : 595491,
+    "lat" : -20.166599273681641,
+    "name" : "Port Louis",
+    "long" : 57.5
+  },
+  {
+    "country" : "Gabon",
+    "id" : "C24CBBC6-7966-4F11-85C8-7AB758D96F8F",
+    "capital" : true,
+    "population" : 578156,
+    "lat" : 0.38539999723434448,
+    "name" : "Libreville",
+    "long" : 9.4580001831054688
+  },
+  {
+    "country" : "Bahrain",
+    "id" : "10A251DB-59E4-47E1-A41C-272D5170ED49",
+    "capital" : true,
+    "population" : 563920,
+    "lat" : 26.236099243164062,
+    "name" : "Manama",
+    "long" : 50.583099365234375
+  },
+  {
+    "country" : "Lithuania",
+    "id" : "E317E80D-2353-4830-A971-F7AD912FC624",
+    "capital" : true,
+    "population" : 542366,
+    "lat" : 54.683399200439453,
+    "name" : "Vilnius",
+    "long" : 25.316600799560547
+  },
+  {
+    "country" : "Macedonia",
+    "id" : "74BE82C5-2F0C-4430-9C2D-0A04EC555388",
+    "capital" : true,
+    "population" : 494087,
+    "lat" : 42,
+    "name" : "Skopje",
+    "long" : 21.433500289916992
+  },
+  {
+    "country" : "South Africa",
+    "id" : "C3EF9D10-0D69-4573-9571-A5545AF85127",
+    "capital" : true,
+    "population" : 463064,
+    "lat" : -29.120000839233398,
+    "name" : "Bloemfontein",
+    "long" : 26.229900360107422
+  },
+  {
+    "country" : "Slovakia",
+    "id" : "FD5C3A18-43D0-44EF-A9B0-63EDF61F00F6",
+    "capital" : true,
+    "population" : 423737,
+    "lat" : 48.150001525878906,
+    "name" : "Bratislava",
+    "long" : 17.117000579833984
+  },
+  {
+    "country" : "Guinea-Bissau",
+    "id" : "2FFE1CB4-0E6A-4220-B2B1-6F0C8D475015",
+    "capital" : true,
+    "population" : 403339,
+    "lat" : 11.864999771118164,
+    "name" : "Bissau",
+    "long" : -15.598400115966797
+  },
+  {
+    "country" : "Estonia",
+    "id" : "99141BCF-1534-4A1E-8ADC-A12AC3174B8A",
+    "capital" : true,
+    "population" : 394024,
+    "lat" : 59.43389892578125,
+    "name" : "Tallinn",
+    "long" : 24.728000640869141
+  },
+  {
+    "country" : "New Zealand",
+    "id" : "91A872C4-F480-4807-94C0-47976EBB811F",
+    "capital" : true,
+    "population" : 393400,
+    "lat" : -41.299999237060547,
+    "name" : "Wellington",
+    "long" : 174.78329467773438
+  },
+  {
+    "country" : "Malta",
+    "id" : "476CC844-5A38-4B0A-B097-38CBDF7E2805",
+    "capital" : true,
+    "population" : 368250,
+    "lat" : 35.899700164794922,
+    "name" : "Valletta",
+    "long" : 14.514699935913086
+  },
+  {
+    "country" : "Lesotho",
+    "id" : "903B4E31-21D9-44F3-9655-94E73ECF6D74",
+    "capital" : true,
+    "population" : 361324,
+    "lat" : -29.316699981689453,
+    "name" : "Maseru",
+    "long" : 27.483299255371094
+  },
+  {
+    "country" : "Kazakhstan",
+    "id" : "4E2D1DE1-52C0-4CCC-B402-A39CE0BB0671",
+    "capital" : true,
+    "population" : 345604,
+    "lat" : 51.181098937988281,
+    "name" : "Nur-Sultan",
+    "long" : 71.427803039550781
+  },
+  {
+    "country" : "Burundi",
+    "id" : "6268DCC1-FD3D-44FC-83E4-B24093C76F82",
+    "capital" : true,
+    "population" : 331700,
+    "lat" : -3.3761000633239746,
+    "name" : "Bujumbura",
+    "long" : 29.360000610351562
+  },
+  {
+    "country" : "Australia",
+    "id" : "3A4879D3-6D35-4E2F-9B73-98A804BC6B5F",
+    "capital" : true,
+    "population" : 327700,
+    "lat" : -35.283000946044922,
+    "name" : "Canberra",
+    "long" : 149.12899780273438
+  },
+  {
+    "country" : "India",
+    "id" : "FFCC2710-F2BE-40AD-B6EE-C54F9F390424",
+    "capital" : true,
+    "population" : 317797,
+    "lat" : 28.600000381469727,
+    "name" : "New Delhi",
+    "long" : 77.199996948242188
+  },
+  {
+    "country" : "Slovenia",
+    "id" : "667E4BBC-614D-4AA2-8AA5-90EE60853D3F",
+    "capital" : true,
+    "population" : 314807,
+    "lat" : 46.055301666259766,
+    "name" : "Ljubljana",
+    "long" : 14.515000343322754
+  },
+  {
+    "country" : "Benin",
+    "id" : "EBFC809B-801F-40DB-9D21-71E298172ECA",
+    "capital" : true,
+    "population" : 300000,
+    "lat" : 6.4833002090454102,
+    "name" : "Porto-Novo",
+    "long" : 2.6166000366210938
+  },
+  {
+    "country" : "Brunei",
+    "id" : "E34ACCF8-3014-4677-AA4D-EADBBA530505",
+    "capital" : true,
+    "population" : 296500,
+    "lat" : 4.8832998275756836,
+    "name" : "Bandar Seri Begawan",
+    "long" : 114.93329620361328
+  },
+  {
+    "country" : "Trinidad And Tobago",
+    "id" : "40D9748E-67BE-4D2A-A76C-ACEA39D35EE1",
+    "capital" : true,
+    "population" : 294934,
+    "lat" : 10.652000427246094,
+    "name" : "Port of Spain",
+    "long" : -61.516998291015625
+  },
+  {
+    "country" : "Papua New Guinea",
+    "id" : "4AFAC239-9555-4DDD-8F08-1C3B2531D74A",
+    "capital" : true,
+    "population" : 283733,
+    "lat" : -9.4646997451782227,
+    "name" : "Port Moresby",
+    "long" : 147.1925048828125
+  },
+  {
+    "country" : "Switzerland",
+    "id" : "8D1281C3-55E8-457F-AC46-A7451C87C4B3",
+    "capital" : true,
+    "population" : 275329,
+    "lat" : 46.916698455810547,
+    "name" : "Bern",
+    "long" : 7.4670000076293945
+  },
+  {
+    "country" : "Namibia",
+    "id" : "7FF80DF3-9DA3-426D-B52A-90825316E7CD",
+    "capital" : true,
+    "population" : 268132,
+    "lat" : -22.569999694824219,
+    "name" : "Windhoek",
+    "long" : 17.083499908447266
+  },
+  {
+    "country" : "Guyana",
+    "id" : "FC6D1A96-229E-4622-8049-01D6C572E0A4",
+    "capital" : true,
+    "population" : 264350,
+    "lat" : 6.8020000457763672,
+    "name" : "Georgetown",
+    "long" : -58.166999816894531
+  },
+  {
+    "country" : "Suriname",
+    "id" : "DD12866E-E187-4AFB-A989-2FB78012DD3D",
+    "capital" : true,
+    "population" : 254169,
+    "lat" : 5.8350000381469727,
+    "name" : "Paramaribo",
+    "long" : -55.166999816894531
+  },
+  {
+    "country" : "Timor-Leste",
+    "id" : "70BA0F92-69EC-4678-A212-BF3F27AFE219",
+    "capital" : true,
+    "population" : 234331,
+    "lat" : -8.5593996047973633,
+    "name" : "Dili",
+    "long" : 125.57949829101562
+  },
+  {
+    "country" : "Bolivia",
+    "id" : "2FE2E0AE-9F42-4B6D-BD29-50B1BF88BB0A",
+    "capital" : true,
+    "population" : 224838,
+    "lat" : -19.041000366210938,
+    "name" : "Sucre",
+    "long" : -65.259498596191406
+  },
+  {
+    "country" : "Cyprus",
+    "id" : "570E6F02-56A0-484F-B855-11DD970BC0D7",
+    "capital" : true,
+    "population" : 224300,
+    "lat" : 35.166698455810547,
+    "name" : "Nicosia",
+    "long" : 33.366600036621094
+  },
+  {
+    "country" : "Tanzania",
+    "id" : "23743061-F68A-4A12-8834-C48AF370CDC4",
+    "capital" : true,
+    "population" : 218269,
+    "lat" : -6.1833000183105469,
+    "name" : "Dodoma",
+    "long" : 35.75
+  },
+  {
+    "country" : "Sri Lanka",
+    "id" : "7751B82D-6E47-4A2C-B491-5A0A7496EC83",
+    "capital" : true,
+    "population" : 217000,
+    "lat" : 6.9320001602172852,
+    "name" : "Colombo",
+    "long" : 79.857803344726562
+  },
+  {
+    "country" : "Botswana",
+    "id" : "A0CE63EC-BBEA-4C63-AE6D-C8B20CB09B57",
+    "capital" : true,
+    "population" : 208411,
+    "lat" : -24.646299362182617,
+    "name" : "Gaborone",
+    "long" : 25.911899566650391
+  },
+  {
+    "country" : "Côte D’Ivoire",
+    "id" : "A748096F-9BB4-4EC6-A264-D5209BA619E0",
+    "capital" : true,
+    "population" : 206499,
+    "lat" : 6.8183999061584473,
+    "name" : "Yamoussoukro",
+    "long" : -5.2754998207092285
+  },
+  {
+    "country" : "Barbados",
+    "id" : "7FFCB8C1-5C53-4081-9B25-70479EA2342E",
+    "capital" : true,
+    "population" : 191152,
+    "lat" : 13.10200023651123,
+    "name" : "Bridgetown",
+    "long" : -59.616500854492188
+  },
+  {
+    "country" : "Fiji",
+    "id" : "B5EC3367-6829-4529-862A-275AB76055D4",
+    "capital" : true,
+    "population" : 175399,
+    "lat" : -18.132999420166016,
+    "name" : "Suva",
+    "long" : 178.44169616699219
+  },
+  {
+    "country" : "Iceland",
+    "id" : "17E98EA3-A964-4D59-B982-7153C94B33E7",
+    "capital" : true,
+    "population" : 166212,
+    "lat" : 64.150001525878906,
+    "name" : "Reykjavik",
+    "long" : -21.950000762939453
+  },
+  {
+    "country" : "Equatorial Guinea",
+    "id" : "0A14B389-9EC3-4DD6-9376-0D169A08E65D",
+    "capital" : true,
+    "population" : 155963,
+    "lat" : 3.75,
+    "name" : "Malabo",
+    "long" : 8.7833003997802734
+  },
+  {
+    "country" : "Curaçao",
+    "id" : "D0207FB1-8C85-4DF2-AB8F-B45496EDDF25",
+    "capital" : true,
+    "population" : 146813,
+    "lat" : 12.200400352478027,
+    "name" : "Willemstad",
+    "long" : -69.019996643066406
+  },
+  {
+    "country" : "Montenegro",
+    "id" : "767B7D18-A1F2-4BC9-8A6C-ACE620DA8C41",
+    "capital" : true,
+    "population" : 145850,
+    "lat" : 42.465999603271484,
+    "name" : "Podgorica",
+    "long" : 19.266300201416016
+  },
+  {
+    "country" : "Comoros",
+    "id" : "F1A8A7CC-05E2-4C00-BA79-A6DA2203BB19",
+    "capital" : true,
+    "population" : 128698,
+    "lat" : -11.70419979095459,
+    "name" : "Moroni",
+    "long" : 43.240200042724609
+  },
+  {
+    "country" : "Sri Lanka",
+    "id" : "B343D4EF-7983-4A9E-A5A7-763F28572C02",
+    "capital" : true,
+    "population" : 115826,
+    "lat" : 6.9000000953674316,
+    "name" : "Sri Jayewardenepura Kotte",
+    "long" : 79.949996948242188
+  },
+  {
+    "country" : "Cabo Verde",
+    "id" : "ECC52595-429C-4992-8879-54C9A1997DDA",
+    "capital" : true,
+    "population" : 113364,
+    "lat" : 14.91670036315918,
+    "name" : "Praia",
+    "long" : -23.516700744628906
+  },
+  {
+    "country" : "Maldives",
+    "id" : "2F2DD29C-06CE-4E5B-BE18-9C61924A4257",
+    "capital" : true,
+    "population" : 112927,
+    "lat" : 4.1666998863220215,
+    "name" : "Male",
+    "long" : 73.499900817871094
+  },
+  {
+    "country" : "South Sudan",
+    "id" : "52263BB6-093F-4CFC-B597-16D6C8EE8EB5",
+    "capital" : true,
+    "population" : 111975,
+    "lat" : 4.8299999237060547,
+    "name" : "Juba",
+    "long" : 31.579999923706055
+  },
+  {
+    "country" : "Luxembourg",
+    "id" : "707E8CF5-C562-45E8-8EF2-43325F85D199",
+    "capital" : true,
+    "population" : 107260,
+    "lat" : 49.611698150634766,
+    "name" : "Luxembourg",
+    "long" : 6.130000114440918
+  },
+  {
+    "country" : "Bhutan",
+    "id" : "C8381C5C-9902-4703-9FD3-1EF8E160AFE3",
+    "capital" : true,
+    "population" : 98676,
+    "lat" : 27.472999572753906,
+    "name" : "Thimphu",
+    "long" : 89.638999938964844
+  },
+  {
+    "country" : "Swaziland",
+    "id" : "9FF08721-4099-4804-928F-2816F93DBDE6",
+    "capital" : true,
+    "population" : 90138,
+    "lat" : -26.316699981689453,
+    "name" : "Mbabane",
+    "long" : 31.13330078125
+  },
+  {
+    "country" : "Sao Tome And Principe",
+    "id" : "E16766C9-93A8-4A8E-8F8A-B7FA4276BF84",
+    "capital" : true,
+    "population" : 88219,
+    "lat" : 0.33340001106262207,
+    "name" : "Sao Tome",
+    "long" : 6.7333002090454102
+  },
+  {
+    "country" : "Solomon Islands",
+    "id" : "8D73630B-8470-4EFD-BF30-8966AB2D14B0",
+    "capital" : true,
+    "population" : 76328,
+    "lat" : -9.4379997253417969,
+    "name" : "Honiara",
+    "long" : 159.94979858398438
+  },
+  {
+    "country" : "Aruba",
+    "id" : "68831E0F-4648-4D64-B6FD-0F1F5C169112",
+    "capital" : true,
+    "population" : 68775,
+    "lat" : 12.530400276184082,
+    "name" : "Oranjestad",
+    "long" : -70.028999328613281
+  },
+  {
+    "country" : "Samoa",
+    "id" : "2B806F0A-CDAC-4F5D-8748-A21469F30B1D",
+    "capital" : true,
+    "population" : 61916,
+    "lat" : -13.841500282287598,
+    "name" : "Apia",
+    "long" : -171.73860168457031
+  },
+  {
+    "country" : "Andorra",
+    "id" : "52B45A04-BE99-4577-B9B8-57375312DE1E",
+    "capital" : true,
+    "population" : 53998,
+    "lat" : 42.5,
+    "name" : "Andorra la Vella",
+    "long" : 1.5164999961853027
+  },
+  {
+    "country" : "Saint Vincent And The Grenadines",
+    "id" : "C16ED093-A185-4E06-825E-4817C1EC263A",
+    "capital" : true,
+    "population" : 49485,
+    "lat" : 13.148300170898438,
+    "name" : "Kingstown",
+    "long" : -61.212100982666016
+  },
+  {
+    "country" : "Vanuatu",
+    "id" : "DD306C0D-71D0-4FA1-A89D-784240D55C15",
+    "capital" : true,
+    "population" : 44040,
+    "lat" : -17.733400344848633,
+    "name" : "Port-Vila",
+    "long" : 168.31660461425781
+  },
+  {
+    "country" : "Tonga",
+    "id" : "A2E492FD-75C5-4D81-AE86-0200AFA191FE",
+    "capital" : true,
+    "population" : 42620,
+    "lat" : -21.138500213623047,
+    "name" : "Nuku`alofa",
+    "long" : -175.22059631347656
+  },
+  {
+    "country" : "Saint Lucia",
+    "id" : "CDCA50C6-EDBA-4E34-8ECE-321103FADD72",
+    "capital" : true,
+    "population" : 37963,
+    "lat" : 14.001999855041504,
+    "name" : "Castries",
+    "long" : -61
+  },
+  {
+    "country" : "Monaco",
+    "id" : "808B86D2-09AC-44FB-87DF-265EEE6D1FBB",
+    "capital" : true,
+    "population" : 36371,
+    "lat" : 43.739601135253906,
+    "name" : "Monaco",
+    "long" : 7.4068999290466309
+  },
+  {
+    "country" : "Liechtenstein",
+    "id" : "AA48E6B4-6662-4422-8801-FAA3D608B545",
+    "capital" : true,
+    "population" : 36281,
+    "lat" : 47.133701324462891,
+    "name" : "Vaduz",
+    "long" : 9.5166997909545898
+  },
+  {
+    "country" : "Antigua And Barbuda",
+    "id" : "9776B6C0-13B8-4675-8E2F-EF713267A9E7",
+    "capital" : true,
+    "population" : 35499,
+    "lat" : 17.118000030517578,
+    "name" : "Saint John's",
+    "long" : -61.849998474121094
+  },
+  {
+    "country" : "Grenada",
+    "id" : "E28D432D-19A3-4C85-AC55-B51000031413",
+    "capital" : true,
+    "population" : 33734,
+    "lat" : 12.052599906921387,
+    "name" : "Saint George's",
+    "long" : -61.741600036621094
+  },
+  {
+    "country" : "Seychelles",
+    "id" : "9DB31903-7B4C-4372-9200-370F6DF859AF",
+    "capital" : true,
+    "population" : 33576,
+    "lat" : -4.6166000366210938,
+    "name" : "Victoria",
+    "long" : 55.450000762939453
+  },
+  {
+    "country" : "San Marino",
+    "id" : "A3958C23-8EE5-440D-B4F6-AAAC1FDDC983",
+    "capital" : true,
+    "population" : 29579,
+    "lat" : 43.917198181152344,
+    "name" : "San Marino",
+    "long" : 12.466699600219727
+  },
+  {
+    "country" : "Kiribati",
+    "id" : "165FD5AD-7E02-4E9C-910E-6362E6155FFA",
+    "capital" : true,
+    "population" : 28802,
+    "lat" : 1.3381999731063843,
+    "name" : "Tarawa",
+    "long" : 173.01759338378906
+  },
+  {
+    "country" : "Marshall Islands",
+    "id" : "F0BC9B8F-5529-4BD8-A5D8-9F9D8F566763",
+    "capital" : true,
+    "population" : 25400,
+    "lat" : 7.1030001640319824,
+    "name" : "Majuro",
+    "long" : 171.3800048828125
+  },
+  {
+    "country" : "Dominica",
+    "id" : "CF64A590-BE56-4B22-9475-7EE8EAEC9405",
+    "capital" : true,
+    "population" : 23336,
+    "lat" : 15.300999641418457,
+    "name" : "Roseau",
+    "long" : -61.387001037597656
+  },
+  {
+    "country" : "Saint Kitts And Nevis",
+    "id" : "A6084B54-F3FC-44E5-BA55-BA4BF9B2B48E",
+    "capital" : true,
+    "population" : 21887,
+    "lat" : 17.302000045776367,
+    "name" : "Basseterre",
+    "long" : -62.716999053955078
+  },
+  {
+    "country" : "Belize",
+    "id" : "32FBA958-DCB7-41C2-8804-E32A6F9D10F9",
+    "capital" : true,
+    "population" : 15220,
+    "lat" : 17.25200080871582,
+    "name" : "Belmopan",
+    "long" : -88.767097473144531
+  },
+  {
+    "country" : "American Samoa",
+    "id" : "66F6B656-DA33-41F8-B24C-306B0648E3BC",
+    "capital" : true,
+    "population" : 12576,
+    "lat" : -14.27400016784668,
+    "name" : "Pago Pago",
+    "long" : -170.70460510253906
+  },
+  {
+    "country" : "Swaziland",
+    "id" : "AA89A7EF-9DA7-4AB8-B87C-20DAADA71369",
+    "capital" : true,
+    "population" : 9782,
+    "lat" : -26.466699600219727,
+    "name" : "Lobamba",
+    "long" : 31.200000762939453
+  },
+  {
+    "country" : "Tuvalu",
+    "id" : "CFCDAE22-9CA7-46F8-8AD5-8A852E1A033E",
+    "capital" : true,
+    "population" : 4749,
+    "lat" : -8.5166997909545898,
+    "name" : "Funafuti",
+    "long" : 179.21659851074219
+  },
+  {
+    "country" : "Northern Mariana Islands",
+    "id" : "FB562D05-60B3-42AA-8334-3ACEE3AB79D7",
+    "capital" : true,
+    "population" : 2500,
+    "lat" : 15.213700294494629,
+    "name" : "Capitol Hill",
+    "long" : 145.75459289550781
+  },
+  {
+    "country" : "Guam",
+    "id" : "AB60C691-59FC-4C85-BE9A-88595DA862DB",
+    "capital" : true,
+    "population" : 1051,
+    "lat" : 13.474499702453613,
+    "name" : "Hagta",
+    "long" : 144.75039672851562
+  },
+  {
+    "country" : "West Bank",
+    "id" : "4FCA1F41-0733-477A-90CE-277D85249A38",
+    "capital" : true,
+    "population" : 0,
+    "lat" : 31.776399612426758,
+    "name" : "Al Quds",
+    "long" : 35.226898193359375
+  },
+  {
+    "country" : "Sint Maarten",
+    "id" : "00607618-25B2-425A-B03E-4BBBCF242CAD",
+    "capital" : true,
+    "population" : 0,
+    "lat" : 18.02549934387207,
+    "name" : "Philipsburg",
+    "long" : -63.044998168945312
+  },
+  {
+    "country" : "Burundi",
+    "id" : "557679A3-57CA-437B-B371-62A900D2BB0D",
+    "capital" : true,
+    "population" : 0,
+    "lat" : -3.4270999431610107,
+    "name" : "Gitega",
+    "long" : 29.924600601196289
+  },
+  {
+    "country" : "Kosovo",
+    "id" : "74B15A5F-519A-4F4A-8431-72F20E6FDCC0",
+    "capital" : true,
+    "population" : 0,
+    "lat" : 42.666599273681641,
+    "name" : "Pristina",
+    "long" : 21.172399520874023
+  },
+  {
+    "country" : "Palau",
+    "id" : "76050A1A-C17E-4A9D-8111-F75C75F4933F",
+    "capital" : true,
+    "population" : 0,
+    "lat" : 7.5,
+    "name" : "Ngerulmud",
+    "long" : 134.62420654296875
+  }
 ]
-
