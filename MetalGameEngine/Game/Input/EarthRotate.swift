@@ -11,7 +11,8 @@ import UIKit
 
 class EarthRotate {
     
-    private static var rotation: SIMD2<Float> = SIMD2<Float>(0, 0)
+    // 0 - 0  SIMD2<Float>(-0.013090005, 1.3465213)
+    private static var rotation: SIMD2<Float> = SIMD2<Float>(-0.026228666 + 0.710572, 1.3769915 + 1.2916455)
     
     static var previousPanPoint: CGPoint?
     

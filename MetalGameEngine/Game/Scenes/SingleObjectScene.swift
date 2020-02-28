@@ -16,7 +16,7 @@ class SingleObjectScene: Scene {
     
     let earth = Earth()
     
-//    let lightvisual = GameObject(.cube)
+    let lightvisual = GameObject(.cube)
         
     override init() {
         super.init()
@@ -27,12 +27,13 @@ class SingleObjectScene: Scene {
         light.setLightColor(ColorUtil.getColor(.white))
         light.setLightAmbientIntensity(0.006)
 //        light.setPosition(SIMD3<Float>(40, 80, -1.25))
-        light.setPosition(SIMD3<Float>(5, 11, 1.25))
+//        light.setPosition(SIMD3<Float>(5, 11, 1.25))
 //        light.setPosition(SIMD3<Float>(1.4, 1.4, -0.452))
+        light.setPosition(SIMD3<Float>(0.1, 0.1, -0.5))
         
-//        lightvisual.setScale(0.005)
-//        lightvisual.material.color = ColorUtil.getColor(.white)
-//        lightvisual.setPosition(light.getPosition())
+        lightvisual.setScale(0.005)
+        lightvisual.material.color = ColorUtil.getColor(.white)
+        lightvisual.setPosition(light.getPosition())
         
         
         self.setLight(light)
@@ -41,14 +42,17 @@ class SingleObjectScene: Scene {
         
         self.earth.setPositionZ(-1.0)
         self.addChild(self.earth)
-//        self.addChild(lightvisual)
+        self.addChild(lightvisual)
     }
     
     override func doUpdate() {
         super.doUpdate()
         
-//        self.light.moveZ(-, GameTime.deltaTime * 0.1)
-//        self.lightvisual.setPosition(self.light.getPosition())
+//        self.camera.rotateX(+, GameTime.deltaTime * 0.1)
+//        self.camera.rotateY(+, GameTime.deltaTime * 0.1)
+        
+//        self.light.moveY(+, cos(GameTime.deltaTime))
+        self.lightvisual.setPosition(self.light.getPosition())
 //        self.camera.rotateX(-, GameTime.deltaTime)
 //        self.camera.rotateY(-, GameTime.deltaTime)
         

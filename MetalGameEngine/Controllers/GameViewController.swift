@@ -35,12 +35,10 @@ class GameViewController: UIViewController {
         }
         switch gesture.state {
         case .began:
-            print("")
             EarthRotate.previousPanPoint = gesture.location(in: gestureView)
         case .changed:
             EarthRotate.rotate(gesture.location(in: gestureView))
         default:
-            print("")
             EarthRotate.previousPanPoint = nil
         }
     }
@@ -53,6 +51,9 @@ class GameViewController: UIViewController {
     
     @IBAction func getRotation(_ sender: Any) {
         print(EarthRotate.getRotation())
+        
+        printJSON(locationsData)
+
     }
 }
 
