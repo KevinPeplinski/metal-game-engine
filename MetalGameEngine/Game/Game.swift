@@ -9,12 +9,16 @@
 import Foundation
 
 class Game {
+    
+    private var currentLocation: Location?
+    
     init() {
         StateManager.setState(.start)
     }
     
     func startRound() -> Void {
         StateManager.setState(.inRound)
+        self.currentLocation = LocationUtils.getLocation(by: "Berlin")
     }
     
     func endRound() -> Void {

@@ -10,7 +10,9 @@ var locationsData: [Location] = load("locations.json", as: [Location].self)
 
 class LocationUtils {
     static func getLocation(by name: String) -> Location {
-        return locationsData[0]
+        return locationsData.first {
+            $0.name == name
+        }!
     }
     
     static func getShuffled() -> [Location] {

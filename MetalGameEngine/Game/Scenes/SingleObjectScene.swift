@@ -48,6 +48,10 @@ class SingleObjectScene: Scene {
     override func doUpdate() {
         super.doUpdate()
         
+        if StateManager.getState() != .inRound {
+            EarthRotate.rotateRight(by: 0.001)
+        }
+        
 //        self.camera.rotateX(+, GameTime.deltaTime * 0.1)
 //        self.camera.rotateY(+, GameTime.deltaTime * 0.1)
         

@@ -12,6 +12,10 @@ import MetalKit
 class GameViewController: UIViewController {
     
     private var renderer: Renderer!
+    private var game: Game = Game()
+    
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var locateButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +31,8 @@ class GameViewController: UIViewController {
         metalView.delegate = renderer
         
         Engine.ignite(device: metalView.device!)
+        
+        self.locateButton.isHidden = true
     }
     
     @IBAction func handlePan(_ gesture: UIPanGestureRecognizer) {
@@ -44,16 +50,21 @@ class GameViewController: UIViewController {
     }
     
     @IBAction func handlePinch(_ gesture: UIPinchGestureRecognizer) {
-        print(Float(gesture.scale))
-        
         EarthScale.scale(Float(gesture.scale))
     }
     
+    // LocateButton Action
     @IBAction func getRotation(_ sender: Any) {
-        print(EarthRotate.getRotation())
-        
-        printJSON(locationsData)
 
+        print(EarthRotate.getLatitudinal())
+        
+    }
+    
+    // startButton Action
+    @IBAction func startGame(_ sender: Any) {
+        self.game.startRound()
+        self.locateButton.isHidden = false
+        self.startButton.isHidden = true
     }
 }
 
