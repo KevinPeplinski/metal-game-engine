@@ -20,6 +20,7 @@ class GameViewController: UIViewController {
     // .inRound
     @IBOutlet weak var locateButton: UIButton!
     @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var crosshair: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +43,7 @@ class GameViewController: UIViewController {
     private func hideAllUIElementsNotInStart() -> Void {
         self.locateButton.isHidden = true
         self.cityLabel.isHidden = true
+        self.crosshair.isHidden = true
     }
     
     // .start
