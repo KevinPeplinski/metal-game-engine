@@ -62,6 +62,7 @@
                     </view>
                     <connections>
                         <outlet property="cityLabel" destination="Slf-iB-9ey" id="EpB-4c-gmb"/>
+                        <outlet property="crosshair" destination="IiQ-xA-tXU" id="52U-tU-tea"/>
                         <outlet property="locateButton" destination="hGQ-5a-gCz" id="7Hj-I6-mOZ"/>
                         <outlet property="startButton" destination="AAU-ZO-HDP" id="vxq-be-Ao5"/>
                     </connections>
