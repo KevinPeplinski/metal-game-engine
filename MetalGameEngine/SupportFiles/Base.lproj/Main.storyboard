@@ -38,7 +38,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Slf-iB-9ey">
                                 <rect key="frame" x="191.5" y="78" width="31" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="true" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2OE-Yd-udF">
+                                <rect key="frame" x="191.5" y="107" width="31" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -47,12 +53,14 @@
                         <constraints>
                             <constraint firstItem="Slf-iB-9ey" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="AKp-PP-epV"/>
                             <constraint firstItem="IiQ-xA-tXU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LHh-MR-0Bn"/>
+                            <constraint firstItem="2OE-Yd-udF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="erM-Sk-fLr"/>
                             <constraint firstItem="AAU-ZO-HDP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g7G-zW-VPx"/>
                             <constraint firstItem="AAU-ZO-HDP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gKH-7D-RBL"/>
                             <constraint firstItem="Slf-iB-9ey" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jpU-hh-Jpe"/>
                             <constraint firstItem="hGQ-5a-gCz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k8h-uH-aGJ"/>
                             <constraint firstItem="IiQ-xA-tXU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nRB-Yh-7WQ"/>
                             <constraint firstItem="hGQ-5a-gCz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vGH-Lk-6Rg"/>
+                            <constraint firstItem="2OE-Yd-udF" firstAttribute="top" secondItem="Slf-iB-9ey" secondAttribute="bottom" constant="8" id="z7e-Ff-S5d"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <connections>
@@ -63,6 +71,7 @@
                     <connections>
                         <outlet property="cityLabel" destination="Slf-iB-9ey" id="EpB-4c-gmb"/>
                         <outlet property="crosshair" destination="IiQ-xA-tXU" id="52U-tU-tea"/>
+                        <outlet property="debuggTrueFalse" destination="2OE-Yd-udF" id="guA-3v-xOg"/>
                         <outlet property="locateButton" destination="hGQ-5a-gCz" id="7Hj-I6-mOZ"/>
                         <outlet property="startButton" destination="AAU-ZO-HDP" id="vxq-be-Ao5"/>
                     </connections>

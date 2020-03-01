@@ -21,6 +21,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var locateButton: UIButton!
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var crosshair: UILabel!
+    @IBOutlet weak var debuggTrueFalse: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +45,7 @@ class GameViewController: UIViewController {
         self.locateButton.isHidden = true
         self.cityLabel.isHidden = true
         self.crosshair.isHidden = true
+        self.debuggTrueFalse.isHidden = true
     }
     
     // .start
@@ -51,7 +53,16 @@ class GameViewController: UIViewController {
     @IBAction func startGame(_ sender: Any) {
         if StateManager.getState() == .start {
             self.game.startRound()
+            
             self.locateButton.isHidden = false
+            self.cityLabel.isHidden = false
+            self.crosshair.isHidden = false
+            self.cityLabel.text = self.game.currentLocation!.name
+            #if DEBUG
+                self.debuggTrueFalse.isHidden = false
+                self.debuggTrueFalse.text = ""
+            #endif
+            
             self.startButton.isHidden = true
         }
     }
@@ -82,7 +93,17 @@ class GameViewController: UIViewController {
     // LocateButton Action
     @IBAction func getRotation(_ sender: Any) {
         if StateManager.getState() == .inRound {
-            print(EarthRotate.getLatitudinal())
+            let earthLatitudinal = EarthRotate.getLatitudinal()
+            let locationLatitudinal = self.game.currentLocation!.getRotationVector()
+            
+            let x = locationLatitudinal.x - earthLatitudinal.x
+            let y = locationLatitudinal.y - earthLatitudinal.y
+            
+            if x < 1.5 && x > -1.5 && y < 1.5 && y > -1.5 {
+                self.debuggTrueFalse.text = "right"
+            } else {
+                self.debuggTrueFalse.text = "wrong"
+            }
         }
     }
 }

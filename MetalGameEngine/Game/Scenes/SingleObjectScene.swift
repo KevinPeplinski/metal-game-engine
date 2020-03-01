@@ -49,7 +49,8 @@ class SingleObjectScene: Scene {
         super.doUpdate()
         
         if StateManager.getState() != .inRound {
-            EarthRotate.rotateRight(by: 0.001)
+            EarthRotate.rotateRight(by: -0.001)
+            EarthRotate.rotateUp(by: 0.0002)
         }
         
 //        self.camera.rotateX(+, GameTime.deltaTime * 0.1)

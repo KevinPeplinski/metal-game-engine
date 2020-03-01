@@ -19,12 +19,7 @@ struct Location: Codable, Identifiable {
     let lat: Float
     
     func getRotationVector() -> SIMD2<Float> {
-        let step = Float.pi / 180
-
-        let x = step * self.lat
-        let y = step * self.long
-        
-        return SIMD2<Float>(x, y)
+        return SIMD2<Float>(self.lat, self.long)
     }
     
 }

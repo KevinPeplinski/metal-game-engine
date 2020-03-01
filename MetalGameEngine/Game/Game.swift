@@ -10,7 +10,7 @@ import Foundation
 
 class Game {
     
-    private var currentLocation: Location?
+    var currentLocation: Location?
     
     init() {
         StateManager.setState(.start)
@@ -18,7 +18,7 @@ class Game {
     
     func startRound() -> Void {
         StateManager.setState(.inRound)
-        self.currentLocation = LocationUtils.getLocation(by: "Berlin")
+        self.currentLocation = LocationUtils.getLocation(by: "Tokyo")
     }
     
     func endRound() -> Void {
