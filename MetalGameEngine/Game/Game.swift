@@ -10,7 +10,11 @@ import Foundation
 
 class Game {
     
-    var currentLocation: Location?
+    var currentLocation: Location? {
+        didSet {
+            print("Test")
+        }
+    }
     
     init() {
         StateManager.setState(.start)
