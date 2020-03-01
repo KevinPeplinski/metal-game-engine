@@ -35,13 +35,21 @@
                                     <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oun-X2-Njv"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Slf-iB-9ey">
+                                <rect key="frame" x="191.5" y="78" width="31" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="Slf-iB-9ey" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="AKp-PP-epV"/>
                             <constraint firstItem="IiQ-xA-tXU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LHh-MR-0Bn"/>
                             <constraint firstItem="AAU-ZO-HDP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g7G-zW-VPx"/>
                             <constraint firstItem="AAU-ZO-HDP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="gKH-7D-RBL"/>
+                            <constraint firstItem="Slf-iB-9ey" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jpU-hh-Jpe"/>
                             <constraint firstItem="hGQ-5a-gCz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k8h-uH-aGJ"/>
                             <constraint firstItem="IiQ-xA-tXU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nRB-Yh-7WQ"/>
                             <constraint firstItem="hGQ-5a-gCz" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="vGH-Lk-6Rg"/>
@@ -53,6 +61,7 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="cityLabel" destination="Slf-iB-9ey" id="EpB-4c-gmb"/>
                         <outlet property="locateButton" destination="hGQ-5a-gCz" id="7Hj-I6-mOZ"/>
                         <outlet property="startButton" destination="AAU-ZO-HDP" id="vxq-be-Ao5"/>
                     </connections>
