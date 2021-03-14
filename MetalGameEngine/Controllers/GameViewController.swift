@@ -18,6 +18,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var startButton: UIButton!
     
     // .inRound
+    @IBOutlet weak var pointsLabel: UILabel!
     @IBOutlet weak var locateButton: UIButton!
     @IBOutlet weak var cityLabel: UILabel!
     @IBOutlet weak var crosshair: UILabel!
@@ -46,6 +47,7 @@ class GameViewController: UIViewController {
         self.cityLabel.isHidden = true
         self.crosshair.isHidden = true
         self.debuggTrueFalse.isHidden = true
+        self.pointsLabel.isHidden = true
     }
     
     // .start
@@ -57,6 +59,8 @@ class GameViewController: UIViewController {
             self.locateButton.isHidden = false
             self.cityLabel.isHidden = false
             self.crosshair.isHidden = false
+            self.pointsLabel.isHidden = false
+            self.pointsLabel.text = "\(self.game.getPoints())"
             self.cityLabel.text = self.game.currentLocation!.name
             #if DEBUG
                 self.debuggTrueFalse.isHidden = false
@@ -100,7 +104,10 @@ class GameViewController: UIViewController {
             let y = locationLatitudinal.y - earthLatitudinal.y
             
             if x < 1.5 && x > -1.5 && y < 1.5 && y > -1.5 {
-                self.debuggTrueFalse.text = "right"
+                self.game.nextRound()
+                self.cityLabel.text = self.game.currentLocation!.name
+                self.game.addPoint()
+                self.pointsLabel.text = "\(self.game.getPoints())"
             } else {
                 self.debuggTrueFalse.text = "wrong"
             }
