@@ -13,6 +13,14 @@ MetalGameEngine and a small example game, were created for learning purposes. Ma
 - Lighting (Phong reflection model)
 - Custom mesh and .obj file support 
 
+## Example Game
+
+The example game is a simple game where the player can test his geographic knowledge. City names are displayed and the task is to locate these cities on an unlabeled earth. For each correctly located city there is a point. The goal is to score as many points as possible.
+
+![Demo gif](demo.gif)
+
+## Shader Example 
+
 ```Metal
 #include <metal_stdlib>
 #import "ExchangeTypes/SharedIndizes.h"
@@ -46,7 +54,3 @@ fragment half4 skybox_fragment_shader(SkyBoxRastorizerData rd [[ stage_in ]],
     return half4(rcolor.r, rcolor.g, rcolor.b, 1);
 }
 ```
-
-## Example Game
-
-![Demo gif](demo.gif)
