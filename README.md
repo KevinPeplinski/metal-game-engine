@@ -20,6 +20,7 @@ The example game is a simple game where the player can test his geographic knowl
 ![Demo gif](demo.gif)
 
 ## Shader Example 
+### Skybox Vertex & Fragment Shader
 
 ```Metal
 #include <metal_stdlib>
